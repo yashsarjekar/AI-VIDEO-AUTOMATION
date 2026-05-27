@@ -280,6 +280,30 @@ def generate_metadata(
             raw_text = re.sub(r"\s*```$", "", raw_text)
 
             raw = json.loads(raw_text)
+
+            # Haiku often returns fewer tags/hashtags than required — pad with
+            # generic fallbacks rather than burning retries on a count error.
+            _YT_FALLBACKS = [
+                "facts", "didyouknow", "funfacts", "trivia", "shorts",
+                "learnontiktok", "educational", "science", "nature", "viral",
+                "amazing", "interesting", "knowledge", "mindblowing", "trending",
+            ]
+            _IG_FALLBACKS = [
+                "#facts", "#didyouknow", "#funfacts", "#trivia", "#shorts",
+                "#reels", "#learnontiktok", "#educational", "#science", "#nature",
+                "#viral", "#amazing", "#interesting", "#knowledge", "#mindblowing",
+                "#trending", "#instagram", "#explore", "#factsdaily", "#factsoflife",
+                "#dailyfacts", "#amazingfacts", "#sciencefacts", "#naturefacts", "#learn",
+            ]
+            yt_tags = raw.get("youtube", {}).get("tags", [])
+            ig_tags = raw.get("instagram", {}).get("hashtags", [])
+            if isinstance(yt_tags, list) and len(yt_tags) < 15:
+                needed = [t for t in _YT_FALLBACKS if t not in yt_tags]
+                raw["youtube"]["tags"] = (yt_tags + needed)[:15]
+            if isinstance(ig_tags, list) and len(ig_tags) < 25:
+                needed = [t for t in _IG_FALLBACKS if t not in ig_tags]
+                raw["instagram"]["hashtags"] = (ig_tags + needed)[:25]
+
             metadata = _parse_metadata(raw, run_date)
 
             logger.success(
