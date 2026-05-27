@@ -200,7 +200,7 @@ def _build_ffmpeg_video(
 
         stream = (
             ffmpeg
-            .input(str(image_path), loop=1, t=duration, framerate=FPS)
+            .input(str(image_path), loop=1, t=duration)
             .filter("scale", W, H,
                     force_original_aspect_ratio="decrease",
                     force_divisible_by=2)
