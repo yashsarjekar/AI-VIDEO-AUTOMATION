@@ -1,0 +1,33 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+
+# Large binary outputs — never commit to git
+runs/**/*.mp4
+runs/**/*.mp3
+runs/**/*.jpg
+runs/**/*.jpeg
+runs/**/*.ass
+
+# Keep run metadata and logs
+!runs/.gitkeep
+!runs/**/*.json
+!runs/**/*.log
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/

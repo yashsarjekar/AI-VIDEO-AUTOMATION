@@ -1,0 +1,32 @@
+niche: "facts and trivia"
+language: "en"
+
+video:
+  duration_target_seconds: 45
+  scenes_min: 6
+  scenes_max: 8
+
+tts:
+  voice_id: "xKhbyU7E3bC6T89Kn26c"
+  model: "eleven_flash_v2_5"
+
+llm:
+  model: "claude-haiku-4-5"
+  max_retries: 3
+
+upload:
+  youtube:
+    enabled: false
+    privacy: "public"
+    category_id: 27
+  instagram:
+    enabled: false
+
+schedule:
+  post_time_utc: "14:00"
+
+notifications:
+  telegram_enabled: true
+
+costs:
+  daily_alert_threshold_usd: 0.10
