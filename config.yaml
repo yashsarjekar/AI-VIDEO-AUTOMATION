@@ -7,7 +7,7 @@ video:
   scenes_max: 8
 
 tts:
-  voice_id: "pNInz6obpgDQGcFmaJgB"
+  voice_id: "G7TccQtlTpqEjj8nj6X4"
   model: "eleven_flash_v2_5"
 
 llm:
