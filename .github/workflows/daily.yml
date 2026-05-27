@@ -78,3 +78,12 @@ jobs:
           # which will skip rotation with a warning rather than failing.
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python -m src.main
+
+      - name: Upload video artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-video-${{ github.run_id }}
+          path: runs/*/final.mp4
+          retention-days: 7
+          if-no-files-found: warn
