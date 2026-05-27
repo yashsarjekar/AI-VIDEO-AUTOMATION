@@ -186,7 +186,11 @@ def generate_topic(run_date: str | None = None) -> TopicOutput:
             raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
             raw_text = re.sub(r"\s*```$", "", raw_text)
 
-            topic = TopicOutput.model_validate_json(raw_text)
+            # Haiku occasionally returns 4 keywords — truncate silently
+            data = json.loads(raw_text)
+            if isinstance(data.get("target_keywords"), list):
+                data["target_keywords"] = data["target_keywords"][:3]
+            topic = TopicOutput.model_validate(data)
             logger.success(f"Topic generated: '{topic.topic}' [{topic.category}]")
 
             # Persist
