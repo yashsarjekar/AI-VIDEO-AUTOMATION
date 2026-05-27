@@ -1,0 +1,39 @@
+{
+  "hook": "Octopuses have blue blood and three hearts that work against each other",
+  "scenes": [
+    {
+      "line": "Forget everything you think you know about how bodies work.",
+      "visual_prompt": "A close-up of an octopus arm unfurling through murky ocean water, suckers visible and textured, bioluminescent hints of blue in the background"
+    },
+    {
+      "line": "Octopuses don't have red blood like us — theirs is literally blue.",
+      "visual_prompt": "A split-screen: human blood cells rendered in crimson red on the left, octopus hemocyanin molecules glowing electric blue on the right, floating in liquid"
+    },
+    {
+      "line": "That's because their blood uses copper instead of iron to carry oxygen.",
+      "visual_prompt": "A macro close-up of copper atoms arranged in crystalline patterns, transitioning into flowing blue liquid with molecular structures visible"
+    },
+    {
+      "line": "But here's where it gets truly alien: they have three hearts.",
+      "visual_prompt": "An anatomical silhouette of an octopus body overlaid with three glowing heart shapes — one central, two positioned symmetrically — pulsing in sequence"
+    },
+    {
+      "line": "Two hearts pump blood to the gills. One pumps it to the whole body.",
+      "visual_prompt": "A translucent octopus form suspended in water with red and blue circulatory pathways flowing through it, branching from three distinct heart nodes"
+    },
+    {
+      "line": "And when an octopus swims, two of those hearts literally stop beating.",
+      "visual_prompt": "An octopus propelling itself through water by jet motion, one heart symbol glowing red while two others fade to gray and dim"
+    },
+    {
+      "line": "That's why they prefer crawling on the ocean floor instead — it's way less exhausting.",
+      "visual_prompt": "An octopus gracefully traversing rocky sea floor terrain, arms gripping and moving deliberately, coral and bioluminescent creatures scattered around"
+    },
+    {
+      "line": "This creature is basically an alien that mastered using tools with eight arms.",
+      "visual_prompt": "An octopus manipulating a round glass jar or object with multiple arms simultaneously, intelligent eye focused, surrounded by dark ocean void"
+    }
+  ],
+  "cta": "If you could have an extra heart that works like an octopus's, would you take it knowing the tradeoff?",
+  "uncertain_claims": false
+}

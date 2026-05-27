@@ -1,0 +1,104 @@
+2026-05-27 19:06:16.777 | INFO     | __main__:96 — === Daily run starting: 2026-05-27 ===
+2026-05-27 19:06:16.787 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
+2026-05-27 19:06:20.037 | INFO     | src.topic_generator:50 — Google Trends rising queries: ['untold black history facts', 'did you know facts funny', "did you know that there's a tunnel under ocean blvd lyrics"]
+2026-05-27 19:06:20.069 | INFO     | src.topic_generator:155 — Topic generation attempt 1/3
+2026-05-27 19:06:21.733 | INFO     | src.topic_generator:178 — Haiku usage — in:481 out:102 cost:$0.00025
+2026-05-27 19:06:21.733 | SUCCESS  | src.topic_generator:194 — Topic generated: 'Octopuses have three hearts and blue blood, and two hearts stop beating when they swim' [biology]
+2026-05-27 19:06:21.735 | INFO     | __main__:110 — --- Stage 2: script_writer ---
+2026-05-27 19:06:21.755 | INFO     | src.script_writer:208 — Script generation attempt 1/3 for topic: 'Octopuses have three hearts and blue blood, and two hearts stop beating when they swim'
+2026-05-27 19:06:29.877 | INFO     | src.script_writer:230 — Haiku usage — in:902 out:758 cost:$0.00117
+2026-05-27 19:06:29.878 | WARNING  | src.script_writer:281 — Attempt 1 failed validation: 1 validation error for ScriptOutput
+scenes.2.line
+  Value error, scene line must be ≤15 words, got 16: 'Two hearts pump blood to the gills. One pumps it to the rest of the body.' [type=value_error, input_value='Two hearts pump blood to...o the rest of the body.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-05-27 19:06:29.878 | INFO     | src.script_writer:208 — Script generation attempt 2/3 for topic: 'Octopuses have three hearts and blue blood, and two hearts stop beating when they swim'
+2026-05-27 19:06:36.346 | INFO     | src.script_writer:230 — Haiku usage — in:902 out:624 cost:$0.00101
+2026-05-27 19:06:36.346 | SUCCESS  | src.script_writer:270 — Script generated: 8 scenes, hook='Octopuses have blue blood and three hearts that wo...'
+2026-05-27 19:06:36.346 | INFO     | __main__:115 — --- Stage 3: visual_generator ---
+2026-05-27 19:06:36.347 | INFO     | src.visual_generator:240 — Generating image for scene 01/8
+2026-05-27 19:06:36.347 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-05-27 19:06:39.869 | INFO     | src.visual_generator:110 — Pollinations OK scene 01 (576×1024, 94 KB)
+2026-05-27 19:06:39.971 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (347 KB)
+2026-05-27 19:06:39.972 | INFO     | src.visual_generator:240 — Generating image for scene 02/8
+2026-05-27 19:06:39.972 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-05-27 19:07:25.096 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 02
+2026-05-27 19:07:27.096 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-05-27 19:08:07.284 | INFO     | src.visual_generator:110 — Pollinations OK scene 02 (576×1024, 112 KB)
+2026-05-27 19:08:07.394 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (396 KB)
+2026-05-27 19:08:07.394 | INFO     | src.visual_generator:240 — Generating image for scene 03/8
+2026-05-27 19:08:07.394 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-05-27 19:08:52.509 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 03
+2026-05-27 19:08:54.510 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-05-27 19:09:37.448 | INFO     | src.visual_generator:110 — Pollinations OK scene 03 (576×1024, 78 KB)
+2026-05-27 19:09:37.543 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (294 KB)
+2026-05-27 19:09:37.544 | INFO     | src.visual_generator:240 — Generating image for scene 04/8
+2026-05-27 19:09:37.544 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-05-27 19:10:22.641 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 04
+2026-05-27 19:10:24.642 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-05-27 19:11:07.175 | INFO     | src.visual_generator:110 — Pollinations OK scene 04 (576×1024, 65 KB)
+2026-05-27 19:11:07.272 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (231 KB)
+2026-05-27 19:11:07.272 | INFO     | src.visual_generator:240 — Generating image for scene 05/8
+2026-05-27 19:11:07.272 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 05
+2026-05-27 19:11:52.381 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 05
+2026-05-27 19:11:54.382 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 05
+2026-05-27 19:12:37.394 | INFO     | src.visual_generator:110 — Pollinations OK scene 05 (576×1024, 99 KB)
+2026-05-27 19:12:37.492 | SUCCESS  | src.visual_generator:257 — Scene 05 saved → scene_05.jpg (358 KB)
+2026-05-27 19:12:37.493 | INFO     | src.visual_generator:240 — Generating image for scene 06/8
+2026-05-27 19:12:37.493 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 06
+2026-05-27 19:13:22.604 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 06
+2026-05-27 19:13:24.605 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 06
+2026-05-27 19:14:07.285 | INFO     | src.visual_generator:110 — Pollinations OK scene 06 (576×1024, 91 KB)
+2026-05-27 19:14:07.386 | SUCCESS  | src.visual_generator:257 — Scene 06 saved → scene_06.jpg (332 KB)
+2026-05-27 19:14:07.386 | INFO     | src.visual_generator:240 — Generating image for scene 07/8
+2026-05-27 19:14:07.386 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 07
+2026-05-27 19:14:52.503 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 07
+2026-05-27 19:14:54.503 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 07
+2026-05-27 19:15:37.491 | INFO     | src.visual_generator:110 — Pollinations OK scene 07 (576×1024, 142 KB)
+2026-05-27 19:15:37.590 | SUCCESS  | src.visual_generator:257 — Scene 07 saved → scene_07.jpg (490 KB)
+2026-05-27 19:15:37.590 | INFO     | src.visual_generator:240 — Generating image for scene 08/8
+2026-05-27 19:15:37.590 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 08
+2026-05-27 19:16:22.704 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 08
+2026-05-27 19:16:24.705 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 08
+2026-05-27 19:17:07.353 | INFO     | src.visual_generator:110 — Pollinations OK scene 08 (576×1024, 90 KB)
+2026-05-27 19:17:07.448 | SUCCESS  | src.visual_generator:257 — Scene 08 saved → scene_08.jpg (335 KB)
+2026-05-27 19:17:07.448 | INFO     | __main__:120 — --- Stage 4: voice_generator ---
+2026-05-27 19:17:07.468 | INFO     | src.voice_generator:167 — Generating 10 voice segments via ElevenLabs eleven_flash_v2_5
+2026-05-27 19:17:07.468 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Octopuses have blue blood and three hearts that work against…'
+2026-05-27 19:17:07.901 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (64 KB)
+2026-05-27 19:17:07.901 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'Forget everything you think you know about how bodies work.'
+2026-05-27 19:17:08.146 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (51 KB)
+2026-05-27 19:17:08.146 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'Octopuses don't have red blood like us — theirs is literally…'
+2026-05-27 19:17:08.431 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (62 KB)
+2026-05-27 19:17:08.431 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'That's because their blood uses copper instead of iron to ca…'
+2026-05-27 19:17:08.697 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (69 KB)
+2026-05-27 19:17:08.697 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'But here's where it gets truly alien: they have three hearts…'
+2026-05-27 19:17:08.964 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (58 KB)
+2026-05-27 19:17:08.964 | INFO     | src.voice_generator:78 —   TTS → voice_05.mp3: 'Two hearts pump blood to the gills. One pumps it to the whol…'
+2026-05-27 19:17:09.239 | DEBUG    | src.voice_generator:81 —   Saved voice_05.mp3 (64 KB)
+2026-05-27 19:17:09.239 | INFO     | src.voice_generator:78 —   TTS → voice_06.mp3: 'And when an octopus swims, two of those hearts literally sto…'
+2026-05-27 19:17:09.527 | DEBUG    | src.voice_generator:81 —   Saved voice_06.mp3 (71 KB)
+2026-05-27 19:17:09.527 | INFO     | src.voice_generator:78 —   TTS → voice_07.mp3: 'That's why they prefer crawling on the ocean floor instead —…'
+2026-05-27 19:17:09.816 | DEBUG    | src.voice_generator:81 —   Saved voice_07.mp3 (80 KB)
+2026-05-27 19:17:09.816 | INFO     | src.voice_generator:78 —   TTS → voice_08.mp3: 'This creature is basically an alien that mastered using tool…'
+2026-05-27 19:17:10.116 | DEBUG    | src.voice_generator:81 —   Saved voice_08.mp3 (74 KB)
+2026-05-27 19:17:10.116 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'If you could have an extra heart that works like an octopus'…'
+2026-05-27 19:17:10.426 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (87 KB)
+2026-05-27 19:17:10.428 | INFO     | src.voice_generator:177 — ElevenLabs: 731 chars, estimated cost $0.21930
+2026-05-27 19:17:12.136 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (44.5s, 696 KB)
+2026-05-27 19:17:12.136 | INFO     | __main__:125 — --- Stage 5: caption_generator ---
+2026-05-27 19:17:12.200 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-05-27 19:17:15.648 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-05-27 19:17:29.319 | INFO     | src.caption_generator:57 — Transcription complete: 129 words, 44.5s audio, language=en
+2026-05-27 19:17:29.331 | SUCCESS  | src.caption_generator:166 — Captions saved: 43 chunks, 129 words, 44.1s total
+2026-05-27 19:17:29.331 | INFO     | __main__:130 — --- Stage 6: video_builder ---
+2026-05-27 19:17:30.278 | INFO     | src.video_builder:319 — Clip schedule: 10 segments, 44.5s total
+2026-05-27 19:17:30.279 | INFO     | src.video_builder:118 — ASS file written: captions.ass (129 dialogue lines)
+2026-05-27 19:17:30.280 | INFO     | src.video_builder:168 — Music: domartistudios-magical-wizard-school-orchestral-fantasy-488126.mp3
+2026-05-27 19:18:04.243 | SUCCESS  | src.video_builder:274 — final.mp4 → 8.9 MB
+2026-05-27 19:18:04.243 | INFO     | __main__:135 — --- Stage 7: metadata_generator ---
+2026-05-27 19:18:04.265 | INFO     | src.metadata_generator:249 — Metadata generation attempt 1/3
+2026-05-27 19:18:13.537 | INFO     | src.metadata_generator:273 — Haiku usage — in:1044 out:978 cost:$0.00148
+2026-05-27 19:18:13.538 | SUCCESS  | src.metadata_generator:309 — Metadata generated: title='3 Hearts, Blue Blood: Why Octopus Biology Is Alien #Shorts' (58 chars)
+2026-05-27 19:18:13.541 | INFO     | __main__:140 — --- Stage 8: uploader ---
+2026-05-27 19:18:13.544 | INFO     | __main__:151 — Total estimated API cost for 2026-05-27: $0.2232
+2026-05-27 19:18:14.189 | WARNING  | __main__:159 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.
