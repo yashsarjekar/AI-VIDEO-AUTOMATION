@@ -134,13 +134,8 @@ class YouTubeMetadata(BaseModel):
     @field_validator("title")
     @classmethod
     def validate_title_formula(cls, v: str) -> str:
-        # Must end with #Shorts
         if not v.endswith("#Shorts"):
             raise ValueError("YouTube title must end with '#Shorts'")
-        # Must contain a number or specific detail (heuristic: digit present)
-        import re
-        if not re.search(r"\d", v):
-            raise ValueError("YouTube title must include a number or specific detail")
         return v
 
     @field_validator("category_id")
