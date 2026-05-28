@@ -16,7 +16,7 @@ llm:
 
 upload:
   youtube:
-    enabled: false
+    enabled: true
     privacy: "public"
     category_id: 27
   instagram:
