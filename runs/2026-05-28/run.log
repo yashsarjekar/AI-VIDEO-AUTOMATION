@@ -1,0 +1,134 @@
+2026-05-28 17:37:40.826 | INFO     | __main__:96 — === Daily run starting: 2026-05-28 ===
+2026-05-28 17:37:40.829 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
+2026-05-28 17:37:41.502 | WARNING  | src.topic_generator:53 — Google Trends fetch failed (non-fatal): The request failed: Google returned a response with code 429
+2026-05-28 17:37:41.536 | INFO     | src.topic_generator:155 — Topic generation attempt 1/3
+2026-05-28 17:37:43.145 | INFO     | src.topic_generator:178 — Haiku usage — in:450 out:106 cost:$0.00024
+2026-05-28 17:37:43.145 | SUCCESS  | src.topic_generator:194 — Topic generated: 'Bananas are berries, but strawberries aren't—and it comes down to plant biology' [biology]
+2026-05-28 17:37:43.150 | INFO     | __main__:110 — --- Stage 2: script_writer ---
+2026-05-28 17:37:43.170 | INFO     | src.script_writer:208 — Script generation attempt 1/3 for topic: 'Bananas are berries, but strawberries aren't—and it comes down to plant biology'
+2026-05-28 17:37:50.148 | INFO     | src.script_writer:230 — Haiku usage — in:903 out:653 cost:$0.00104
+2026-05-28 17:37:50.148 | WARNING  | src.script_writer:281 — Attempt 1 failed validation: 5 validation errors for ScriptOutput
+scenes.1.line
+  Value error, scene line must be ≤15 words, got 20: 'Botanists don't care about how a fruit looks or tastes. They care about one thing: where the seeds come from.' [type=value_error, input_value="Botanists don't care abo...re the seeds come from.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.2.line
+  Value error, scene line must be ≤15 words, got 16: 'A true berry develops from a single flower's ovary after pollination. The ovary becomes the flesh.' [type=value_error, input_value="A true berry develops fr...vary becomes the flesh.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.4.line
+  Value error, scene line must be ≤15 words, got 16: 'Strawberries come from a flower with multiple ovaries fused together. That makes them something else entirely.' [type=value_error, input_value='Strawberries come from a...omething else entirely.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.5.line
+  Value error, scene line must be ≤15 words, got 16: 'Those little seeds you see on strawberry skin? Those are actually the real fruits. Wild, right?' [type=value_error, input_value='Those little seeds you s...al fruits. Wild, right?', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.6.line
+  Value error, scene line must be ≤15 words, got 17: 'Strawberries are technically aggregate accessory fruits. A mouthful, but it means the red part is just decoration.' [type=value_error, input_value='Strawberries are technic...art is just decoration.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-05-28 17:37:50.148 | INFO     | src.script_writer:208 — Script generation attempt 2/3 for topic: 'Bananas are berries, but strawberries aren't—and it comes down to plant biology'
+2026-05-28 17:37:57.530 | INFO     | src.script_writer:230 — Haiku usage — in:903 out:722 cost:$0.00113
+2026-05-28 17:37:57.531 | WARNING  | src.script_writer:281 — Attempt 2 failed validation: 4 validation errors for ScriptOutput
+scenes.1.line
+  Value error, scene line must be ≤15 words, got 16: 'Here's the rule: a true berry develops from a single flower's ovary and has seeds inside.' [type=value_error, input_value="Here's the rule: a true ...y and has seeds inside.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.2.line
+  Value error, scene line must be ≤15 words, got 16: 'Bananas fit perfectly. One flower, one ovary, seeds tucked deep inside—even though you can't see them.' [type=value_error, input_value="Bananas fit perfectly. O...ugh you can't see them.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.4.line
+  Value error, scene line must be ≤15 words, got 16: 'Those little seeds on the outside? They're not even part of the berry itself—they're individual fruits.' [type=value_error, input_value="Those little seeds on th...y're individual fruits.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+scenes.7.line
+  Value error, scene line must be ≤15 words, got 16: 'Basically, nature's naming system is chaos and the produce aisle has been lying to you forever.' [type=value_error, input_value="Basically, nature's nami...n lying to you forever.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-05-28 17:37:57.531 | INFO     | src.script_writer:208 — Script generation attempt 3/3 for topic: 'Bananas are berries, but strawberries aren't—and it comes down to plant biology'
+2026-05-28 17:38:04.445 | INFO     | src.script_writer:230 — Haiku usage — in:903 out:622 cost:$0.00100
+2026-05-28 17:38:04.445 | SUCCESS  | src.script_writer:270 — Script generated: 8 scenes, hook='Bananas are berries. Strawberries aren't. Everythi...'
+2026-05-28 17:38:04.446 | INFO     | __main__:115 — --- Stage 3: visual_generator ---
+2026-05-28 17:38:04.446 | INFO     | src.visual_generator:240 — Generating image for scene 01/8
+2026-05-28 17:38:04.446 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-05-28 17:38:05.356 | INFO     | src.visual_generator:110 — Pollinations OK scene 01 (576×1024, 50 KB)
+2026-05-28 17:38:05.456 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (202 KB)
+2026-05-28 17:38:05.456 | INFO     | src.visual_generator:240 — Generating image for scene 02/8
+2026-05-28 17:38:05.456 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-05-28 17:38:50.546 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 02
+2026-05-28 17:38:52.546 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-05-28 17:39:35.417 | INFO     | src.visual_generator:110 — Pollinations OK scene 02 (576×1024, 90 KB)
+2026-05-28 17:39:35.518 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (338 KB)
+2026-05-28 17:39:35.519 | INFO     | src.visual_generator:240 — Generating image for scene 03/8
+2026-05-28 17:39:35.519 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-05-28 17:40:20.603 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 03
+2026-05-28 17:40:22.603 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-05-28 17:41:05.448 | INFO     | src.visual_generator:110 — Pollinations OK scene 03 (576×1024, 52 KB)
+2026-05-28 17:41:05.547 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (212 KB)
+2026-05-28 17:41:05.547 | INFO     | src.visual_generator:240 — Generating image for scene 04/8
+2026-05-28 17:41:05.547 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-05-28 17:41:50.756 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 04
+2026-05-28 17:41:52.756 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-05-28 17:42:35.250 | INFO     | src.visual_generator:110 — Pollinations OK scene 04 (576×1024, 29 KB)
+2026-05-28 17:42:35.344 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (122 KB)
+2026-05-28 17:42:35.345 | INFO     | src.visual_generator:240 — Generating image for scene 05/8
+2026-05-28 17:42:35.345 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 05
+2026-05-28 17:43:20.585 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 05
+2026-05-28 17:43:22.586 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 05
+2026-05-28 17:44:05.435 | INFO     | src.visual_generator:110 — Pollinations OK scene 05 (576×1024, 88 KB)
+2026-05-28 17:44:05.540 | SUCCESS  | src.visual_generator:257 — Scene 05 saved → scene_05.jpg (276 KB)
+2026-05-28 17:44:05.540 | INFO     | src.visual_generator:240 — Generating image for scene 06/8
+2026-05-28 17:44:05.540 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 06
+2026-05-28 17:44:50.616 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 06
+2026-05-28 17:44:52.616 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 06
+2026-05-28 17:45:35.497 | INFO     | src.visual_generator:110 — Pollinations OK scene 06 (576×1024, 105 KB)
+2026-05-28 17:45:35.604 | SUCCESS  | src.visual_generator:257 — Scene 06 saved → scene_06.jpg (372 KB)
+2026-05-28 17:45:35.605 | INFO     | src.visual_generator:240 — Generating image for scene 07/8
+2026-05-28 17:45:35.605 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 07
+2026-05-28 17:46:20.697 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 07
+2026-05-28 17:46:22.697 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 07
+2026-05-28 17:47:05.355 | INFO     | src.visual_generator:110 — Pollinations OK scene 07 (576×1024, 41 KB)
+2026-05-28 17:47:05.451 | SUCCESS  | src.visual_generator:257 — Scene 07 saved → scene_07.jpg (161 KB)
+2026-05-28 17:47:05.451 | INFO     | src.visual_generator:240 — Generating image for scene 08/8
+2026-05-28 17:47:05.451 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 08
+2026-05-28 17:47:50.516 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 08
+2026-05-28 17:47:52.516 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 08
+2026-05-28 17:48:35.495 | INFO     | src.visual_generator:110 — Pollinations OK scene 08 (576×1024, 70 KB)
+2026-05-28 17:48:35.595 | SUCCESS  | src.visual_generator:257 — Scene 08 saved → scene_08.jpg (250 KB)
+2026-05-28 17:48:35.595 | INFO     | __main__:120 — --- Stage 4: voice_generator ---
+2026-05-28 17:48:35.614 | INFO     | src.voice_generator:167 — Generating 10 voice segments via ElevenLabs eleven_flash_v2_5
+2026-05-28 17:48:35.614 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Bananas are berries. Strawberries aren't. Everything backwar…'
+2026-05-28 17:48:36.339 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (62 KB)
+2026-05-28 17:48:36.339 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'Scientists have a totally different definition of berry than…'
+2026-05-28 17:48:36.575 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (61 KB)
+2026-05-28 17:48:36.575 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'A true berry forms from a single flower's ovary after pollin…'
+2026-05-28 17:48:36.819 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (66 KB)
+2026-05-28 17:48:36.820 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'The ovary grows thick walls, fills with seeds, and boom—you …'
+2026-05-28 17:48:37.073 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (82 KB)
+2026-05-28 17:48:37.073 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'Bananas check all three boxes. They're 100 percent, botanica…'
+2026-05-28 17:48:37.335 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (89 KB)
+2026-05-28 17:48:37.335 | INFO     | src.voice_generator:78 —   TTS → voice_05.mp3: 'Strawberries? They develop from the flower's base, not the o…'
+2026-05-28 17:48:37.577 | DEBUG    | src.voice_generator:81 —   Saved voice_05.mp3 (62 KB)
+2026-05-28 17:48:37.578 | INFO     | src.voice_generator:78 —   TTS → voice_06.mp3: 'Those tiny seeds you see are the actual fruits. The red part…'
+2026-05-28 17:48:37.840 | DEBUG    | src.voice_generator:81 —   Saved voice_06.mp3 (80 KB)
+2026-05-28 17:48:37.840 | INFO     | src.voice_generator:78 —   TTS → voice_07.mp3: 'So strawberries are technically aggregate accessory fruits. …'
+2026-05-28 17:48:38.104 | DEBUG    | src.voice_generator:81 —   Saved voice_07.mp3 (85 KB)
+2026-05-28 17:48:38.104 | INFO     | src.voice_generator:78 —   TTS → voice_08.mp3: 'Your whole fruit hierarchy just got botanically rearranged.'
+2026-05-28 17:48:38.351 | DEBUG    | src.voice_generator:81 —   Saved voice_08.mp3 (56 KB)
+2026-05-28 17:48:38.351 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'If plant biology counts, what other 'fruits' do you think ar…'
+2026-05-28 17:48:38.632 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (79 KB)
+2026-05-28 17:48:38.634 | INFO     | src.voice_generator:177 — ElevenLabs: 708 chars, estimated cost $0.21240
+2026-05-28 17:48:40.464 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (47.2s, 738 KB)
+2026-05-28 17:48:40.464 | INFO     | __main__:125 — --- Stage 5: caption_generator ---
+2026-05-28 17:48:40.533 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-05-28 17:48:41.268 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-05-28 17:48:51.096 | INFO     | src.caption_generator:57 — Transcription complete: 109 words, 47.2s audio, language=en
+2026-05-28 17:48:51.107 | SUCCESS  | src.caption_generator:166 — Captions saved: 37 chunks, 109 words, 46.7s total
+2026-05-28 17:48:51.107 | INFO     | __main__:130 — --- Stage 6: video_builder ---
+2026-05-28 17:48:52.135 | INFO     | src.video_builder:319 — Clip schedule: 10 segments, 47.2s total
+2026-05-28 17:48:52.136 | INFO     | src.video_builder:118 — ASS file written: captions.ass (109 dialogue lines)
+2026-05-28 17:48:52.137 | INFO     | src.video_builder:168 — Music: soundgalleryby-halloween-fun-116552.mp3
+2026-05-28 17:49:22.320 | SUCCESS  | src.video_builder:274 — final.mp4 → 7.5 MB
+2026-05-28 17:49:22.320 | INFO     | __main__:135 — --- Stage 7: metadata_generator ---
+2026-05-28 17:49:22.342 | INFO     | src.metadata_generator:249 — Metadata generation attempt 1/3
+2026-05-28 17:49:32.307 | INFO     | src.metadata_generator:273 — Haiku usage — in:1041 out:992 cost:$0.00150
+2026-05-28 17:49:32.308 | SUCCESS  | src.metadata_generator:309 — Metadata generated: title='Bananas Are Berries, Strawberries Aren't #Shorts' (48 chars)
+2026-05-28 17:49:32.314 | INFO     | __main__:140 — --- Stage 8: uploader ---
+2026-05-28 17:49:32.530 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-05-28 17:49:33.465 | INFO     | src.uploader:122 — YouTube upload progress: 53%
+2026-05-28 17:49:34.031 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/0gR0Sf8xeTI
+2026-05-28 17:49:34.034 | INFO     | __main__:151 — Total estimated API cost for 2026-05-28: $0.2173
+2026-05-28 17:49:34.582 | WARNING  | __main__:159 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

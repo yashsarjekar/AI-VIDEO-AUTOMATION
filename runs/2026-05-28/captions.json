@@ -1,0 +1,772 @@
+{
+  "chunks": [
+    {
+      "words": [
+        {
+          "word": "bananas",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "are",
+          "start": 0.4,
+          "end": 0.6
+        },
+        {
+          "word": "berries,",
+          "start": 0.6,
+          "end": 1.0
+        }
+      ],
+      "start": 0.0,
+      "end": 1.0
+    },
+    {
+      "words": [
+        {
+          "word": "strawberries",
+          "start": 1.68,
+          "end": 1.94
+        },
+        {
+          "word": "aren't,",
+          "start": 1.94,
+          "end": 2.44
+        },
+        {
+          "word": "everything",
+          "start": 2.68,
+          "end": 3.02
+        }
+      ],
+      "start": 1.68,
+      "end": 3.02
+    },
+    {
+      "words": [
+        {
+          "word": "backwards.",
+          "start": 3.02,
+          "end": 3.54
+        },
+        {
+          "word": "Scientists",
+          "start": 4.68,
+          "end": 4.73
+        },
+        {
+          "word": "have",
+          "start": 4.68,
+          "end": 5.02
+        }
+      ],
+      "start": 3.02,
+      "end": 5.02
+    },
+    {
+      "words": [
+        {
+          "word": "a",
+          "start": 5.02,
+          "end": 5.32
+        },
+        {
+          "word": "totally",
+          "start": 5.32,
+          "end": 5.62
+        },
+        {
+          "word": "different",
+          "start": 5.62,
+          "end": 6.08
+        }
+      ],
+      "start": 5.02,
+      "end": 6.08
+    },
+    {
+      "words": [
+        {
+          "word": "definition",
+          "start": 6.08,
+          "end": 6.5
+        },
+        {
+          "word": "of",
+          "start": 6.5,
+          "end": 6.74
+        },
+        {
+          "word": "berry",
+          "start": 6.74,
+          "end": 7.02
+        }
+      ],
+      "start": 6.08,
+      "end": 7.02
+    },
+    {
+      "words": [
+        {
+          "word": "than",
+          "start": 7.02,
+          "end": 7.22
+        },
+        {
+          "word": "you",
+          "start": 7.22,
+          "end": 7.42
+        },
+        {
+          "word": "do.",
+          "start": 7.42,
+          "end": 7.84
+        }
+      ],
+      "start": 7.02,
+      "end": 7.84
+    },
+    {
+      "words": [
+        {
+          "word": "A",
+          "start": 8.08,
+          "end": 8.24
+        },
+        {
+          "word": "true",
+          "start": 8.24,
+          "end": 8.5
+        },
+        {
+          "word": "berry",
+          "start": 8.5,
+          "end": 8.8
+        }
+      ],
+      "start": 8.08,
+      "end": 8.8
+    },
+    {
+      "words": [
+        {
+          "word": "forms",
+          "start": 8.8,
+          "end": 9.12
+        },
+        {
+          "word": "from",
+          "start": 9.12,
+          "end": 9.42
+        },
+        {
+          "word": "a",
+          "start": 9.42,
+          "end": 9.58
+        }
+      ],
+      "start": 8.8,
+      "end": 9.58
+    },
+    {
+      "words": [
+        {
+          "word": "single",
+          "start": 9.58,
+          "end": 9.9
+        },
+        {
+          "word": "flower's",
+          "start": 9.9,
+          "end": 10.48
+        },
+        {
+          "word": "ovary",
+          "start": 10.48,
+          "end": 10.8
+        }
+      ],
+      "start": 9.58,
+      "end": 10.8
+    },
+    {
+      "words": [
+        {
+          "word": "after",
+          "start": 10.8,
+          "end": 11.2
+        },
+        {
+          "word": "pollination.",
+          "start": 11.2,
+          "end": 11.76
+        },
+        {
+          "word": "The",
+          "start": 12.46,
+          "end": 12.62
+        }
+      ],
+      "start": 10.8,
+      "end": 12.62
+    },
+    {
+      "words": [
+        {
+          "word": "ovary",
+          "start": 12.62,
+          "end": 13.06
+        },
+        {
+          "word": "grows",
+          "start": 13.06,
+          "end": 13.36
+        },
+        {
+          "word": "thick",
+          "start": 13.36,
+          "end": 13.72
+        }
+      ],
+      "start": 12.62,
+      "end": 13.72
+    },
+    {
+      "words": [
+        {
+          "word": "walls,",
+          "start": 13.72,
+          "end": 14.2
+        },
+        {
+          "word": "fills",
+          "start": 14.48,
+          "end": 14.66
+        },
+        {
+          "word": "with",
+          "start": 14.66,
+          "end": 14.94
+        }
+      ],
+      "start": 13.72,
+      "end": 14.94
+    },
+    {
+      "words": [
+        {
+          "word": "seeds,",
+          "start": 14.94,
+          "end": 15.32
+        },
+        {
+          "word": "and",
+          "start": 15.64,
+          "end": 15.82
+        },
+        {
+          "word": "boom,",
+          "start": 15.82,
+          "end": 16.14
+        }
+      ],
+      "start": 14.94,
+      "end": 16.14
+    },
+    {
+      "words": [
+        {
+          "word": "you",
+          "start": 16.44,
+          "end": 16.68
+        },
+        {
+          "word": "have",
+          "start": 16.68,
+          "end": 16.86
+        },
+        {
+          "word": "a",
+          "start": 16.86,
+          "end": 17.0
+        }
+      ],
+      "start": 16.44,
+      "end": 17.0
+    },
+    {
+      "words": [
+        {
+          "word": "berry.",
+          "start": 17.0,
+          "end": 17.36
+        },
+        {
+          "word": "Bananas",
+          "start": 17.9,
+          "end": 18.28
+        },
+        {
+          "word": "check",
+          "start": 18.28,
+          "end": 18.62
+        }
+      ],
+      "start": 17.0,
+      "end": 18.62
+    },
+    {
+      "words": [
+        {
+          "word": "all",
+          "start": 18.62,
+          "end": 19.0
+        },
+        {
+          "word": "three",
+          "start": 19.0,
+          "end": 19.3
+        },
+        {
+          "word": "boxes.",
+          "start": 19.3,
+          "end": 19.72
+        }
+      ],
+      "start": 18.62,
+      "end": 19.72
+    },
+    {
+      "words": [
+        {
+          "word": "They're",
+          "start": 20.26,
+          "end": 20.58
+        },
+        {
+          "word": "100",
+          "start": 20.58,
+          "end": 21.1
+        },
+        {
+          "word": "%",
+          "start": 21.1,
+          "end": 21.66
+        }
+      ],
+      "start": 20.26,
+      "end": 21.66
+    },
+    {
+      "words": [
+        {
+          "word": "botanically",
+          "start": 21.66,
+          "end": 22.42
+        },
+        {
+          "word": "berries.",
+          "start": 22.42,
+          "end": 23.02
+        },
+        {
+          "word": "Strawberries?",
+          "start": 23.74,
+          "end": 24.16
+        }
+      ],
+      "start": 21.66,
+      "end": 24.16
+    },
+    {
+      "words": [
+        {
+          "word": "They",
+          "start": 24.6,
+          "end": 24.8
+        },
+        {
+          "word": "develop",
+          "start": 24.8,
+          "end": 25.12
+        },
+        {
+          "word": "from",
+          "start": 25.12,
+          "end": 25.4
+        }
+      ],
+      "start": 24.6,
+      "end": 25.4
+    },
+    {
+      "words": [
+        {
+          "word": "the",
+          "start": 25.4,
+          "end": 25.56
+        },
+        {
+          "word": "flower's",
+          "start": 25.56,
+          "end": 26.0
+        },
+        {
+          "word": "base,",
+          "start": 26.0,
+          "end": 26.3
+        }
+      ],
+      "start": 25.4,
+      "end": 26.3
+    },
+    {
+      "words": [
+        {
+          "word": "not",
+          "start": 26.56,
+          "end": 26.7
+        },
+        {
+          "word": "the",
+          "start": 26.7,
+          "end": 26.86
+        },
+        {
+          "word": "ovary.",
+          "start": 26.86,
+          "end": 27.3
+        }
+      ],
+      "start": 26.56,
+      "end": 27.3
+    },
+    {
+      "words": [
+        {
+          "word": "Those",
+          "start": 27.7,
+          "end": 27.96
+        },
+        {
+          "word": "tiny",
+          "start": 27.96,
+          "end": 28.3
+        },
+        {
+          "word": "seeds",
+          "start": 28.3,
+          "end": 28.64
+        }
+      ],
+      "start": 27.7,
+      "end": 28.64
+    },
+    {
+      "words": [
+        {
+          "word": "you",
+          "start": 28.64,
+          "end": 28.84
+        },
+        {
+          "word": "see",
+          "start": 28.84,
+          "end": 29.12
+        },
+        {
+          "word": "are",
+          "start": 29.12,
+          "end": 29.36
+        }
+      ],
+      "start": 28.64,
+      "end": 29.36
+    },
+    {
+      "words": [
+        {
+          "word": "the",
+          "start": 29.36,
+          "end": 29.52
+        },
+        {
+          "word": "actual",
+          "start": 29.52,
+          "end": 30.0
+        },
+        {
+          "word": "fruits.",
+          "start": 30.0,
+          "end": 30.46
+        }
+      ],
+      "start": 29.36,
+      "end": 30.46
+    },
+    {
+      "words": [
+        {
+          "word": "The",
+          "start": 31.04,
+          "end": 31.16
+        },
+        {
+          "word": "red",
+          "start": 31.16,
+          "end": 31.34
+        },
+        {
+          "word": "part",
+          "start": 31.34,
+          "end": 31.58
+        }
+      ],
+      "start": 31.04,
+      "end": 31.58
+    },
+    {
+      "words": [
+        {
+          "word": "is",
+          "start": 31.58,
+          "end": 31.82
+        },
+        {
+          "word": "just",
+          "start": 31.82,
+          "end": 32.04
+        },
+        {
+          "word": "wrapper.",
+          "start": 32.04,
+          "end": 32.42
+        }
+      ],
+      "start": 31.58,
+      "end": 32.42
+    },
+    {
+      "words": [
+        {
+          "word": "So",
+          "start": 32.94,
+          "end": 33.16
+        },
+        {
+          "word": "strawberries",
+          "start": 33.16,
+          "end": 33.58
+        },
+        {
+          "word": "are",
+          "start": 33.58,
+          "end": 33.98
+        }
+      ],
+      "start": 32.94,
+      "end": 33.98
+    },
+    {
+      "words": [
+        {
+          "word": "technically",
+          "start": 33.98,
+          "end": 34.48
+        },
+        {
+          "word": "aggregate",
+          "start": 34.48,
+          "end": 35.16
+        },
+        {
+          "word": "accessory",
+          "start": 35.16,
+          "end": 35.68
+        }
+      ],
+      "start": 33.98,
+      "end": 35.68
+    },
+    {
+      "words": [
+        {
+          "word": "fruits,",
+          "start": 35.68,
+          "end": 36.26
+        },
+        {
+          "word": "basically",
+          "start": 36.7,
+          "end": 37.06
+        },
+        {
+          "word": "an",
+          "start": 37.06,
+          "end": 37.42
+        }
+      ],
+      "start": 35.68,
+      "end": 37.42
+    },
+    {
+      "words": [
+        {
+          "word": "imposter.",
+          "start": 37.42,
+          "end": 37.92
+        },
+        {
+          "word": "Your",
+          "start": 38.5,
+          "end": 38.66
+        },
+        {
+          "word": "whole",
+          "start": 38.66,
+          "end": 38.94
+        }
+      ],
+      "start": 37.42,
+      "end": 38.94
+    },
+    {
+      "words": [
+        {
+          "word": "fruit",
+          "start": 38.94,
+          "end": 39.24
+        },
+        {
+          "word": "hierarchy",
+          "start": 39.24,
+          "end": 39.74
+        },
+        {
+          "word": "just",
+          "start": 39.74,
+          "end": 40.08
+        }
+      ],
+      "start": 38.94,
+      "end": 40.08
+    },
+    {
+      "words": [
+        {
+          "word": "got",
+          "start": 40.08,
+          "end": 40.3
+        },
+        {
+          "word": "botanically",
+          "start": 40.3,
+          "end": 40.94
+        },
+        {
+          "word": "rearranged.",
+          "start": 40.94,
+          "end": 41.74
+        }
+      ],
+      "start": 40.08,
+      "end": 41.74
+    },
+    {
+      "words": [
+        {
+          "word": "If",
+          "start": 42.18,
+          "end": 42.36
+        },
+        {
+          "word": "plant",
+          "start": 42.36,
+          "end": 42.62
+        },
+        {
+          "word": "biology",
+          "start": 42.62,
+          "end": 43.14
+        }
+      ],
+      "start": 42.18,
+      "end": 43.14
+    },
+    {
+      "words": [
+        {
+          "word": "counts,",
+          "start": 43.14,
+          "end": 43.64
+        },
+        {
+          "word": "what",
+          "start": 43.98,
+          "end": 44.1
+        },
+        {
+          "word": "other",
+          "start": 44.1,
+          "end": 44.34
+        }
+      ],
+      "start": 43.14,
+      "end": 44.34
+    },
+    {
+      "words": [
+        {
+          "word": "fruits",
+          "start": 44.34,
+          "end": 44.76
+        },
+        {
+          "word": "do",
+          "start": 44.76,
+          "end": 45.02
+        },
+        {
+          "word": "you",
+          "start": 45.02,
+          "end": 45.16
+        }
+      ],
+      "start": 44.34,
+      "end": 45.16
+    },
+    {
+      "words": [
+        {
+          "word": "think",
+          "start": 45.16,
+          "end": 45.36
+        },
+        {
+          "word": "aren't",
+          "start": 45.36,
+          "end": 45.84
+        },
+        {
+          "word": "actually",
+          "start": 45.84,
+          "end": 46.34
+        }
+      ],
+      "start": 45.16,
+      "end": 46.34
+    },
+    {
+      "words": [
+        {
+          "word": "berries?",
+          "start": 46.34,
+          "end": 46.7
+        }
+      ],
+      "start": 46.34,
+      "end": 46.7
+    }
+  ],
+  "total_duration": 46.7
+}

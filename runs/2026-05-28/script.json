@@ -1,0 +1,39 @@
+{
+  "hook": "Bananas are berries. Strawberries aren't. Everything backwards.",
+  "scenes": [
+    {
+      "line": "Scientists have a totally different definition of berry than you do.",
+      "visual_prompt": "A split-screen comparison: on the left, a ripe yellow banana; on the right, a bright red strawberry. Both glowing softly against a neutral dark background, with a thin white line dividing them."
+    },
+    {
+      "line": "A true berry forms from a single flower's ovary after pollination.",
+      "visual_prompt": "Cross-section diagram of a banana flower's interior, with glowing yellow lines tracing from ovary to developing fruit, scientific botanical illustration style."
+    },
+    {
+      "line": "The ovary grows thick walls, fills with seeds, and boom—you have a berry.",
+      "visual_prompt": "Animated macro close-up of banana flesh developing, tiny seeds embedded throughout, soft yellow-cream colors swirling and solidifying frame by frame."
+    },
+    {
+      "line": "Bananas check all three boxes. They're 100 percent, botanically, berries.",
+      "visual_prompt": "A glowing checkmark appearing next to a banana in a clean, minimal interface style, bright green against soft dark background."
+    },
+    {
+      "line": "Strawberries? They develop from the flower's base, not the ovary.",
+      "visual_prompt": "Cutaway cross-section of a strawberry showing its internal structure, with red rays highlighting the seeds on the exterior surface against white flesh."
+    },
+    {
+      "line": "Those tiny seeds you see are the actual fruits. The red part is just wrapper.",
+      "visual_prompt": "Extreme close-up macro shot of strawberry surface, individual seed details visible, dramatically lit to emphasize the texture and structure."
+    },
+    {
+      "line": "So strawberries are technically aggregate accessory fruits. Basically an impostor.",
+      "visual_prompt": "A strawberry rotates slowly in 3D space, its surface marked with dotted lines highlighting each seed as a separate component, modern geometric style."
+    },
+    {
+      "line": "Your whole fruit hierarchy just got botanically rearranged.",
+      "visual_prompt": "A stylized fruit taxonomy chart morphing and reorganizing itself, with bananas rising to the top and strawberries shifting sideways, smooth animated transitions."
+    }
+  ],
+  "cta": "If plant biology counts, what other 'fruits' do you think aren't actually berries?",
+  "uncertain_claims": false
+}
