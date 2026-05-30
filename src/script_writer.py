@@ -31,14 +31,16 @@ def _load_config() -> dict:
 # Living-person image prompt validator
 # ---------------------------------------------------------------------------
 
-# Patterns that suggest a real person depiction
+# Patterns that suggest a real person depiction — must be specific enough to
+# avoid false positives on place names, monument names, or compound nouns.
 _PERSON_DEPICTION_PATTERNS = [
     re.compile(r"\bphoto(?:graph)? of\b", re.IGNORECASE),
     re.compile(r"\bportrait of\b", re.IGNORECASE),
     re.compile(r"\bpicture of\b", re.IGNORECASE),
-    re.compile(r"\bimage of\b.*\b[A-Z][a-z]+\s[A-Z][a-z]+\b"),  # "image of John Smith"
-    # Two consecutive capitalized words following common trigger phrases
-    re.compile(r"\b(?:show|depict|render|draw)\b.*\b[A-Z][a-z]+\s[A-Z][a-z]+\b", re.IGNORECASE),
+    # Only flag "image of <Name>" when followed by a verb (person doing something)
+    re.compile(r"\bimage of\b.*\b[A-Z][a-z]+\s[A-Z][a-z]+\b.*\b(?:standing|sitting|holding|speaking|wearing)\b", re.IGNORECASE),
+    # Only flag show/depict/render/draw when explicitly followed by "person", "man", "woman", "face"
+    re.compile(r"\b(?:show|depict|render|draw)\b.*\b(?:person|man|woman|face|figure)\b", re.IGNORECASE),
 ]
 
 def _validate_visual_prompt(prompt: str, scene_index: int) -> str:
@@ -236,7 +238,14 @@ def generate_script(
             raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
             raw_text = re.sub(r"\s*```$", "", raw_text)
 
-            script = ScriptOutput.model_validate_json(raw_text)
+            # Trim scene lines exceeding 15 words rather than failing
+            data = json.loads(raw_text)
+            for scene in data.get("scenes", []):
+                if isinstance(scene.get("line"), str):
+                    words = scene["line"].split()
+                    if len(words) > 15:
+                        scene["line"] = " ".join(words[:15])
+            script = ScriptOutput.model_validate(data)
 
             # Validate visual prompts for person depictions
             _validate_all_visual_prompts(script)
