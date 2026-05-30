@@ -1,0 +1,793 @@
+{
+  "chunks": [
+    {
+      "words": [
+        {
+          "word": "Britain",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "fought",
+          "start": 0.28,
+          "end": 0.52
+        },
+        {
+          "word": "a",
+          "start": 0.52,
+          "end": 0.7
+        }
+      ],
+      "start": 0.0,
+      "end": 0.7
+    },
+    {
+      "words": [
+        {
+          "word": "war",
+          "start": 0.7,
+          "end": 0.9
+        },
+        {
+          "word": "that",
+          "start": 0.9,
+          "end": 1.16
+        },
+        {
+          "word": "ended",
+          "start": 1.16,
+          "end": 1.36
+        }
+      ],
+      "start": 0.7,
+      "end": 1.36
+    },
+    {
+      "words": [
+        {
+          "word": "before",
+          "start": 1.36,
+          "end": 1.74
+        },
+        {
+          "word": "your",
+          "start": 1.74,
+          "end": 1.94
+        },
+        {
+          "word": "coffee",
+          "start": 1.94,
+          "end": 2.24
+        }
+      ],
+      "start": 1.36,
+      "end": 2.24
+    },
+    {
+      "words": [
+        {
+          "word": "got",
+          "start": 2.24,
+          "end": 2.52
+        },
+        {
+          "word": "cold.",
+          "start": 2.52,
+          "end": 2.98
+        },
+        {
+          "word": "August",
+          "start": 3.64,
+          "end": 3.69
+        }
+      ],
+      "start": 2.24,
+      "end": 3.69
+    },
+    {
+      "words": [
+        {
+          "word": "27th,",
+          "start": 3.64,
+          "end": 4.62
+        },
+        {
+          "word": "1896,",
+          "start": 4.64,
+          "end": 5.22
+        },
+        {
+          "word": "Zanzibar,",
+          "start": 6.1,
+          "end": 6.56
+        }
+      ],
+      "start": 3.64,
+      "end": 6.56
+    },
+    {
+      "words": [
+        {
+          "word": "a",
+          "start": 6.8,
+          "end": 6.84
+        },
+        {
+          "word": "strategic",
+          "start": 6.84,
+          "end": 7.22
+        },
+        {
+          "word": "island",
+          "start": 7.22,
+          "end": 7.64
+        }
+      ],
+      "start": 6.8,
+      "end": 7.64
+    },
+    {
+      "words": [
+        {
+          "word": "off",
+          "start": 7.64,
+          "end": 7.92
+        },
+        {
+          "word": "East",
+          "start": 7.92,
+          "end": 8.26
+        },
+        {
+          "word": "Africa's",
+          "start": 8.26,
+          "end": 8.8
+        }
+      ],
+      "start": 7.64,
+      "end": 8.8
+    },
+    {
+      "words": [
+        {
+          "word": "coast.",
+          "start": 8.8,
+          "end": 9.04
+        },
+        {
+          "word": "The",
+          "start": 9.7,
+          "end": 9.84
+        },
+        {
+          "word": "Sultan",
+          "start": 9.84,
+          "end": 10.1
+        }
+      ],
+      "start": 8.8,
+      "end": 10.1
+    },
+    {
+      "words": [
+        {
+          "word": "died.",
+          "start": 10.1,
+          "end": 10.52
+        },
+        {
+          "word": "Britain",
+          "start": 11.1,
+          "end": 11.3
+        },
+        {
+          "word": "wanted",
+          "start": 11.3,
+          "end": 11.6
+        }
+      ],
+      "start": 10.1,
+      "end": 11.6
+    },
+    {
+      "words": [
+        {
+          "word": "their",
+          "start": 11.6,
+          "end": 11.86
+        },
+        {
+          "word": "preferred",
+          "start": 11.86,
+          "end": 12.24
+        },
+        {
+          "word": "candidate",
+          "start": 12.24,
+          "end": 12.72
+        }
+      ],
+      "start": 11.6,
+      "end": 12.72
+    },
+    {
+      "words": [
+        {
+          "word": "on",
+          "start": 12.72,
+          "end": 13.02
+        },
+        {
+          "word": "the",
+          "start": 13.02,
+          "end": 13.18
+        },
+        {
+          "word": "throne",
+          "start": 13.18,
+          "end": 13.44
+        }
+      ],
+      "start": 12.72,
+      "end": 13.44
+    },
+    {
+      "words": [
+        {
+          "word": "instead.",
+          "start": 13.44,
+          "end": 13.94
+        },
+        {
+          "word": "The",
+          "start": 14.54,
+          "end": 14.66
+        },
+        {
+          "word": "new",
+          "start": 14.66,
+          "end": 14.84
+        }
+      ],
+      "start": 13.44,
+      "end": 14.84
+    },
+    {
+      "words": [
+        {
+          "word": "Sultan",
+          "start": 14.84,
+          "end": 15.08
+        },
+        {
+          "word": "refused,",
+          "start": 15.08,
+          "end": 15.64
+        },
+        {
+          "word": "so",
+          "start": 16.08,
+          "end": 16.3
+        }
+      ],
+      "start": 14.84,
+      "end": 16.3
+    },
+    {
+      "words": [
+        {
+          "word": "Britain",
+          "start": 16.3,
+          "end": 16.62
+        },
+        {
+          "word": "sent",
+          "start": 16.62,
+          "end": 16.94
+        },
+        {
+          "word": "warships,",
+          "start": 16.94,
+          "end": 17.4
+        }
+      ],
+      "start": 16.3,
+      "end": 17.4
+    },
+    {
+      "words": [
+        {
+          "word": "five",
+          "start": 17.86,
+          "end": 18.0
+        },
+        {
+          "word": "of",
+          "start": 18.0,
+          "end": 18.16
+        },
+        {
+          "word": "them,",
+          "start": 18.16,
+          "end": 18.44
+        }
+      ],
+      "start": 17.86,
+      "end": 18.44
+    },
+    {
+      "words": [
+        {
+          "word": "heavily",
+          "start": 18.7,
+          "end": 19.0
+        },
+        {
+          "word": "armed.",
+          "start": 19.0,
+          "end": 19.4
+        },
+        {
+          "word": "At",
+          "start": 19.84,
+          "end": 20.02
+        }
+      ],
+      "start": 18.7,
+      "end": 20.02
+    },
+    {
+      "words": [
+        {
+          "word": "9",
+          "start": 20.02,
+          "end": 20.26
+        },
+        {
+          "word": "a",
+          "start": 20.26,
+          "end": 20.44
+        },
+        {
+          "word": ".m.,",
+          "start": 20.44,
+          "end": 20.98
+        }
+      ],
+      "start": 20.02,
+      "end": 20.98
+    },
+    {
+      "words": [
+        {
+          "word": "Britain's",
+          "start": 20.98,
+          "end": 21.3
+        },
+        {
+          "word": "artillery",
+          "start": 21.3,
+          "end": 21.56
+        },
+        {
+          "word": "opened",
+          "start": 21.56,
+          "end": 22.04
+        }
+      ],
+      "start": 20.98,
+      "end": 22.04
+    },
+    {
+      "words": [
+        {
+          "word": "fire",
+          "start": 22.04,
+          "end": 22.36
+        },
+        {
+          "word": "on",
+          "start": 22.36,
+          "end": 22.6
+        },
+        {
+          "word": "the",
+          "start": 22.6,
+          "end": 22.74
+        }
+      ],
+      "start": 22.04,
+      "end": 22.74
+    },
+    {
+      "words": [
+        {
+          "word": "palace",
+          "start": 22.74,
+          "end": 23.02
+        },
+        {
+          "word": "from",
+          "start": 23.02,
+          "end": 23.28
+        },
+        {
+          "word": "the",
+          "start": 23.28,
+          "end": 23.46
+        }
+      ],
+      "start": 22.74,
+      "end": 23.46
+    },
+    {
+      "words": [
+        {
+          "word": "harbor.",
+          "start": 23.46,
+          "end": 23.64
+        },
+        {
+          "word": "Zanzibar's",
+          "start": 24.46,
+          "end": 24.96
+        },
+        {
+          "word": "forces",
+          "start": 24.96,
+          "end": 25.28
+        }
+      ],
+      "start": 23.46,
+      "end": 25.28
+    },
+    {
+      "words": [
+        {
+          "word": "never",
+          "start": 25.28,
+          "end": 25.76
+        },
+        {
+          "word": "returned",
+          "start": 25.76,
+          "end": 26.24
+        },
+        {
+          "word": "a",
+          "start": 26.24,
+          "end": 26.46
+        }
+      ],
+      "start": 25.28,
+      "end": 26.46
+    },
+    {
+      "words": [
+        {
+          "word": "single",
+          "start": 26.46,
+          "end": 26.68
+        },
+        {
+          "word": "shot.",
+          "start": 26.68,
+          "end": 27.1
+        },
+        {
+          "word": "The",
+          "start": 27.44,
+          "end": 27.62
+        }
+      ],
+      "start": 26.46,
+      "end": 27.62
+    },
+    {
+      "words": [
+        {
+          "word": "Sultan's",
+          "start": 27.62,
+          "end": 28.12
+        },
+        {
+          "word": "palace",
+          "start": 28.12,
+          "end": 28.4
+        },
+        {
+          "word": "was",
+          "start": 28.4,
+          "end": 28.7
+        }
+      ],
+      "start": 27.62,
+      "end": 28.7
+    },
+    {
+      "words": [
+        {
+          "word": "in",
+          "start": 28.7,
+          "end": 28.9
+        },
+        {
+          "word": "ruins.",
+          "start": 28.9,
+          "end": 29.26
+        },
+        {
+          "word": "Thirty",
+          "start": 29.88,
+          "end": 30.06
+        }
+      ],
+      "start": 28.7,
+      "end": 30.06
+    },
+    {
+      "words": [
+        {
+          "word": "-eight",
+          "start": 30.06,
+          "end": 30.32
+        },
+        {
+          "word": "minutes",
+          "start": 30.32,
+          "end": 30.56
+        },
+        {
+          "word": "later,",
+          "start": 30.56,
+          "end": 30.96
+        }
+      ],
+      "start": 30.06,
+      "end": 30.96
+    },
+    {
+      "words": [
+        {
+          "word": "it",
+          "start": 31.28,
+          "end": 31.36
+        },
+        {
+          "word": "was",
+          "start": 31.36,
+          "end": 31.5
+        },
+        {
+          "word": "over.",
+          "start": 31.5,
+          "end": 31.8
+        }
+      ],
+      "start": 31.28,
+      "end": 31.8
+    },
+    {
+      "words": [
+        {
+          "word": "One",
+          "start": 32.2,
+          "end": 32.34
+        },
+        {
+          "word": "-sided.",
+          "start": 32.34,
+          "end": 32.62
+        },
+        {
+          "word": "Complete.",
+          "start": 33.12,
+          "end": 33.46
+        }
+      ],
+      "start": 32.2,
+      "end": 33.46
+    },
+    {
+      "words": [
+        {
+          "word": "Unresisted",
+          "start": 33.96,
+          "end": 34.66
+        },
+        {
+          "word": "surrender.",
+          "start": 34.66,
+          "end": 35.06
+        },
+        {
+          "word": "Britain",
+          "start": 35.74,
+          "end": 35.94
+        }
+      ],
+      "start": 33.96,
+      "end": 35.94
+    },
+    {
+      "words": [
+        {
+          "word": "got",
+          "start": 35.94,
+          "end": 36.18
+        },
+        {
+          "word": "their",
+          "start": 36.18,
+          "end": 36.38
+        },
+        {
+          "word": "Sultan.",
+          "start": 36.38,
+          "end": 36.7
+        }
+      ],
+      "start": 35.94,
+      "end": 36.7
+    },
+    {
+      "words": [
+        {
+          "word": "Zanzibar",
+          "start": 37.2,
+          "end": 37.66
+        },
+        {
+          "word": "lost",
+          "start": 37.66,
+          "end": 37.9
+        },
+        {
+          "word": "its",
+          "start": 37.9,
+          "end": 38.14
+        }
+      ],
+      "start": 37.2,
+      "end": 38.14
+    },
+    {
+      "words": [
+        {
+          "word": "independence,",
+          "start": 38.14,
+          "end": 38.58
+        },
+        {
+          "word": "history's",
+          "start": 39.0,
+          "end": 39.46
+        },
+        {
+          "word": "shortest,",
+          "start": 39.46,
+          "end": 39.78
+        }
+      ],
+      "start": 38.14,
+      "end": 39.78
+    },
+    {
+      "words": [
+        {
+          "word": "most",
+          "start": 40.02,
+          "end": 40.2
+        },
+        {
+          "word": "lopsided",
+          "start": 40.2,
+          "end": 40.82
+        },
+        {
+          "word": "war.",
+          "start": 40.82,
+          "end": 41.22
+        }
+      ],
+      "start": 40.02,
+      "end": 41.22
+    },
+    {
+      "words": [
+        {
+          "word": "Would",
+          "start": 41.76,
+          "end": 41.9
+        },
+        {
+          "word": "you",
+          "start": 41.9,
+          "end": 42.04
+        },
+        {
+          "word": "have",
+          "start": 42.04,
+          "end": 42.18
+        }
+      ],
+      "start": 41.76,
+      "end": 42.18
+    },
+    {
+      "words": [
+        {
+          "word": "surrendered",
+          "start": 42.18,
+          "end": 42.58
+        },
+        {
+          "word": "immediately",
+          "start": 42.58,
+          "end": 43.02
+        },
+        {
+          "word": "like",
+          "start": 43.02,
+          "end": 43.46
+        }
+      ],
+      "start": 42.18,
+      "end": 43.46
+    },
+    {
+      "words": [
+        {
+          "word": "Zanzibar",
+          "start": 43.46,
+          "end": 44.14
+        },
+        {
+          "word": "or",
+          "start": 44.14,
+          "end": 44.46
+        },
+        {
+          "word": "fought",
+          "start": 44.46,
+          "end": 44.72
+        }
+      ],
+      "start": 43.46,
+      "end": 44.72
+    },
+    {
+      "words": [
+        {
+          "word": "back",
+          "start": 44.72,
+          "end": 45.08
+        },
+        {
+          "word": "against",
+          "start": 45.08,
+          "end": 45.46
+        },
+        {
+          "word": "impossible",
+          "start": 45.46,
+          "end": 46.08
+        }
+      ],
+      "start": 44.72,
+      "end": 46.08
+    },
+    {
+      "words": [
+        {
+          "word": "odds?",
+          "start": 46.08,
+          "end": 46.52
+        }
+      ],
+      "start": 46.08,
+      "end": 46.52
+    }
+  ],
+  "total_duration": 46.52
+}

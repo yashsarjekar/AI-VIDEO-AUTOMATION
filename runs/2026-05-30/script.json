@@ -1,0 +1,35 @@
+{
+  "hook": "Britain fought a war that ended before your coffee got cold.",
+  "scenes": [
+    {
+      "line": "August 27th, 1896. Zanzibar, a strategic island off East Africa's coast.",
+      "visual_prompt": "Aerial view of a lush tropical island surrounded by turquoise ocean water, colonial-era stone buildings and palm trees visible from above, golden morning light"
+    },
+    {
+      "line": "The Sultan died. Britain wanted their preferred candidate on the throne instead.",
+      "visual_prompt": "An ornate wooden throne draped in crimson velvet, sitting alone in a shadowy palace room with carved wooden pillars and flickering candlelight"
+    },
+    {
+      "line": "The new Sultan refused. So Britain sent warships. Five of them. Heavily armed.",
+      "visual_prompt": "Multiple naval warships with gun turrets positioned in shallow tropical waters, smoke rising from their smokestacks, flags whipping in the wind"
+    },
+    {
+      "line": "At 9 AM, Britain's artillery opened fire on the palace from the harbor.",
+      "visual_prompt": "Bright flashes of cannon fire erupting from warship hulls, explosive impacts on a distant palace structure, smoke billowing into a bright blue sky"
+    },
+    {
+      "line": "Zanzibar's forces never returned a single shot. The Sultan's palace was in ruins.",
+      "visual_prompt": "A once-grand palace structure now partially destroyed, smoke drifting across rubble and broken stone walls, debris scattered across a courtyard"
+    },
+    {
+      "line": "Thirty-eight minutes later, it was over. One-sided. Complete. Unresisted surrender.",
+      "visual_prompt": "A white flag being raised over palace ruins, tropical sunlight streaming through dust clouds, the brief violent conflict already fading into eerie calm"
+    },
+    {
+      "line": "Britain got their Sultan. Zanzibar lost its independence. History's shortest, most lopsided war.",
+      "visual_prompt": "A historical document or treaty page with ornate seals and signatures, lying on aged parchment, candlelight casting long shadows across the text"
+    }
+  ],
+  "cta": "Would you have surrendered immediately like Zanzibar, or fought back against impossible odds?",
+  "uncertain_claims": false
+}

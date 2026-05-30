@@ -1,0 +1,94 @@
+2026-05-30 15:06:24.069 | INFO     | __main__:96 — === Daily run starting: 2026-05-30 ===
+2026-05-30 15:06:24.071 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
+2026-05-30 15:06:27.710 | INFO     | src.topic_generator:50 — Google Trends rising queries: ['weird history facts', 'black history facts']
+2026-05-30 15:06:27.741 | INFO     | src.topic_generator:155 — Topic generation attempt 1/3
+2026-05-30 15:06:29.404 | INFO     | src.topic_generator:178 — Haiku usage — in:494 out:98 cost:$0.00025
+2026-05-30 15:06:29.404 | SUCCESS  | src.topic_generator:194 — Topic generated: 'The shortest war in history lasted only 38 minutes, and one side didn't even fight back' [history]
+2026-05-30 15:06:29.406 | INFO     | __main__:110 — --- Stage 2: script_writer ---
+2026-05-30 15:06:29.427 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'The shortest war in history lasted only 38 minutes, and one side didn't even fight back'
+2026-05-30 15:06:35.758 | INFO     | src.script_writer:232 — Haiku usage — in:902 out:569 cost:$0.00094
+2026-05-30 15:06:35.759 | SUCCESS  | src.script_writer:279 — Script generated: 7 scenes, hook='Britain fought a war that ended before your coffee...'
+2026-05-30 15:06:35.759 | INFO     | __main__:115 — --- Stage 3: visual_generator ---
+2026-05-30 15:06:35.759 | INFO     | src.visual_generator:240 — Generating image for scene 01/7
+2026-05-30 15:06:35.759 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-05-30 15:06:37.663 | INFO     | src.visual_generator:110 — Pollinations OK scene 01 (576×1024, 127 KB)
+2026-05-30 15:06:37.768 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (452 KB)
+2026-05-30 15:06:37.769 | INFO     | src.visual_generator:240 — Generating image for scene 02/7
+2026-05-30 15:06:37.769 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-05-30 15:07:22.908 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 02
+2026-05-30 15:07:24.909 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-05-30 15:08:07.462 | INFO     | src.visual_generator:110 — Pollinations OK scene 02 (576×1024, 99 KB)
+2026-05-30 15:08:07.556 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (365 KB)
+2026-05-30 15:08:07.557 | INFO     | src.visual_generator:240 — Generating image for scene 03/7
+2026-05-30 15:08:07.557 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-05-30 15:08:52.721 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 03
+2026-05-30 15:08:54.721 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-05-30 15:09:37.127 | INFO     | src.visual_generator:110 — Pollinations OK scene 03 (576×1024, 83 KB)
+2026-05-30 15:09:37.221 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (312 KB)
+2026-05-30 15:09:37.221 | INFO     | src.visual_generator:240 — Generating image for scene 04/7
+2026-05-30 15:09:37.221 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-05-30 15:10:22.370 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 04
+2026-05-30 15:10:24.371 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-05-30 15:11:07.513 | INFO     | src.visual_generator:110 — Pollinations OK scene 04 (576×1024, 121 KB)
+2026-05-30 15:11:07.616 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (428 KB)
+2026-05-30 15:11:07.617 | INFO     | src.visual_generator:240 — Generating image for scene 05/7
+2026-05-30 15:11:07.617 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 05
+2026-05-30 15:11:52.727 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 05
+2026-05-30 15:11:54.728 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 05
+2026-05-30 15:12:37.832 | INFO     | src.visual_generator:110 — Pollinations OK scene 05 (576×1024, 129 KB)
+2026-05-30 15:12:37.929 | SUCCESS  | src.visual_generator:257 — Scene 05 saved → scene_05.jpg (448 KB)
+2026-05-30 15:12:37.929 | INFO     | src.visual_generator:240 — Generating image for scene 06/7
+2026-05-30 15:12:37.929 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 06
+2026-05-30 15:13:23.049 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 06
+2026-05-30 15:13:25.050 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 06
+2026-05-30 15:14:06.970 | INFO     | src.visual_generator:110 — Pollinations OK scene 06 (576×1024, 62 KB)
+2026-05-30 15:14:07.065 | SUCCESS  | src.visual_generator:257 — Scene 06 saved → scene_06.jpg (248 KB)
+2026-05-30 15:14:07.066 | INFO     | src.visual_generator:240 — Generating image for scene 07/7
+2026-05-30 15:14:07.066 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 07
+2026-05-30 15:14:52.213 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 07
+2026-05-30 15:14:54.213 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 07
+2026-05-30 15:15:37.362 | INFO     | src.visual_generator:110 — Pollinations OK scene 07 (576×1024, 108 KB)
+2026-05-30 15:15:37.460 | SUCCESS  | src.visual_generator:257 — Scene 07 saved → scene_07.jpg (395 KB)
+2026-05-30 15:15:37.460 | INFO     | __main__:120 — --- Stage 4: voice_generator ---
+2026-05-30 15:15:37.479 | INFO     | src.voice_generator:167 — Generating 9 voice segments via ElevenLabs eleven_flash_v2_5
+2026-05-30 15:15:37.479 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Britain fought a war that ended before your coffee got cold.'
+2026-05-30 15:15:38.282 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (51 KB)
+2026-05-30 15:15:38.282 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'August 27th, 1896. Zanzibar, a strategic island off East Afr…'
+2026-05-30 15:15:38.602 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (96 KB)
+2026-05-30 15:15:38.602 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'The Sultan died. Britain wanted their preferred candidate on…'
+2026-05-30 15:15:38.876 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (74 KB)
+2026-05-30 15:15:38.876 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'The new Sultan refused. So Britain sent warships. Five of th…'
+2026-05-30 15:15:39.179 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (82 KB)
+2026-05-30 15:15:39.179 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'At 9 AM, Britain's artillery opened fire on the palace from …'
+2026-05-30 15:15:39.439 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (67 KB)
+2026-05-30 15:15:39.439 | INFO     | src.voice_generator:78 —   TTS → voice_05.mp3: 'Zanzibar's forces never returned a single shot. The Sultan's…'
+2026-05-30 15:15:39.745 | DEBUG    | src.voice_generator:81 —   Saved voice_05.mp3 (85 KB)
+2026-05-30 15:15:39.746 | INFO     | src.voice_generator:78 —   TTS → voice_06.mp3: 'Thirty-eight minutes later, it was over. One-sided. Complete…'
+2026-05-30 15:15:40.040 | DEBUG    | src.voice_generator:81 —   Saved voice_06.mp3 (90 KB)
+2026-05-30 15:15:40.040 | INFO     | src.voice_generator:78 —   TTS → voice_07.mp3: 'Britain got their Sultan. Zanzibar lost its independence. Hi…'
+2026-05-30 15:15:40.346 | DEBUG    | src.voice_generator:81 —   Saved voice_07.mp3 (93 KB)
+2026-05-30 15:15:40.346 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'Would you have surrendered immediately like Zanzibar, or fou…'
+2026-05-30 15:15:40.620 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (81 KB)
+2026-05-30 15:15:40.622 | INFO     | src.voice_generator:177 — ElevenLabs: 714 chars, estimated cost $0.21420
+2026-05-30 15:15:42.178 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (46.9s, 733 KB)
+2026-05-30 15:15:42.179 | INFO     | __main__:125 — --- Stage 5: caption_generator ---
+2026-05-30 15:15:42.245 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-05-30 15:15:43.120 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-05-30 15:15:55.890 | INFO     | src.caption_generator:57 — Transcription complete: 112 words, 46.9s audio, language=en
+2026-05-30 15:15:55.902 | SUCCESS  | src.caption_generator:166 — Captions saved: 38 chunks, 112 words, 46.5s total
+2026-05-30 15:15:55.902 | INFO     | __main__:130 — --- Stage 6: video_builder ---
+2026-05-30 15:15:56.747 | INFO     | src.video_builder:319 — Clip schedule: 9 segments, 46.9s total
+2026-05-30 15:15:56.748 | INFO     | src.video_builder:118 — ASS file written: captions.ass (112 dialogue lines)
+2026-05-30 15:15:56.749 | INFO     | src.video_builder:168 — Music: soundgalleryby-halloween-fun-116552.mp3
+2026-05-30 15:16:31.066 | SUCCESS  | src.video_builder:274 — final.mp4 → 9.1 MB
+2026-05-30 15:16:31.066 | INFO     | __main__:135 — --- Stage 7: metadata_generator ---
+2026-05-30 15:16:31.087 | INFO     | src.metadata_generator:249 — Metadata generation attempt 1/3
+2026-05-30 15:16:39.922 | INFO     | src.metadata_generator:273 — Haiku usage — in:1034 out:843 cost:$0.00131
+2026-05-30 15:16:39.922 | SUCCESS  | src.metadata_generator:309 — Metadata generated: title='38 Minutes: History's Shortest War Ever #Shorts' (47 chars)
+2026-05-30 15:16:39.926 | INFO     | __main__:140 — --- Stage 8: uploader ---
+2026-05-30 15:16:40.123 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-05-30 15:16:41.365 | INFO     | src.uploader:122 — YouTube upload progress: 43%
+2026-05-30 15:16:41.632 | INFO     | src.uploader:122 — YouTube upload progress: 87%
+2026-05-30 15:16:42.146 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/NGxaG9To-Uk
+2026-05-30 15:16:42.149 | INFO     | __main__:151 — Total estimated API cost for 2026-05-30: $0.2167
+2026-05-30 15:16:42.771 | WARNING  | __main__:159 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.
