@@ -2,7 +2,8 @@ name: Daily Video Run
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # 14:00 UTC daily — 9 AM ET / 2 PM UTC
+    - cron: "0 19 * * *"
+      timezone: "Asia/Kolkata"  # 7:00 PM IST
   workflow_dispatch:        # allow manual triggers
 
 permissions:
