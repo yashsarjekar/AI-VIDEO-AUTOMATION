@@ -105,6 +105,10 @@ def main() -> None:
         logger.info("--- Stage 1: topic_generator ---")
         topic = generate_topic(run_date)
 
+        # Commit topic to repo immediately so it's in the exclusion list
+        # even if later stages fail — prevents same topic on re-runs
+        _commit_state(run_date)
+
         # Stage 2 — Script (may re-roll topic)
         current_stage = "script_writer"
         logger.info("--- Stage 2: script_writer ---")
