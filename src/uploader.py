@@ -434,6 +434,7 @@ def upload_all(
         topic=metadata.youtube.title,
         yt_video_id=yt_result.video_id if yt_result else None,
         yt_url=yt_result.url if yt_result else None,
+        yt_title=metadata.youtube.title if yt_result else None,
         ig_media_id=ig_result.media_id if ig_result else None,
         ig_permalink=ig_result.permalink if ig_result else None,
     )

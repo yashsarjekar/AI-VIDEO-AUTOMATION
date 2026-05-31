@@ -13,7 +13,7 @@ import yaml
 from loguru import logger
 from pydantic import ValidationError
 
-from .db import get_recent_topics, init_db, log_api_cost, save_topic
+from .db import get_recent_titles, get_recent_topics, init_db, log_api_cost, save_topic
 from .schemas import TopicOutput
 
 # ---------------------------------------------------------------------------
@@ -87,7 +87,9 @@ You MUST respond with ONLY valid JSON matching this exact schema — no prose, n
 }
 """
 
-def _build_user_prompt(exclusion_list: list[str], trends: list[str]) -> str:
+def _build_user_prompt(
+    exclusion_list: list[str], trends: list[str], recent_titles: list[str]
+) -> str:
     exclusions_block = (
         "\n".join(f"- {t}" for t in exclusion_list)
         if exclusion_list
@@ -99,11 +101,19 @@ def _build_user_prompt(exclusion_list: list[str], trends: list[str]) -> str:
         if trends
         else "(trends unavailable)"
     )
+    titles_block = (
+        "\n".join(f"- {t}" for t in recent_titles)
+        if recent_titles
+        else "(none yet)"
+    )
 
     return f"""Generate ONE fresh, highly shareable facts/trivia topic.
 
 DO NOT use any topic from this exclusion list (last 60 used topics):
 {exclusions_block}
+
+These YouTube titles were already published — choose a topic that would NOT produce a semantically similar title:
+{titles_block}
 
 {trends_block}
 
@@ -146,6 +156,7 @@ def generate_topic(run_date: str | None = None) -> TopicOutput:
     model: str = config["llm"]["model"]
 
     exclusion_list = get_recent_topics(limit=60)
+    recent_titles = get_recent_titles(limit=60)
     trends = _fetch_trends()
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
@@ -168,7 +179,7 @@ def generate_topic(run_date: str | None = None) -> TopicOutput:
                 messages=[
                     {
                         "role": "user",
-                        "content": _build_user_prompt(exclusion_list, trends),
+                        "content": _build_user_prompt(exclusion_list, trends, recent_titles),
                     }
                 ],
             )

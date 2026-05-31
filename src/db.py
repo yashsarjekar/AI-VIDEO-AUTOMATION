@@ -56,12 +56,20 @@ def init_db() -> None:
                 topic           TEXT NOT NULL,
                 yt_video_id     TEXT,
                 yt_url          TEXT,
+                yt_title        TEXT,
                 ig_media_id     TEXT,
                 ig_permalink    TEXT,
                 uploaded_at     TEXT NOT NULL DEFAULT (datetime('now'))
             );
 
             CREATE UNIQUE INDEX IF NOT EXISTS uq_uploads_run_date ON uploads(run_date);
+        """)
+        # Migrate existing databases that pre-date the yt_title column
+        try:
+            conn.execute("ALTER TABLE uploads ADD COLUMN yt_title TEXT")
+        except Exception:
+            pass  # column already exists
+        conn.executescript("""
 
             CREATE TABLE IF NOT EXISTS hashtag_usage (
                 id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -108,6 +116,16 @@ def get_recent_topics(limit: int = 60) -> list[str]:
     return [r["topic"] for r in rows]
 
 
+def get_recent_titles(limit: int = 60) -> list[str]:
+    """Return the last N published YouTube titles (strip trailing #shorts for comparison)."""
+    with get_conn() as conn:
+        rows = conn.execute(
+            "SELECT yt_title FROM uploads WHERE yt_title IS NOT NULL ORDER BY uploaded_at DESC LIMIT ?",
+            (limit,)
+        ).fetchall()
+    return [r["yt_title"] for r in rows]
+
+
 def save_topic(run_date: str, topic: str, category: str, hook_angle: str, keywords: list[str]) -> None:
     import json
     with get_conn() as conn:
@@ -147,21 +165,23 @@ def save_upload(
     topic: str,
     yt_video_id: str | None = None,
     yt_url: str | None = None,
+    yt_title: str | None = None,
     ig_media_id: str | None = None,
     ig_permalink: str | None = None,
 ) -> None:
     with get_conn() as conn:
         conn.execute(
             """
-            INSERT INTO uploads (run_date, topic, yt_video_id, yt_url, ig_media_id, ig_permalink)
-            VALUES (?, ?, ?, ?, ?, ?)
+            INSERT INTO uploads (run_date, topic, yt_video_id, yt_url, yt_title, ig_media_id, ig_permalink)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(run_date) DO UPDATE SET
                 yt_video_id=COALESCE(excluded.yt_video_id, yt_video_id),
                 yt_url=COALESCE(excluded.yt_url, yt_url),
+                yt_title=COALESCE(excluded.yt_title, yt_title),
                 ig_media_id=COALESCE(excluded.ig_media_id, ig_media_id),
                 ig_permalink=COALESCE(excluded.ig_permalink, ig_permalink)
             """,
-            (run_date, topic, yt_video_id, yt_url, ig_media_id, ig_permalink),
+            (run_date, topic, yt_video_id, yt_url, yt_title, ig_media_id, ig_permalink),
         )
 
 

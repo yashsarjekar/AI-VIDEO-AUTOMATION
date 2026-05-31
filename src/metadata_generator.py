@@ -15,6 +15,7 @@ from pydantic import ValidationError
 
 from .db import (
     get_hashtag_usage_last_n_days,
+    get_recent_titles,
     init_db,
     log_api_cost,
     record_hashtag_usage,
@@ -169,6 +170,11 @@ def _estimate_cost(usage: anthropic.types.Usage) -> float:
 # Parsing + validation
 # ---------------------------------------------------------------------------
 
+def _normalise_title(title: str) -> str:
+    """Strip trailing #shorts and lowercase for duplicate comparison."""
+    return title.lower().removesuffix("#shorts").strip()
+
+
 def _parse_metadata(raw: dict, run_date: str) -> MetadataOutput:
     """Validate the LLM JSON output against all schema rules."""
     yt_raw = raw.get("youtube", {})
@@ -192,6 +198,15 @@ def _parse_metadata(raw: dict, run_date: str) -> MetadataOutput:
         raise ValueError(
             f"YouTube description word count {word_count} outside 200–300 target"
         )
+
+    # Programmatic title deduplication — exact match against published titles
+    normalised_new = _normalise_title(yt.title)
+    recent_titles = get_recent_titles(limit=60)
+    for existing_title in recent_titles:
+        if _normalise_title(existing_title) == normalised_new:
+            raise ValueError(
+                f"Title '{yt.title}' is an exact duplicate of already-published title '{existing_title}'"
+            )
 
     return MetadataOutput(
         youtube=yt,
