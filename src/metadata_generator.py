@@ -75,9 +75,9 @@ follow it exactly.
 - ≤60 characters total (count carefully).
 - Formula: [Curiosity Gap] + [Specific Detail] + [Payoff]
 - MUST include at least one specific number or statistic in the first 40 characters.
-- MUST end with " #Shorts" (space + #Shorts).
+- MUST end with " #shorts" (space + #shorts, all lowercase).
 - NEVER start with "Did you know", "The truth about", "This is why", or any generic opener.
-- Example pattern: "9 Seconds Changed Human Evolution Forever #Shorts"
+- Example pattern: "9 Seconds Changed Human Evolution Forever #shorts"
 
 === YOUTUBE DESCRIPTION RULES ===
 - 200–300 words total.
@@ -109,12 +109,12 @@ follow it exactly.
 
 === TITLE FORMULA ENFORCER ===
 Before finalizing, check: does the YouTube title contain a digit? Does it create a curiosity gap? \
-Does it end with " #Shorts"? If any check fails, rewrite it.
+Does it end with " #shorts"? If any check fails, rewrite it.
 
 You MUST respond with ONLY valid JSON — no prose, no markdown fences:
 {
   "youtube": {
-    "title": "string, ≤60 chars, has a digit, ends with #Shorts",
+    "title": "string, ≤60 chars, ends with #shorts",
     "description": "string, 200-300 words, structured as described",
     "tags": ["string", ...],
     "category_id": 27

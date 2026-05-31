@@ -17,7 +17,7 @@ from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 from loguru import logger
 
-from .db import save_upload
+from .db import get_upload_for_date, save_upload
 from .schemas import (
     InstagramUploadResult,
     MetadataOutput,
@@ -374,6 +374,25 @@ def upload_all(
     config = _load_config()
     yt_enabled: bool = config["upload"]["youtube"].get("enabled", True)
     ig_enabled: bool = config["upload"]["instagram"].get("enabled", True)
+
+    # Idempotency: skip platforms already uploaded for this date
+    existing = get_upload_for_date(run_date)
+    if existing:
+        if existing.get("yt_video_id") and yt_enabled:
+            logger.info(f"YouTube already uploaded for {run_date} ({existing['yt_video_id']}), skipping.")
+            yt_enabled = False
+        if existing.get("ig_media_id") and ig_enabled:
+            logger.info(f"Instagram already uploaded for {run_date} ({existing['ig_media_id']}), skipping.")
+            ig_enabled = False
+        if not yt_enabled and not ig_enabled:
+            logger.info(f"All uploads already complete for {run_date}, skipping.")
+            from .schemas import YouTubeUploadResult, InstagramUploadResult
+            return UploadResult(
+                run_date=run_date,
+                topic=existing.get("topic", ""),
+                youtube=YouTubeUploadResult(video_id=existing["yt_video_id"], url=existing["yt_url"], privacy_status="public") if existing.get("yt_video_id") else None,
+                instagram=InstagramUploadResult(media_id=existing["ig_media_id"], permalink=existing.get("ig_permalink")) if existing.get("ig_media_id") else None,
+            )
 
     yt_result: YouTubeUploadResult | None = None
     ig_result: InstagramUploadResult | None = None
