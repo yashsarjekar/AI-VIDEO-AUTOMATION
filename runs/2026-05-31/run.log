@@ -1,0 +1,102 @@
+2026-05-31 16:52:26.018 | INFO     | __main__:96 — === Daily run starting: 2026-05-31 ===
+2026-05-31 16:52:26.021 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
+2026-05-31 16:52:28.630 | INFO     | src.topic_generator:50 — Google Trends rising queries: ['mary did you know lyrics']
+2026-05-31 16:52:28.664 | INFO     | src.topic_generator:155 — Topic generation attempt 1/3
+2026-05-31 16:52:30.250 | INFO     | src.topic_generator:178 — Haiku usage — in:513 out:104 cost:$0.00026
+2026-05-31 16:52:30.251 | SUCCESS  | src.topic_generator:194 — Topic generated: 'Honey never spoils—archaeologists found 3,000-year-old honey in Egyptian tombs that was still perfectly edible' [science]
+2026-05-31 16:52:30.253 | INFO     | __main__:110 — --- Stage 2: script_writer ---
+2026-05-31 16:52:30.273 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Honey never spoils—archaeologists found 3,000-year-old honey in Egyptian tombs that was still perfectly edible'
+2026-05-31 16:52:35.680 | INFO     | src.script_writer:232 — Haiku usage — in:904 out:561 cost:$0.00093
+2026-05-31 16:52:35.680 | SUCCESS  | src.script_writer:279 — Script generated: 8 scenes, hook='One food has never spoiled in 3,000 years. Ever....'
+2026-05-31 16:52:35.680 | INFO     | __main__:115 — --- Stage 3: visual_generator ---
+2026-05-31 16:52:35.680 | INFO     | src.visual_generator:240 — Generating image for scene 01/8
+2026-05-31 16:52:35.681 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-05-31 16:52:37.119 | INFO     | src.visual_generator:110 — Pollinations OK scene 01 (576×1024, 121 KB)
+2026-05-31 16:52:37.233 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (443 KB)
+2026-05-31 16:52:37.233 | INFO     | src.visual_generator:240 — Generating image for scene 02/8
+2026-05-31 16:52:37.233 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-05-31 16:53:22.319 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 02
+2026-05-31 16:53:24.320 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-05-31 16:54:06.977 | INFO     | src.visual_generator:110 — Pollinations OK scene 02 (576×1024, 133 KB)
+2026-05-31 16:54:07.085 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (469 KB)
+2026-05-31 16:54:07.085 | INFO     | src.visual_generator:240 — Generating image for scene 03/8
+2026-05-31 16:54:07.085 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-05-31 16:54:52.145 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 03
+2026-05-31 16:54:54.145 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-05-31 16:55:36.705 | INFO     | src.visual_generator:110 — Pollinations OK scene 03 (576×1024, 61 KB)
+2026-05-31 16:55:36.802 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (240 KB)
+2026-05-31 16:55:36.803 | INFO     | src.visual_generator:240 — Generating image for scene 04/8
+2026-05-31 16:55:36.803 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-05-31 16:56:21.889 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 04
+2026-05-31 16:56:23.889 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-05-31 16:57:06.763 | INFO     | src.visual_generator:110 — Pollinations OK scene 04 (576×1024, 124 KB)
+2026-05-31 16:57:06.864 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (442 KB)
+2026-05-31 16:57:06.865 | INFO     | src.visual_generator:240 — Generating image for scene 05/8
+2026-05-31 16:57:06.865 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 05
+2026-05-31 16:57:51.962 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 05
+2026-05-31 16:57:53.963 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 05
+2026-05-31 16:58:36.501 | INFO     | src.visual_generator:110 — Pollinations OK scene 05 (576×1024, 84 KB)
+2026-05-31 16:58:36.601 | SUCCESS  | src.visual_generator:257 — Scene 05 saved → scene_05.jpg (312 KB)
+2026-05-31 16:58:36.601 | INFO     | src.visual_generator:240 — Generating image for scene 06/8
+2026-05-31 16:58:36.601 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 06
+2026-05-31 16:59:21.644 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 06
+2026-05-31 16:59:23.644 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 06
+2026-05-31 17:00:08.048 | INFO     | src.visual_generator:110 — Pollinations OK scene 06 (576×1024, 44 KB)
+2026-05-31 17:00:08.147 | SUCCESS  | src.visual_generator:257 — Scene 06 saved → scene_06.jpg (175 KB)
+2026-05-31 17:00:08.147 | INFO     | src.visual_generator:240 — Generating image for scene 07/8
+2026-05-31 17:00:08.148 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 07
+2026-05-31 17:00:53.253 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 07
+2026-05-31 17:00:55.254 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 07
+2026-05-31 17:01:37.403 | INFO     | src.visual_generator:110 — Pollinations OK scene 07 (576×1024, 53 KB)
+2026-05-31 17:01:37.501 | SUCCESS  | src.visual_generator:257 — Scene 07 saved → scene_07.jpg (212 KB)
+2026-05-31 17:01:37.501 | INFO     | src.visual_generator:240 — Generating image for scene 08/8
+2026-05-31 17:01:37.501 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 08
+2026-05-31 17:02:22.555 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 08
+2026-05-31 17:02:24.555 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 08
+2026-05-31 17:03:07.402 | INFO     | src.visual_generator:110 — Pollinations OK scene 08 (576×1024, 59 KB)
+2026-05-31 17:03:07.499 | SUCCESS  | src.visual_generator:257 — Scene 08 saved → scene_08.jpg (233 KB)
+2026-05-31 17:03:07.499 | INFO     | __main__:120 — --- Stage 4: voice_generator ---
+2026-05-31 17:03:07.519 | INFO     | src.voice_generator:167 — Generating 10 voice segments via ElevenLabs eleven_flash_v2_5
+2026-05-31 17:03:07.519 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'One food has never spoiled in 3,000 years. Ever.'
+2026-05-31 17:03:08.046 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (55 KB)
+2026-05-31 17:03:08.046 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'Archaeologists cracked open Egyptian tombs and found jars of…'
+2026-05-31 17:03:08.324 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (64 KB)
+2026-05-31 17:03:08.324 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'These jars had been sealed since the pharaohs ruled Egypt.'
+2026-05-31 17:03:08.583 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (56 KB)
+2026-05-31 17:03:08.583 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'Scientists tasted it. The honey was completely fresh. Perfec…'
+2026-05-31 17:03:08.873 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (75 KB)
+2026-05-31 17:03:08.873 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'Your yogurt expires in three weeks. This honey has survived …'
+2026-05-31 17:03:09.148 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (75 KB)
+2026-05-31 17:03:09.148 | INFO     | src.voice_generator:78 —   TTS → voice_05.mp3: 'Here's why: honey has almost zero water. Bacteria cannot sur…'
+2026-05-31 17:03:09.431 | DEBUG    | src.voice_generator:81 —   Saved voice_05.mp3 (83 KB)
+2026-05-31 17:03:09.431 | INFO     | src.voice_generator:78 —   TTS → voice_06.mp3: 'It's so antimicrobial that Egyptians actually used it to mum…'
+2026-05-31 17:03:09.919 | DEBUG    | src.voice_generator:81 —   Saved voice_06.mp3 (78 KB)
+2026-05-31 17:03:09.919 | INFO     | src.voice_generator:78 —   TTS → voice_07.mp3: 'A sealed jar of honey will outlive you, your kids, and their…'
+2026-05-31 17:03:10.195 | DEBUG    | src.voice_generator:81 —   Saved voice_07.mp3 (80 KB)
+2026-05-31 17:03:10.195 | INFO     | src.voice_generator:78 —   TTS → voice_08.mp3: 'The only enemy of honey? Heat and moisture breaking the seal…'
+2026-05-31 17:03:10.474 | DEBUG    | src.voice_generator:81 —   Saved voice_08.mp3 (59 KB)
+2026-05-31 17:03:10.474 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'If you could keep one food fresh forever, would you choose h…'
+2026-05-31 17:03:10.777 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (89 KB)
+2026-05-31 17:03:10.779 | INFO     | src.voice_generator:177 — ElevenLabs: 681 chars, estimated cost $0.20430
+2026-05-31 17:03:12.383 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (46.6s, 729 KB)
+2026-05-31 17:03:12.383 | INFO     | __main__:125 — --- Stage 5: caption_generator ---
+2026-05-31 17:03:12.452 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-05-31 17:03:13.252 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-05-31 17:03:23.745 | INFO     | src.caption_generator:57 — Transcription complete: 114 words, 46.6s audio, language=en
+2026-05-31 17:03:23.755 | SUCCESS  | src.caption_generator:166 — Captions saved: 38 chunks, 114 words, 46.1s total
+2026-05-31 17:03:23.755 | INFO     | __main__:130 — --- Stage 6: video_builder ---
+2026-05-31 17:03:24.793 | INFO     | src.video_builder:319 — Clip schedule: 10 segments, 46.6s total
+2026-05-31 17:03:24.794 | INFO     | src.video_builder:118 — ASS file written: captions.ass (114 dialogue lines)
+2026-05-31 17:03:24.794 | INFO     | src.video_builder:168 — Music: domartistudios-magical-wizard-school-orchestral-fantasy-488126.mp3
+2026-05-31 17:03:56.063 | SUCCESS  | src.video_builder:274 — final.mp4 → 8.1 MB
+2026-05-31 17:03:56.064 | INFO     | __main__:135 — --- Stage 7: metadata_generator ---
+2026-05-31 17:03:56.085 | INFO     | src.metadata_generator:249 — Metadata generation attempt 1/3
+2026-05-31 17:04:03.365 | INFO     | src.metadata_generator:273 — Haiku usage — in:1035 out:720 cost:$0.00116
+2026-05-31 17:04:03.365 | SUCCESS  | src.metadata_generator:309 — Metadata generated: title='3000-Year-Old Honey Still Edible Today #Shorts' (46 chars)
+2026-05-31 17:04:03.368 | INFO     | __main__:140 — --- Stage 8: uploader ---
+2026-05-31 17:04:03.562 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-05-31 17:04:04.834 | INFO     | src.uploader:122 — YouTube upload progress: 49%
+2026-05-31 17:04:05.088 | INFO     | src.uploader:122 — YouTube upload progress: 98%
+2026-05-31 17:04:05.748 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/0AFRXUdonJo
+2026-05-31 17:04:05.751 | INFO     | __main__:151 — Total estimated API cost for 2026-05-31: $0.2066
+2026-05-31 17:04:06.441 | WARNING  | __main__:159 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

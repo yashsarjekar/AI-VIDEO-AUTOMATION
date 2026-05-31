@@ -1,0 +1,803 @@
+{
+  "chunks": [
+    {
+      "words": [
+        {
+          "word": "One",
+          "start": 0.0,
+          "end": 0.18
+        },
+        {
+          "word": "food",
+          "start": 0.18,
+          "end": 0.38
+        },
+        {
+          "word": "has",
+          "start": 0.38,
+          "end": 0.58
+        }
+      ],
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "words": [
+        {
+          "word": "never",
+          "start": 0.58,
+          "end": 0.84
+        },
+        {
+          "word": "spoiled",
+          "start": 0.84,
+          "end": 1.26
+        },
+        {
+          "word": "in",
+          "start": 1.26,
+          "end": 1.54
+        }
+      ],
+      "start": 0.58,
+      "end": 1.54
+    },
+    {
+      "words": [
+        {
+          "word": "3",
+          "start": 1.54,
+          "end": 1.82
+        },
+        {
+          "word": ",000",
+          "start": 1.82,
+          "end": 2.22
+        },
+        {
+          "word": "years.",
+          "start": 2.22,
+          "end": 2.58
+        }
+      ],
+      "start": 1.54,
+      "end": 2.58
+    },
+    {
+      "words": [
+        {
+          "word": "Ever.",
+          "start": 2.86,
+          "end": 3.1
+        },
+        {
+          "word": "Archaeologists",
+          "start": 3.72,
+          "end": 4.4
+        },
+        {
+          "word": "cracked",
+          "start": 4.4,
+          "end": 4.86
+        }
+      ],
+      "start": 2.86,
+      "end": 4.86
+    },
+    {
+      "words": [
+        {
+          "word": "open",
+          "start": 4.86,
+          "end": 5.2
+        },
+        {
+          "word": "Egyptian",
+          "start": 5.2,
+          "end": 5.56
+        },
+        {
+          "word": "tombs",
+          "start": 5.56,
+          "end": 6.12
+        }
+      ],
+      "start": 4.86,
+      "end": 6.12
+    },
+    {
+      "words": [
+        {
+          "word": "and",
+          "start": 6.12,
+          "end": 6.26
+        },
+        {
+          "word": "found",
+          "start": 6.26,
+          "end": 6.5
+        },
+        {
+          "word": "jars",
+          "start": 6.5,
+          "end": 6.8
+        }
+      ],
+      "start": 6.12,
+      "end": 6.8
+    },
+    {
+      "words": [
+        {
+          "word": "of",
+          "start": 6.8,
+          "end": 7.06
+        },
+        {
+          "word": "honey.",
+          "start": 7.06,
+          "end": 7.3
+        },
+        {
+          "word": "These",
+          "start": 7.82,
+          "end": 8.08
+        }
+      ],
+      "start": 6.8,
+      "end": 8.08
+    },
+    {
+      "words": [
+        {
+          "word": "jars",
+          "start": 8.08,
+          "end": 8.4
+        },
+        {
+          "word": "had",
+          "start": 8.4,
+          "end": 8.64
+        },
+        {
+          "word": "been",
+          "start": 8.64,
+          "end": 8.84
+        }
+      ],
+      "start": 8.08,
+      "end": 8.84
+    },
+    {
+      "words": [
+        {
+          "word": "sealed",
+          "start": 8.84,
+          "end": 9.2
+        },
+        {
+          "word": "since",
+          "start": 9.2,
+          "end": 9.56
+        },
+        {
+          "word": "the",
+          "start": 9.56,
+          "end": 9.8
+        }
+      ],
+      "start": 8.84,
+      "end": 9.8
+    },
+    {
+      "words": [
+        {
+          "word": "pharaohs",
+          "start": 9.8,
+          "end": 10.3
+        },
+        {
+          "word": "ruled",
+          "start": 10.3,
+          "end": 10.52
+        },
+        {
+          "word": "Egypt.",
+          "start": 10.52,
+          "end": 10.98
+        }
+      ],
+      "start": 9.8,
+      "end": 10.98
+    },
+    {
+      "words": [
+        {
+          "word": "Scientists",
+          "start": 11.66,
+          "end": 12.04
+        },
+        {
+          "word": "tasted",
+          "start": 12.04,
+          "end": 12.66
+        },
+        {
+          "word": "it.",
+          "start": 12.66,
+          "end": 13.06
+        }
+      ],
+      "start": 11.66,
+      "end": 13.06
+    },
+    {
+      "words": [
+        {
+          "word": "The",
+          "start": 13.3,
+          "end": 13.44
+        },
+        {
+          "word": "honey",
+          "start": 13.44,
+          "end": 13.66
+        },
+        {
+          "word": "was",
+          "start": 13.66,
+          "end": 13.9
+        }
+      ],
+      "start": 13.3,
+      "end": 13.9
+    },
+    {
+      "words": [
+        {
+          "word": "completely",
+          "start": 13.9,
+          "end": 14.36
+        },
+        {
+          "word": "fresh,",
+          "start": 14.36,
+          "end": 14.88
+        },
+        {
+          "word": "perfectly",
+          "start": 15.14,
+          "end": 15.46
+        }
+      ],
+      "start": 13.9,
+      "end": 15.46
+    },
+    {
+      "words": [
+        {
+          "word": "edible.",
+          "start": 15.46,
+          "end": 15.88
+        },
+        {
+          "word": "Your",
+          "start": 16.46,
+          "end": 16.6
+        },
+        {
+          "word": "yogurt",
+          "start": 16.6,
+          "end": 16.96
+        }
+      ],
+      "start": 15.46,
+      "end": 16.96
+    },
+    {
+      "words": [
+        {
+          "word": "expires",
+          "start": 16.96,
+          "end": 17.4
+        },
+        {
+          "word": "in",
+          "start": 17.4,
+          "end": 17.82
+        },
+        {
+          "word": "three",
+          "start": 17.82,
+          "end": 18.1
+        }
+      ],
+      "start": 16.96,
+      "end": 18.1
+    },
+    {
+      "words": [
+        {
+          "word": "weeks.",
+          "start": 18.1,
+          "end": 18.46
+        },
+        {
+          "word": "This",
+          "start": 19.04,
+          "end": 19.22
+        },
+        {
+          "word": "honey",
+          "start": 19.22,
+          "end": 19.48
+        }
+      ],
+      "start": 18.1,
+      "end": 19.48
+    },
+    {
+      "words": [
+        {
+          "word": "has",
+          "start": 19.48,
+          "end": 19.7
+        },
+        {
+          "word": "survived",
+          "start": 19.7,
+          "end": 20.16
+        },
+        {
+          "word": "empires.",
+          "start": 20.16,
+          "end": 20.74
+        }
+      ],
+      "start": 19.48,
+      "end": 20.74
+    },
+    {
+      "words": [
+        {
+          "word": "Here's",
+          "start": 21.38,
+          "end": 21.62
+        },
+        {
+          "word": "why.",
+          "start": 21.62,
+          "end": 21.96
+        },
+        {
+          "word": "Honey",
+          "start": 22.6,
+          "end": 22.62
+        }
+      ],
+      "start": 21.38,
+      "end": 22.62
+    },
+    {
+      "words": [
+        {
+          "word": "has",
+          "start": 22.62,
+          "end": 22.88
+        },
+        {
+          "word": "almost",
+          "start": 22.88,
+          "end": 23.24
+        },
+        {
+          "word": "zero",
+          "start": 23.24,
+          "end": 23.64
+        }
+      ],
+      "start": 22.62,
+      "end": 23.64
+    },
+    {
+      "words": [
+        {
+          "word": "water.",
+          "start": 23.64,
+          "end": 24.2
+        },
+        {
+          "word": "Bacteria",
+          "start": 24.64,
+          "end": 25.04
+        },
+        {
+          "word": "cannot",
+          "start": 25.04,
+          "end": 25.44
+        }
+      ],
+      "start": 23.64,
+      "end": 25.44
+    },
+    {
+      "words": [
+        {
+          "word": "survive",
+          "start": 25.44,
+          "end": 25.96
+        },
+        {
+          "word": "in",
+          "start": 25.96,
+          "end": 26.16
+        },
+        {
+          "word": "it.",
+          "start": 26.16,
+          "end": 26.4
+        }
+      ],
+      "start": 25.44,
+      "end": 26.4
+    },
+    {
+      "words": [
+        {
+          "word": "It's",
+          "start": 26.4,
+          "end": 27.02
+        },
+        {
+          "word": "so",
+          "start": 27.02,
+          "end": 27.22
+        },
+        {
+          "word": "antimicrobial",
+          "start": 27.22,
+          "end": 28.04
+        }
+      ],
+      "start": 26.4,
+      "end": 28.04
+    },
+    {
+      "words": [
+        {
+          "word": "that",
+          "start": 28.04,
+          "end": 28.58
+        },
+        {
+          "word": "Egyptians",
+          "start": 28.58,
+          "end": 29.0
+        },
+        {
+          "word": "actually",
+          "start": 29.0,
+          "end": 29.68
+        }
+      ],
+      "start": 28.04,
+      "end": 29.68
+    },
+    {
+      "words": [
+        {
+          "word": "used",
+          "start": 29.68,
+          "end": 30.02
+        },
+        {
+          "word": "it",
+          "start": 30.02,
+          "end": 30.2
+        },
+        {
+          "word": "to",
+          "start": 30.2,
+          "end": 30.34
+        }
+      ],
+      "start": 29.68,
+      "end": 30.34
+    },
+    {
+      "words": [
+        {
+          "word": "mummify",
+          "start": 30.34,
+          "end": 30.82
+        },
+        {
+          "word": "bodies.",
+          "start": 30.82,
+          "end": 31.26
+        },
+        {
+          "word": "A",
+          "start": 31.94,
+          "end": 32.0
+        }
+      ],
+      "start": 30.34,
+      "end": 32.0
+    },
+    {
+      "words": [
+        {
+          "word": "sealed",
+          "start": 32.0,
+          "end": 32.32
+        },
+        {
+          "word": "jar",
+          "start": 32.32,
+          "end": 32.7
+        },
+        {
+          "word": "of",
+          "start": 32.7,
+          "end": 32.92
+        }
+      ],
+      "start": 32.0,
+      "end": 32.92
+    },
+    {
+      "words": [
+        {
+          "word": "honey",
+          "start": 32.92,
+          "end": 33.16
+        },
+        {
+          "word": "will",
+          "start": 33.16,
+          "end": 33.46
+        },
+        {
+          "word": "outlive",
+          "start": 33.46,
+          "end": 34.0
+        }
+      ],
+      "start": 32.92,
+      "end": 34.0
+    },
+    {
+      "words": [
+        {
+          "word": "you,",
+          "start": 34.0,
+          "end": 34.42
+        },
+        {
+          "word": "your",
+          "start": 34.78,
+          "end": 34.9
+        },
+        {
+          "word": "kids,",
+          "start": 34.9,
+          "end": 35.28
+        }
+      ],
+      "start": 34.0,
+      "end": 35.28
+    },
+    {
+      "words": [
+        {
+          "word": "and",
+          "start": 35.68,
+          "end": 35.9
+        },
+        {
+          "word": "their",
+          "start": 35.9,
+          "end": 36.14
+        },
+        {
+          "word": "kids.",
+          "start": 36.14,
+          "end": 36.56
+        }
+      ],
+      "start": 35.68,
+      "end": 36.56
+    },
+    {
+      "words": [
+        {
+          "word": "The",
+          "start": 37.18,
+          "end": 37.26
+        },
+        {
+          "word": "only",
+          "start": 37.26,
+          "end": 37.5
+        },
+        {
+          "word": "enemy",
+          "start": 37.5,
+          "end": 37.74
+        }
+      ],
+      "start": 37.18,
+      "end": 37.74
+    },
+    {
+      "words": [
+        {
+          "word": "of",
+          "start": 37.74,
+          "end": 37.98
+        },
+        {
+          "word": "honey,",
+          "start": 37.98,
+          "end": 38.26
+        },
+        {
+          "word": "heat",
+          "start": 38.7,
+          "end": 38.94
+        }
+      ],
+      "start": 37.74,
+      "end": 38.94
+    },
+    {
+      "words": [
+        {
+          "word": "and",
+          "start": 38.94,
+          "end": 39.2
+        },
+        {
+          "word": "moisture",
+          "start": 39.2,
+          "end": 39.54
+        },
+        {
+          "word": "breaking",
+          "start": 39.54,
+          "end": 39.92
+        }
+      ],
+      "start": 38.94,
+      "end": 39.92
+    },
+    {
+      "words": [
+        {
+          "word": "the",
+          "start": 39.92,
+          "end": 40.2
+        },
+        {
+          "word": "seal.",
+          "start": 40.2,
+          "end": 40.46
+        },
+        {
+          "word": "If",
+          "start": 41.04,
+          "end": 41.16
+        }
+      ],
+      "start": 39.92,
+      "end": 41.16
+    },
+    {
+      "words": [
+        {
+          "word": "you",
+          "start": 41.16,
+          "end": 41.3
+        },
+        {
+          "word": "could",
+          "start": 41.3,
+          "end": 41.48
+        },
+        {
+          "word": "keep",
+          "start": 41.48,
+          "end": 41.7
+        }
+      ],
+      "start": 41.16,
+      "end": 41.7
+    },
+    {
+      "words": [
+        {
+          "word": "one",
+          "start": 41.7,
+          "end": 42.04
+        },
+        {
+          "word": "food",
+          "start": 42.04,
+          "end": 42.46
+        },
+        {
+          "word": "fresh",
+          "start": 42.46,
+          "end": 42.8
+        }
+      ],
+      "start": 41.7,
+      "end": 42.8
+    },
+    {
+      "words": [
+        {
+          "word": "forever,",
+          "start": 42.8,
+          "end": 43.26
+        },
+        {
+          "word": "would",
+          "start": 43.66,
+          "end": 43.76
+        },
+        {
+          "word": "you",
+          "start": 43.76,
+          "end": 43.92
+        }
+      ],
+      "start": 42.8,
+      "end": 43.92
+    },
+    {
+      "words": [
+        {
+          "word": "choose",
+          "start": 43.92,
+          "end": 44.16
+        },
+        {
+          "word": "honey",
+          "start": 44.16,
+          "end": 44.46
+        },
+        {
+          "word": "or",
+          "start": 44.46,
+          "end": 44.8
+        }
+      ],
+      "start": 43.92,
+      "end": 44.8
+    },
+    {
+      "words": [
+        {
+          "word": "something",
+          "start": 44.8,
+          "end": 45.18
+        },
+        {
+          "word": "completely",
+          "start": 45.18,
+          "end": 45.74
+        },
+        {
+          "word": "different?",
+          "start": 45.74,
+          "end": 46.1
+        }
+      ],
+      "start": 44.8,
+      "end": 46.1
+    }
+  ],
+  "total_duration": 46.1
+}

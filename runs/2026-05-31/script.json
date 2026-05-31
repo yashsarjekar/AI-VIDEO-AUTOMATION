@@ -1,0 +1,39 @@
+{
+  "hook": "One food has never spoiled in 3,000 years. Ever.",
+  "scenes": [
+    {
+      "line": "Archaeologists cracked open Egyptian tombs and found jars of honey.",
+      "visual_prompt": "Stone sarcophagus interior, golden light filtering across dusty ancient pottery vessels, hieroglyphics barely visible on ceramic jars"
+    },
+    {
+      "line": "These jars had been sealed since the pharaohs ruled Egypt.",
+      "visual_prompt": "Overhead shot of weathered clay vessels with wax seals intact, surrounded by sand and stone, sunlight casting long shadows"
+    },
+    {
+      "line": "Scientists tasted it. The honey was completely fresh. Perfectly edible.",
+      "visual_prompt": "Close-up of golden amber honey being spooned, light refracting through the translucent liquid, viscous and glistening"
+    },
+    {
+      "line": "Your yogurt expires in three weeks. This honey has survived empires.",
+      "visual_prompt": "Split-screen: modern grocery shelf with dated products on one side, ancient Egyptian tomb cross-section on the other"
+    },
+    {
+      "line": "Here's why: honey has almost zero water. Bacteria cannot survive in it.",
+      "visual_prompt": "Microscopic view of crystalline honey structure, magnified crystals catching light, molecular simplicity visualized"
+    },
+    {
+      "line": "It's so antimicrobial that Egyptians actually used it to mummify bodies.",
+      "visual_prompt": "Silhouette of wrapped mummy figure against warm golden light, suggesting preservation and timelessness"
+    },
+    {
+      "line": "A sealed jar of honey will outlive you, your kids, and their kids.",
+      "visual_prompt": "Single golden honey jar on dark shelf, dust particles floating in warm light around it, suggesting infinite time passing"
+    },
+    {
+      "line": "The only enemy of honey? Heat and moisture breaking the seal.",
+      "visual_prompt": "Honey jar with broken wax seal, moisture droplets forming on glass, warm glow suggesting exposure"
+    }
+  ],
+  "cta": "If you could keep one food fresh forever, would you choose honey or something completely different?",
+  "uncertain_claims": false
+}
