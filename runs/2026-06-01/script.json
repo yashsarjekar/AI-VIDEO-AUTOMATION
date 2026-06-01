@@ -1,0 +1,35 @@
+{
+  "hook": "Sloths lose thirty percent of body weight in one bathroom trip",
+  "scenes": [
+    {
+      "line": "A sloth spends most of its life hanging motionless in rainforest canopies.",
+      "visual_prompt": "A three-toed sloth clinging to a thick tree branch, surrounded by dense green leaves and vines, dappled sunlight filtering through the canopy, absolutely still and serene."
+    },
+    {
+      "line": "They move so slowly that algae grows on their fur, turning them green.",
+      "visual_prompt": "Close-up of sloth fur with moss and algae visibly coating the hair strands, creating a greenish-brown camouflage pattern blending into tree bark and lichen."
+    },
+    {
+      "line": "But here's the weird part: they only poop once every seven days.",
+      "visual_prompt": "A calendar page showing seven days passing, with a glowing red circle around day seven, surrounded by question marks and symbols of biological urgency."
+    },
+    {
+      "line": "When they finally go, they literally shed up to a third of their weight.",
+      "visual_prompt": "An illustrated silhouette of a sloth split in two—one side full and heavy, the other noticeably smaller and lighter, with a downward arrow between them showing the dramatic reduction."
+    },
+    {
+      "line": "This weekly toilet trip forces them down to the forest floor, exposing them.",
+      "visual_prompt": "A sloth descending a massive tree trunk toward shadowy undergrowth below, surrounded by looming predator silhouettes—jaguars and snakes—waiting in the leafy darkness."
+    },
+    {
+      "line": "Poachers and predators now hunt sloths specifically during these vulnerable moments.",
+      "visual_prompt": "Dark silhouettes of armed figures moving through misty rainforest undergrowth, with camera traps and nets visible among tangled roots and fallen leaves."
+    },
+    {
+      "line": "Their bizarre digestive system—designed for a leafy diet—is now their downfall.",
+      "visual_prompt": "An anatomical cross-section diagram showing a sloth's enlarged stomach and slow digestive tract, with clock symbols indicating the week-long processing time, fading into a fading rainforest landscape."
+    }
+  ],
+  "cta": "Would you risk weekly exposure to predators for that kind of digestive efficiency, or is weekly bathroom trips worth the danger?",
+  "uncertain_claims": false
+}

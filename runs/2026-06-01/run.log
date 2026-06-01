@@ -4,3 +4,92 @@
 2026-06-01 18:57:58.795 | INFO     | src.topic_generator:166 — Topic generation attempt 1/3
 2026-06-01 18:58:00.911 | INFO     | src.topic_generator:189 — Haiku usage — in:573 out:99 cost:$0.00027
 2026-06-01 18:58:00.911 | SUCCESS  | src.topic_generator:205 — Topic generated: 'Sloths only defecate once a week and lose up to 30% of their body weight when they do' [biology]
+2026-06-01 18:58:02.394 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-01 18:58:02.394 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-01 18:58:02.414 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Sloths only defecate once a week and lose up to 30% of their body weight when they do'
+2026-06-01 18:58:08.728 | INFO     | src.script_writer:232 — Haiku usage — in:903 out:601 cost:$0.00098
+2026-06-01 18:58:08.728 | SUCCESS  | src.script_writer:279 — Script generated: 7 scenes, hook='Sloths lose thirty percent of body weight in one b...'
+2026-06-01 18:58:08.729 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-01 18:58:08.729 | INFO     | src.visual_generator:240 — Generating image for scene 01/7
+2026-06-01 18:58:08.729 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-01 18:58:10.607 | INFO     | src.visual_generator:110 — Pollinations OK scene 01 (576×1024, 120 KB)
+2026-06-01 18:58:10.716 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (431 KB)
+2026-06-01 18:58:10.716 | INFO     | src.visual_generator:240 — Generating image for scene 02/7
+2026-06-01 18:58:10.716 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-01 18:58:55.799 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 02
+2026-06-01 18:58:57.799 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-01 18:59:40.105 | INFO     | src.visual_generator:110 — Pollinations OK scene 02 (576×1024, 135 KB)
+2026-06-01 18:59:40.211 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (470 KB)
+2026-06-01 18:59:40.211 | INFO     | src.visual_generator:240 — Generating image for scene 03/7
+2026-06-01 18:59:40.211 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-01 19:00:25.298 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 03
+2026-06-01 19:00:27.298 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-01 19:01:10.128 | INFO     | src.visual_generator:110 — Pollinations OK scene 03 (576×1024, 69 KB)
+2026-06-01 19:01:10.230 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (256 KB)
+2026-06-01 19:01:10.230 | INFO     | src.visual_generator:240 — Generating image for scene 04/7
+2026-06-01 19:01:10.230 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-01 19:01:55.306 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 04
+2026-06-01 19:01:57.306 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-01 19:02:40.475 | INFO     | src.visual_generator:110 — Pollinations OK scene 04 (576×1024, 50 KB)
+2026-06-01 19:02:40.570 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (190 KB)
+2026-06-01 19:02:40.570 | INFO     | src.visual_generator:240 — Generating image for scene 05/7
+2026-06-01 19:02:40.571 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 05
+2026-06-01 19:03:25.643 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 05
+2026-06-01 19:03:27.643 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 05
+2026-06-01 19:04:11.001 | INFO     | src.visual_generator:110 — Pollinations OK scene 05 (576×1024, 107 KB)
+2026-06-01 19:04:11.101 | SUCCESS  | src.visual_generator:257 — Scene 05 saved → scene_05.jpg (392 KB)
+2026-06-01 19:04:11.101 | INFO     | src.visual_generator:240 — Generating image for scene 06/7
+2026-06-01 19:04:11.101 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 06
+2026-06-01 19:04:56.183 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 06
+2026-06-01 19:04:58.183 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 06
+2026-06-01 19:05:40.404 | INFO     | src.visual_generator:110 — Pollinations OK scene 06 (576×1024, 102 KB)
+2026-06-01 19:05:40.507 | SUCCESS  | src.visual_generator:257 — Scene 06 saved → scene_06.jpg (352 KB)
+2026-06-01 19:05:40.508 | INFO     | src.visual_generator:240 — Generating image for scene 07/7
+2026-06-01 19:05:40.508 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 07
+2026-06-01 19:06:25.567 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 07
+2026-06-01 19:06:27.567 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 07
+2026-06-01 19:07:10.202 | INFO     | src.visual_generator:110 — Pollinations OK scene 07 (576×1024, 119 KB)
+2026-06-01 19:07:10.306 | SUCCESS  | src.visual_generator:257 — Scene 07 saved → scene_07.jpg (428 KB)
+2026-06-01 19:07:10.306 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-01 19:07:10.325 | INFO     | src.voice_generator:167 — Generating 9 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-01 19:07:10.325 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Sloths lose thirty percent of body weight in one bathroom tr…'
+2026-06-01 19:07:11.960 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (64 KB)
+2026-06-01 19:07:11.960 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'A sloth spends most of its life hanging motionless in rainfo…'
+2026-06-01 19:07:12.256 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (75 KB)
+2026-06-01 19:07:12.256 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'They move so slowly that algae grows on their fur, turning t…'
+2026-06-01 19:07:12.537 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (71 KB)
+2026-06-01 19:07:12.537 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'But here's the weird part: they only poop once every seven d…'
+2026-06-01 19:07:12.799 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (59 KB)
+2026-06-01 19:07:12.799 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'When they finally go, they literally shed up to a third of t…'
+2026-06-01 19:07:13.112 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (66 KB)
+2026-06-01 19:07:13.113 | INFO     | src.voice_generator:78 —   TTS → voice_05.mp3: 'This weekly toilet trip forces them down to the forest floor…'
+2026-06-01 19:07:13.435 | DEBUG    | src.voice_generator:81 —   Saved voice_05.mp3 (73 KB)
+2026-06-01 19:07:13.435 | INFO     | src.voice_generator:78 —   TTS → voice_06.mp3: 'Poachers and predators now hunt sloths specifically during t…'
+2026-06-01 19:07:13.713 | DEBUG    | src.voice_generator:81 —   Saved voice_06.mp3 (79 KB)
+2026-06-01 19:07:13.713 | INFO     | src.voice_generator:78 —   TTS → voice_07.mp3: 'Their bizarre digestive system—designed for a leafy diet—is …'
+2026-06-01 19:07:13.999 | DEBUG    | src.voice_generator:81 —   Saved voice_07.mp3 (80 KB)
+2026-06-01 19:07:13.999 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'Would you risk weekly exposure to predators for that kind of…'
+2026-06-01 19:07:14.391 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (120 KB)
+2026-06-01 19:07:14.393 | INFO     | src.voice_generator:177 — ElevenLabs: 709 chars, estimated cost $0.21270
+2026-06-01 19:07:16.099 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (44.8s, 701 KB)
+2026-06-01 19:07:16.099 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-01 19:07:16.170 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-01 19:07:16.969 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-01 19:07:27.078 | INFO     | src.caption_generator:57 — Transcription complete: 120 words, 44.8s audio, language=en
+2026-06-01 19:07:27.092 | SUCCESS  | src.caption_generator:166 — Captions saved: 40 chunks, 120 words, 44.4s total
+2026-06-01 19:07:27.092 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-01 19:07:28.008 | INFO     | src.video_builder:319 — Clip schedule: 9 segments, 44.8s total
+2026-06-01 19:07:28.009 | INFO     | src.video_builder:118 — ASS file written: captions.ass (120 dialogue lines)
+2026-06-01 19:07:28.010 | INFO     | src.video_builder:168 — Music: soundgalleryby-halloween-fun-116552.mp3
+2026-06-01 19:07:59.211 | SUCCESS  | src.video_builder:274 — final.mp4 → 9.2 MB
+2026-06-01 19:07:59.211 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-01 19:07:59.233 | INFO     | src.metadata_generator:264 — Metadata generation attempt 1/3
+2026-06-01 19:08:08.026 | INFO     | src.metadata_generator:288 — Haiku usage — in:1039 out:782 cost:$0.00124
+2026-06-01 19:08:08.027 | SUCCESS  | src.metadata_generator:324 — Metadata generated: title='Sloths Lose 30% Body Weight Weekly #shorts' (42 chars)
+2026-06-01 19:08:08.030 | INFO     | __main__:144 — --- Stage 8: uploader ---
+2026-06-01 19:08:08.208 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-06-01 19:08:09.486 | INFO     | src.uploader:122 — YouTube upload progress: 43%
+2026-06-01 19:08:09.741 | INFO     | src.uploader:122 — YouTube upload progress: 86%
+2026-06-01 19:08:10.818 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/ZbVrud2npgU
+2026-06-01 19:08:10.821 | INFO     | __main__:155 — Total estimated API cost for 2026-06-01: $0.2152
+2026-06-01 19:08:11.571 | WARNING  | __main__:163 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.
