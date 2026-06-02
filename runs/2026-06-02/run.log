@@ -4,3 +4,96 @@
 2026-06-02 06:08:43.069 | INFO     | src.topic_generator:166 — Topic generation attempt 1/3
 2026-06-02 06:08:44.502 | INFO     | src.topic_generator:189 — Haiku usage — in:642 out:96 cost:$0.00028
 2026-06-02 06:08:44.502 | SUCCESS  | src.topic_generator:205 — Topic generated: 'Wombats produce cube-shaped droppings that don't roll away' [biology]
+2026-06-02 06:08:45.868 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-02 06:08:45.868 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-02 06:08:45.889 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Wombats produce cube-shaped droppings that don't roll away'
+2026-06-02 06:08:52.618 | INFO     | src.script_writer:232 — Haiku usage — in:896 out:585 cost:$0.00096
+2026-06-02 06:08:52.619 | SUCCESS  | src.script_writer:279 — Script generated: 7 scenes, hook='Wombats literally poop cubes. And it's completely ...'
+2026-06-02 06:08:52.619 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-02 06:08:52.619 | INFO     | src.visual_generator:240 — Generating image for scene 01/7
+2026-06-02 06:08:52.619 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-02 06:08:55.421 | INFO     | src.visual_generator:110 — Pollinations OK scene 01 (576×1024, 102 KB)
+2026-06-02 06:08:55.524 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (369 KB)
+2026-06-02 06:08:55.524 | INFO     | src.visual_generator:240 — Generating image for scene 02/7
+2026-06-02 06:08:55.524 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-02 06:09:40.614 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 02
+2026-06-02 06:09:42.614 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-02 06:10:24.231 | INFO     | src.visual_generator:110 — Pollinations OK scene 02 (576×1024, 102 KB)
+2026-06-02 06:10:24.326 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (373 KB)
+2026-06-02 06:10:24.326 | INFO     | src.visual_generator:240 — Generating image for scene 03/7
+2026-06-02 06:10:24.326 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-02 06:11:09.392 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 03
+2026-06-02 06:11:11.392 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-02 06:11:54.052 | INFO     | src.visual_generator:110 — Pollinations OK scene 03 (576×1024, 63 KB)
+2026-06-02 06:11:54.145 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (244 KB)
+2026-06-02 06:11:54.145 | INFO     | src.visual_generator:240 — Generating image for scene 04/7
+2026-06-02 06:11:54.145 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-02 06:12:39.226 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 04
+2026-06-02 06:12:41.227 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-02 06:13:26.363 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 2 for scene 04
+2026-06-02 06:13:31.363 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 04
+2026-06-02 06:13:31.895 | INFO     | src.visual_generator:110 — Pollinations OK scene 04 (576×1024, 51 KB)
+2026-06-02 06:13:31.987 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (189 KB)
+2026-06-02 06:13:31.987 | INFO     | src.visual_generator:240 — Generating image for scene 05/7
+2026-06-02 06:13:31.987 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 05
+2026-06-02 06:14:17.073 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 05
+2026-06-02 06:14:19.073 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 05
+2026-06-02 06:15:04.219 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 2 for scene 05
+2026-06-02 06:15:09.219 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 05
+2026-06-02 06:15:09.932 | INFO     | src.visual_generator:110 — Pollinations OK scene 05 (576×1024, 111 KB)
+2026-06-02 06:15:10.029 | SUCCESS  | src.visual_generator:257 — Scene 05 saved → scene_05.jpg (384 KB)
+2026-06-02 06:15:10.029 | INFO     | src.visual_generator:240 — Generating image for scene 06/7
+2026-06-02 06:15:10.029 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 06
+2026-06-02 06:15:55.160 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 06
+2026-06-02 06:15:57.160 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 06
+2026-06-02 06:16:30.467 | INFO     | src.visual_generator:110 — Pollinations OK scene 06 (576×1024, 93 KB)
+2026-06-02 06:16:30.560 | SUCCESS  | src.visual_generator:257 — Scene 06 saved → scene_06.jpg (342 KB)
+2026-06-02 06:16:30.560 | INFO     | src.visual_generator:240 — Generating image for scene 07/7
+2026-06-02 06:16:30.561 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 07
+2026-06-02 06:17:15.614 | WARNING  | src.visual_generator:117 — Pollinations timeout on attempt 1 for scene 07
+2026-06-02 06:17:17.614 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 07
+2026-06-02 06:17:54.854 | INFO     | src.visual_generator:110 — Pollinations OK scene 07 (576×1024, 139 KB)
+2026-06-02 06:17:54.951 | SUCCESS  | src.visual_generator:257 — Scene 07 saved → scene_07.jpg (479 KB)
+2026-06-02 06:17:54.951 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-02 06:17:54.970 | INFO     | src.voice_generator:167 — Generating 9 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-02 06:17:54.971 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Wombats literally poop cubes. And it's completely intentiona…'
+2026-06-02 06:17:55.458 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (64 KB)
+2026-06-02 06:17:55.458 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'Most animals' droppings are round or tubular—they roll every…'
+2026-06-02 06:17:55.768 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (102 KB)
+2026-06-02 06:17:55.769 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'Wombats evolved something different: six-sided, perfectly ge…'
+2026-06-02 06:17:56.105 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (107 KB)
+2026-06-02 06:17:56.105 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'The cubes don't roll. They stay exactly where the wombat lea…'
+2026-06-02 06:17:56.383 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (82 KB)
+2026-06-02 06:17:56.383 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'This is genius communication. Other wombats see these stacke…'
+2026-06-02 06:17:56.695 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (97 KB)
+2026-06-02 06:17:56.695 | INFO     | src.voice_generator:78 —   TTS → voice_05.mp3: 'Scientists discovered the secret: unique intestinal muscles …'
+2026-06-02 06:17:57.012 | DEBUG    | src.voice_generator:81 —   Saved voice_05.mp3 (124 KB)
+2026-06-02 06:17:57.012 | INFO     | src.voice_generator:78 —   TTS → voice_06.mp3: 'The flat edges also reduce surface area, so less moisture es…'
+2026-06-02 06:17:57.325 | DEBUG    | src.voice_generator:81 —   Saved voice_06.mp3 (103 KB)
+2026-06-02 06:17:57.325 | INFO     | src.voice_generator:78 —   TTS → voice_07.mp3: 'Nature engineered the perfect combination: a message that wo…'
+2026-06-02 06:17:57.680 | DEBUG    | src.voice_generator:81 —   Saved voice_07.mp3 (97 KB)
+2026-06-02 06:17:57.680 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'Would you rather have wombat poop engineering or a superpowe…'
+2026-06-02 06:17:57.941 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (69 KB)
+2026-06-02 06:17:57.943 | INFO     | src.voice_generator:177 — ElevenLabs: 823 chars, estimated cost $0.24690
+2026-06-02 06:17:59.500 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (55.0s, 860 KB)
+2026-06-02 06:17:59.500 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-02 06:17:59.564 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-02 06:18:00.386 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-02 06:18:14.158 | INFO     | src.caption_generator:57 — Transcription complete: 125 words, 55.0s audio, language=en
+2026-06-02 06:18:14.168 | SUCCESS  | src.caption_generator:166 — Captions saved: 42 chunks, 125 words, 54.6s total
+2026-06-02 06:18:14.168 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-02 06:18:14.989 | INFO     | src.video_builder:319 — Clip schedule: 9 segments, 55.0s total
+2026-06-02 06:18:14.990 | INFO     | src.video_builder:118 — ASS file written: captions.ass (125 dialogue lines)
+2026-06-02 06:18:14.991 | INFO     | src.video_builder:168 — Music: the_mountain-technology-485572.mp3
+2026-06-02 06:18:53.606 | SUCCESS  | src.video_builder:274 — final.mp4 → 10.2 MB
+2026-06-02 06:18:53.607 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-02 06:18:53.628 | INFO     | src.metadata_generator:264 — Metadata generation attempt 1/3
+2026-06-02 06:19:06.292 | INFO     | src.metadata_generator:288 — Haiku usage — in:1028 out:1054 cost:$0.00157
+2026-06-02 06:19:06.293 | SUCCESS  | src.metadata_generator:324 — Metadata generated: title='Wombats Poop Cubes (And It's Genius) #shorts' (44 chars)
+2026-06-02 06:19:06.296 | INFO     | __main__:144 — --- Stage 8: uploader ---
+2026-06-02 06:19:06.452 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-06-02 06:19:07.528 | INFO     | src.uploader:122 — YouTube upload progress: 39%
+2026-06-02 06:19:07.700 | INFO     | src.uploader:122 — YouTube upload progress: 78%
+2026-06-02 06:19:08.241 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/gRwBTsRT-7c
+2026-06-02 06:19:08.243 | INFO     | __main__:155 — Total estimated API cost for 2026-06-02: $0.2497
+2026-06-02 06:19:08.876 | WARNING  | __main__:163 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

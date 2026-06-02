@@ -1,0 +1,35 @@
+{
+  "hook": "Wombats literally poop cubes. And it's completely intentional.",
+  "scenes": [
+    {
+      "line": "Most animals' droppings are round or tubular—they roll everywhere, spread disease, mark territory poorly.",
+      "visual_prompt": "Close-up of various cylindrical and spherical animal droppings on rocky terrain, casting shadows, slightly glistening under sunlight"
+    },
+    {
+      "line": "Wombats evolved something different: six-sided, perfectly geometric feces that stack like building blocks.",
+      "visual_prompt": "A stack of three cube-shaped brown objects on a flat gray rock surface, each cube precisely aligned, sunlight highlighting sharp edges"
+    },
+    {
+      "line": "The cubes don't roll. They stay exactly where the wombat leaves them—on top of logs,",
+      "visual_prompt": "A single brown cube-shaped dropping balanced on the edge of a moss-covered log, poised over a misty forest floor far below"
+    },
+    {
+      "line": "This is genius communication. Other wombats see these stacked markers from far away and know:",
+      "visual_prompt": "Wide shot of a hillside at dusk with three visible cube droppings positioned on prominent rocks, silhouetted against orange sky"
+    },
+    {
+      "line": "Scientists discovered the secret: unique intestinal muscles contract in specific patterns, literally sculpting the poop",
+      "visual_prompt": "Cross-section diagram showing wombat intestines with rippling purple and blue muscle contractions, geometric shapes forming inside the tract"
+    },
+    {
+      "line": "The flat edges also reduce surface area, so less moisture escapes. Smart water conservation in",
+      "visual_prompt": "Split-screen: a round dropping drying to dust in harsh sunlight versus a cube dropping retaining moisture, time-lapse effect"
+    },
+    {
+      "line": "Nature engineered the perfect combination: a message that won't roll away, in a shape that",
+      "visual_prompt": "Aerial view of several cube droppings scattered across rocky outcrop, casting long shadows, arranged in a natural but deliberate-looking pattern"
+    }
+  ],
+  "cta": "Would you rather have wombat poop engineering or a superpower—and why?",
+  "uncertain_claims": false
+}
