@@ -1,10 +1,7 @@
 name: Daily Video Run
 
 on:
-  schedule:
-    - cron: "0 19 * * *"
-      timezone: "Asia/Kolkata"  # 7:00 PM IST
-  workflow_dispatch:        # allow manual triggers
+  workflow_dispatch:        # manual trigger only
 
 permissions:
   contents: write           # needed for git push back
