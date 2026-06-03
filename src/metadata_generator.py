@@ -81,7 +81,7 @@ follow it exactly.
 - Example pattern: "9 Seconds Changed Human Evolution Forever #shorts"
 
 === YOUTUBE DESCRIPTION RULES ===
-- 200–300 words total.
+- 150–250 words total.
 - First two lines restate the hook (shown in search previews — make them count).
 - Three paragraphs expanding the fact with context, mechanism, and implications.
 - One clear CTA asking a specific question.
@@ -194,9 +194,9 @@ def _parse_metadata(raw: dict, run_date: str) -> MetadataOutput:
 
     # Description word count check
     word_count = len(yt.description.split())
-    if not (200 <= word_count <= 350):  # 350 gives slight tolerance over 300
+    if not (150 <= word_count <= 300):
         raise ValueError(
-            f"YouTube description word count {word_count} outside 200–300 target"
+            f"YouTube description word count {word_count} outside 150–250 target"
         )
 
     # Programmatic title deduplication — exact match against published titles
