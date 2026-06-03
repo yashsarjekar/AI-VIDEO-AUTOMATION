@@ -2,9 +2,9 @@ niche: "facts and trivia"
 language: "en"
 
 video:
-  duration_target_seconds: 45
-  scenes_min: 6
-  scenes_max: 8
+  duration_target_seconds: 20
+  scenes_min: 3
+  scenes_max: 4
 
 tts:
   voice_id: "G7TccQtlTpqEjj8nj6X4"

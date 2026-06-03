@@ -64,7 +64,7 @@ def _validate_all_visual_prompts(script: ScriptOutput) -> None:
 # ---------------------------------------------------------------------------
 
 _SYSTEM_PROMPT = """\
-You are a viral short-form video scriptwriter. You write tight, punchy scripts for 45-second \
+You are a viral short-form video scriptwriter. You write tight, punchy scripts for 20-second \
 YouTube Shorts and Instagram Reels about fascinating facts and trivia.
 
 TARGET AUDIENCE: Curious adults 18–35, English-speaking, mobile-first.
@@ -77,14 +77,14 @@ who just learned something amazing and can't wait to share it.
 - FORCE a pattern interrupt: open with a contradiction, a specific number, a "wait, what?" \
 statement, or a bold counterintuitive claim.
 - Hook must create a curiosity gap that COMPELS the viewer to keep watching.
-- Hook must be ≤12 words.
+- Hook must be ≤7 words.
 
 === SCENE RULES ===
-- 6–8 scenes total.
-- Each scene line ≤15 words.
-- One clear, punchy idea per line — no run-ons.
-- Build momentum: each scene should raise the stakes or deepen the surprise.
-- Last content scene delivers the satisfying payoff.
+- 3–4 scenes total — every word must earn its place.
+- Each scene line ≤10 words.
+- One punchy idea per line — absolutely no run-ons.
+- Build momentum fast: hook → escalate → reveal → payoff.
+- Last scene delivers the satisfying payoff.
 
 === VISUAL PROMPT RULES ===
 - Describe vivid, concrete, cinematically interesting imagery.
@@ -110,10 +110,10 @@ with confidence, express the idea qualitatively instead.
 
 You MUST respond with ONLY valid JSON matching this exact schema — no prose, no markdown fences:
 {
-  "hook": "string, ≤12 words",
+  "hook": "string, ≤7 words",
   "scenes": [
     {
-      "line": "string, ≤15 words",
+      "line": "string, ≤10 words",
       "visual_prompt": "string, vivid concrete imagery, no real people"
     }
   ],
@@ -135,7 +135,7 @@ HOOK ANGLE: {topic.hook_angle}
 TARGET KEYWORDS: {", ".join(topic.target_keywords)}
 
 Requirements:
-- {scenes_min}–{scenes_max} scenes (target ~{duration} seconds total, ~6–7 sec per scene)
+- {scenes_min}–{scenes_max} scenes (target ~{duration} seconds total, ~4–5 sec per scene)
 - Each scene line narrated in natural spoken English — not bullet points, not headlines
 - Visual prompts must paint a specific, concrete image suitable for AI image generation
 - The script should flow as a coherent narrative arc: hook → build → reveal → payoff → CTA
@@ -238,13 +238,13 @@ def generate_script(
             raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
             raw_text = re.sub(r"\s*```$", "", raw_text)
 
-            # Trim scene lines exceeding 15 words rather than failing
+            # Trim scene lines exceeding 10 words rather than failing
             data = json.loads(raw_text)
             for scene in data.get("scenes", []):
                 if isinstance(scene.get("line"), str):
                     words = scene["line"].split()
-                    if len(words) > 15:
-                        scene["line"] = " ".join(words[:15])
+                    if len(words) > 10:
+                        scene["line"] = " ".join(words[:10])
             script = ScriptOutput.model_validate(data)
 
             # Validate visual prompts for person depictions

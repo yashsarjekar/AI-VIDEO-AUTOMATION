@@ -46,14 +46,14 @@ class SceneScript(BaseModel):
     @classmethod
     def validate_line_word_count(cls, v: str) -> str:
         words = v.split()
-        if len(words) > 15:
-            raise ValueError(f"scene line must be ≤15 words, got {len(words)}: '{v}'")
+        if len(words) > 10:
+            raise ValueError(f"scene line must be ≤10 words, got {len(words)}: '{v}'")
         return v
 
 
 class ScriptOutput(BaseModel):
     hook: str = Field(..., min_length=5, max_length=100)
-    scenes: Annotated[list[SceneScript], Field(min_length=6, max_length=8)]
+    scenes: Annotated[list[SceneScript], Field(min_length=3, max_length=4)]
     cta: str = Field(..., min_length=10, max_length=200)
     uncertain_claims: bool = Field(
         default=False,
@@ -64,8 +64,8 @@ class ScriptOutput(BaseModel):
     @classmethod
     def validate_hook_word_count(cls, v: str) -> str:
         words = v.split()
-        if len(words) > 12:
-            raise ValueError(f"hook must be ≤12 words, got {len(words)}: '{v}'")
+        if len(words) > 7:
+            raise ValueError(f"hook must be ≤7 words, got {len(words)}: '{v}'")
         return v
 
     @field_validator("cta")
@@ -81,8 +81,8 @@ class ScriptOutput(BaseModel):
     @model_validator(mode="after")
     def validate_scene_count(self) -> "ScriptOutput":
         n = len(self.scenes)
-        if not (6 <= n <= 8):
-            raise ValueError(f"scenes must be 6–8, got {n}")
+        if not (3 <= n <= 4):
+            raise ValueError(f"scenes must be 3–4, got {n}")
         return self
 
 
