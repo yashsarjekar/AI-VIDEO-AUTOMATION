@@ -4,3 +4,6 @@
 2026-06-03 18:38:17.243 | INFO     | src.topic_generator:166 — Topic generation attempt 1/3
 2026-06-03 18:38:20.086 | INFO     | src.topic_generator:189 — Haiku usage — in:628 out:108 cost:$0.00029
 2026-06-03 18:38:20.087 | SUCCESS  | src.topic_generator:205 — Topic generated: 'Octopuses can taste with their arms because their suckers contain chemoreceptors' [biology]
+2026-06-03 18:43:04.453 | INFO     | __main__:96 — === Daily run starting: 2026-06-03 ===
+2026-06-03 18:43:04.456 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
+2026-06-03 18:43:04.456 | INFO     | src.topic_generator:150 — Topic already generated for 2026-06-03, loading from cache.
