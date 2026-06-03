@@ -7,3 +7,88 @@
 2026-06-03 18:43:04.453 | INFO     | __main__:96 — === Daily run starting: 2026-06-03 ===
 2026-06-03 18:43:04.456 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
 2026-06-03 18:43:04.456 | INFO     | src.topic_generator:150 — Topic already generated for 2026-06-03, loading from cache.
+2026-06-03 18:43:05.666 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-03 18:43:05.667 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-03 18:43:05.705 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Octopuses can taste with their arms because their suckers contain chemoreceptors'
+2026-06-03 18:43:09.946 | INFO     | src.script_writer:232 — Haiku usage — in:912 out:372 cost:$0.00069
+2026-06-03 18:43:09.947 | SUCCESS  | src.script_writer:279 — Script generated: 4 scenes, hook='Your octopus tastes with its arms...'
+2026-06-03 18:43:09.947 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-03 18:43:09.947 | INFO     | src.visual_generator:240 — Generating image for scene 01/4
+2026-06-03 18:43:09.947 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-03 18:43:10.355 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-03 18:43:12.356 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 01
+2026-06-03 18:43:12.629 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-03 18:43:17.629 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 01
+2026-06-03 18:43:17.909 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-03 18:43:17.910 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 01, trying Pexels fallback.
+2026-06-03 18:43:17.911 | INFO     | src.visual_generator:150 — Pexels fallback for scene 01, query='Close-up octopus arm extending'
+2026-06-03 18:43:18.417 | INFO     | src.visual_generator:182 — Pexels OK scene 01 (800×1200) via 'Close-up octopus arm extending'
+2026-06-03 18:43:18.522 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (244 KB)
+2026-06-03 18:43:18.523 | INFO     | src.visual_generator:240 — Generating image for scene 02/4
+2026-06-03 18:43:18.523 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-03 18:43:18.794 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-03 18:43:20.794 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-03 18:43:21.074 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-03 18:43:26.075 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 02
+2026-06-03 18:43:26.548 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-03 18:43:26.550 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 02, trying Pexels fallback.
+2026-06-03 18:43:26.550 | INFO     | src.visual_generator:150 — Pexels fallback for scene 02, query='Macro cross-section illustration single'
+2026-06-03 18:43:27.437 | INFO     | src.visual_generator:182 — Pexels OK scene 02 (800×1200) via 'Macro cross-section illustration single'
+2026-06-03 18:43:27.535 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (149 KB)
+2026-06-03 18:43:27.535 | INFO     | src.visual_generator:240 — Generating image for scene 03/4
+2026-06-03 18:43:27.535 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-03 18:43:27.862 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-03 18:43:29.863 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-03 18:43:30.159 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-03 18:43:35.159 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 03
+2026-06-03 18:43:35.466 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-03 18:43:35.469 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 03, trying Pexels fallback.
+2026-06-03 18:43:35.469 | INFO     | src.visual_generator:150 — Pexels fallback for scene 03, query='octopus arm unfurling across'
+2026-06-03 18:43:35.783 | INFO     | src.visual_generator:182 — Pexels OK scene 03 (800×1200) via 'octopus arm unfurling across'
+2026-06-03 18:43:35.883 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (244 KB)
+2026-06-03 18:43:35.883 | INFO     | src.visual_generator:240 — Generating image for scene 04/4
+2026-06-03 18:43:35.884 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-03 18:43:36.159 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-03 18:43:38.160 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-03 18:43:38.610 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-03 18:43:43.610 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 04
+2026-06-03 18:43:43.878 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-03 18:43:43.881 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 04, trying Pexels fallback.
+2026-06-03 18:43:43.881 | INFO     | src.visual_generator:150 — Pexels fallback for scene 04, query='octopus arm wrapping around'
+2026-06-03 18:43:44.189 | INFO     | src.visual_generator:182 — Pexels OK scene 04 (800×1200) via 'octopus arm wrapping around'
+2026-06-03 18:43:44.289 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (244 KB)
+2026-06-03 18:43:44.291 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-03 18:43:44.312 | INFO     | src.voice_generator:167 — Generating 6 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-03 18:43:44.312 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Your octopus tastes with its arms'
+2026-06-03 18:43:44.532 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (33 KB)
+2026-06-03 18:43:44.532 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'You taste food with your tongue, right? Boring. An octopus?'
+2026-06-03 18:43:44.772 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (63 KB)
+2026-06-03 18:43:44.773 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'Each sucker on an octopus arm has thousands of chemoreceptor'
+2026-06-03 18:43:45.024 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (64 KB)
+2026-06-03 18:43:45.024 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'It's like having taste buds scattered across your entire bod…'
+2026-06-03 18:43:45.259 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (56 KB)
+2026-06-03 18:43:45.259 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'So when it grabs prey, it already knows exactly what'
+2026-06-03 18:43:45.497 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (55 KB)
+2026-06-03 18:43:45.497 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'Would you rather have an octopus's distributed sense of tast…'
+2026-06-03 18:43:45.803 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (84 KB)
+2026-06-03 18:43:45.805 | INFO     | src.voice_generator:177 — ElevenLabs: 357 chars, estimated cost $0.10710
+2026-06-03 18:43:47.026 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (23.2s, 364 KB)
+2026-06-03 18:43:47.026 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-03 18:43:47.157 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-03 18:43:47.969 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-03 18:43:53.308 | INFO     | src.caption_generator:57 — Transcription complete: 61 words, 23.2s audio, language=en
+2026-06-03 18:43:53.318 | SUCCESS  | src.caption_generator:166 — Captions saved: 21 chunks, 61 words, 22.9s total
+2026-06-03 18:43:53.318 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-03 18:43:53.951 | INFO     | src.video_builder:319 — Clip schedule: 6 segments, 23.2s total
+2026-06-03 18:43:53.952 | INFO     | src.video_builder:118 — ASS file written: captions.ass (61 dialogue lines)
+2026-06-03 18:43:53.953 | INFO     | src.video_builder:168 — Music: tremoxbeatz-kugelsicher-by-tremoxbeatz-302838.mp3
+2026-06-03 18:44:08.512 | SUCCESS  | src.video_builder:274 — final.mp4 → 3.1 MB
+2026-06-03 18:44:08.512 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-03 18:44:08.534 | INFO     | src.metadata_generator:264 — Metadata generation attempt 1/3
+2026-06-03 18:44:16.500 | INFO     | src.metadata_generator:288 — Haiku usage — in:1039 out:763 cost:$0.00121
+2026-06-03 18:44:16.501 | SUCCESS  | src.metadata_generator:324 — Metadata generated: title='Octopus Tastes With 8 Arms, Not Its Mouth #shorts' (49 chars)
+2026-06-03 18:44:16.505 | INFO     | __main__:144 — --- Stage 8: uploader ---
+2026-06-03 18:44:16.613 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-06-03 18:44:18.491 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/61Yv4ueYaVM
+2026-06-03 18:44:18.494 | INFO     | __main__:155 — Total estimated API cost for 2026-06-03: $0.1093
+2026-06-03 18:44:18.983 | WARNING  | __main__:163 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

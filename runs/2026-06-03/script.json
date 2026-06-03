@@ -1,0 +1,23 @@
+{
+  "hook": "Your octopus tastes with its arms",
+  "scenes": [
+    {
+      "line": "You taste food with your tongue, right? Boring. An octopus?",
+      "visual_prompt": "Close-up of an octopus arm extending through dark blue water, dozens of translucent suckers visible in sharp detail, each sucker catching bioluminescent light"
+    },
+    {
+      "line": "Each sucker on an octopus arm has thousands of chemoreceptor",
+      "visual_prompt": "Macro cross-section illustration of a single sucker, glowing neural pathways branching through tissue, golden chemoreceptor nodes firing with light"
+    },
+    {
+      "line": "It's like having taste buds scattered across your entire body,",
+      "visual_prompt": "An octopus arm unfurling across a dark seafloor, suckers lighting up like a constellation, each glow representing a taste receptor firing simultaneously"
+    },
+    {
+      "line": "So when it grabs prey, it already knows exactly what",
+      "visual_prompt": "An octopus arm wrapping around a small fish, suckers clamping down, geometric light patterns pulsing from sucker to neural centers"
+    }
+  ],
+  "cta": "Would you rather have an octopus's distributed sense of taste or keep your centralized one?",
+  "uncertain_claims": false
+}
