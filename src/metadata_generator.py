@@ -83,13 +83,18 @@ follow it exactly.
 === YOUTUBE DESCRIPTION RULES ===
 - 150–250 words total.
 - First two lines restate the hook (shown in search previews — make them count).
-- Three paragraphs expanding the fact with context, mechanism, and implications.
+- Two paragraphs expanding the fact with context, mechanism, and implications.
+- One creator-mention line (boosts discoverability via association): \
+"If you enjoy @Veritasium, @Kurzgesagt, @SciShow, @TodayIFoundOut, or @AsapSCIENCE, subscribe for a daily dose of mind-blowing facts!" \
+Pick the 5 most relevant handles for today's category from: \
+@Veritasium, @Kurzgesagt, @SciShow, @TodayIFoundOut, @AsapSCIENCE, @WhatIf, @RealLifeLore, @BrightSide, @factsverse, @interestingfacts.
 - One clear CTA asking a specific question.
-- End with a hashtag block (8–10 hashtags on separate lines).
+- End with a hashtag block — #shorts on the first line, then 7–9 more topic-relevant hashtags, each on its own line.
 - NEVER use markdown headers or bullet lists.
 
 === YOUTUBE TAGS RULES ===
 - Exactly 15 tags.
+- ALWAYS include "shorts" as one of the 15 tags.
 - Mix: 4 broad ("science facts", "did you know", "facts", "educational"),
   7 medium-specificity (niche of today's topic), 4 highly specific to today's topic.
 - No hashtag symbols — plain text only.
@@ -116,7 +121,7 @@ You MUST respond with ONLY valid JSON — no prose, no markdown fences:
 {
   "youtube": {
     "title": "string, ≤60 chars, ends with #shorts",
-    "description": "string, 200-300 words, structured as described",
+    "description": "string, 150-250 words, structured as described",
     "tags": ["string", ...],
     "category_id": 27
   },
@@ -318,6 +323,15 @@ def generate_metadata(
             if isinstance(ig_tags, list) and len(ig_tags) < 25:
                 needed = [t for t in _IG_FALLBACKS if t not in ig_tags]
                 raw["instagram"]["hashtags"] = (ig_tags + needed)[:25]
+
+            # Hard guarantee: "shorts" must be in YouTube tags
+            yt_tags = raw.get("youtube", {}).get("tags", [])
+            if isinstance(yt_tags, list) and "shorts" not in [t.lower() for t in yt_tags]:
+                if len(yt_tags) >= 15:
+                    yt_tags[-1] = "shorts"
+                else:
+                    yt_tags.append("shorts")
+                raw["youtube"]["tags"] = yt_tags
 
             metadata = _parse_metadata(raw, run_date)
 
