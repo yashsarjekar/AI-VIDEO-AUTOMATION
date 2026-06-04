@@ -7,3 +7,88 @@
 2026-06-04 06:36:23.500 | INFO     | __main__:96 — === Daily run starting: 2026-06-04 ===
 2026-06-04 06:36:23.503 | INFO     | __main__:105 — --- Stage 1: topic_generator ---
 2026-06-04 06:36:23.503 | INFO     | src.topic_generator:150 — Topic already generated for 2026-06-04, loading from cache.
+2026-06-04 06:36:24.527 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-04 06:36:24.528 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-04 06:36:24.563 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Penguins have knees hidden under their feathers and can actually bend their legs'
+2026-06-04 06:36:29.362 | INFO     | src.script_writer:232 — Haiku usage — in:908 out:348 cost:$0.00066
+2026-06-04 06:36:29.363 | SUCCESS  | src.script_writer:279 — Script generated: 4 scenes, hook='Penguins are hiding knees under feathers...'
+2026-06-04 06:36:29.363 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-04 06:36:29.364 | INFO     | src.visual_generator:240 — Generating image for scene 01/4
+2026-06-04 06:36:29.364 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-04 06:36:29.731 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-04 06:36:31.731 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 01
+2026-06-04 06:36:32.008 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-04 06:36:37.009 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 01
+2026-06-04 06:36:37.288 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-04 06:36:37.289 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 01, trying Pexels fallback.
+2026-06-04 06:36:37.289 | INFO     | src.visual_generator:150 — Pexels fallback for scene 01, query='sleek penguin waddling across'
+2026-06-04 06:36:37.723 | INFO     | src.visual_generator:182 — Pexels OK scene 01 (800×1200) via 'sleek penguin waddling across'
+2026-06-04 06:36:37.839 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (207 KB)
+2026-06-04 06:36:37.839 | INFO     | src.visual_generator:240 — Generating image for scene 02/4
+2026-06-04 06:36:37.840 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-04 06:36:38.287 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-04 06:36:40.287 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-04 06:36:40.557 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-04 06:36:45.557 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 02
+2026-06-04 06:36:45.839 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-04 06:36:45.841 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 02, trying Pexels fallback.
+2026-06-04 06:36:45.841 | INFO     | src.visual_generator:150 — Pexels fallback for scene 02, query='translucent anatomical overlay showing'
+2026-06-04 06:36:46.208 | INFO     | src.visual_generator:182 — Pexels OK scene 02 (800×1200) via 'translucent anatomical overlay showing'
+2026-06-04 06:36:46.320 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (118 KB)
+2026-06-04 06:36:46.320 | INFO     | src.visual_generator:240 — Generating image for scene 03/4
+2026-06-04 06:36:46.320 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-04 06:36:46.764 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-04 06:36:48.765 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-04 06:36:49.041 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-04 06:36:54.042 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 03
+2026-06-04 06:36:54.325 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-04 06:36:54.328 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 03, trying Pexels fallback.
+2026-06-04 06:36:54.328 | INFO     | src.visual_generator:150 — Pexels fallback for scene 03, query='Close-up slow-motion penguin's side'
+2026-06-04 06:36:55.147 | INFO     | src.visual_generator:182 — Pexels OK scene 03 (800×1200) via 'Close-up slow-motion penguin's side'
+2026-06-04 06:36:55.256 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (158 KB)
+2026-06-04 06:36:55.257 | INFO     | src.visual_generator:240 — Generating image for scene 04/4
+2026-06-04 06:36:55.257 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-04 06:36:55.522 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-04 06:36:57.523 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-04 06:36:57.789 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-04 06:37:02.789 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 04
+2026-06-04 06:37:03.056 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-04 06:37:03.060 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 04, trying Pexels fallback.
+2026-06-04 06:37:03.060 | INFO     | src.visual_generator:150 — Pexels fallback for scene 04, query='penguin launching off ice'
+2026-06-04 06:37:03.937 | INFO     | src.visual_generator:182 — Pexels OK scene 04 (800×1200) via 'penguin launching off ice'
+2026-06-04 06:37:04.047 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (160 KB)
+2026-06-04 06:37:04.049 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-04 06:37:04.067 | INFO     | src.voice_generator:167 — Generating 6 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-04 06:37:04.067 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Penguins are hiding knees under feathers'
+2026-06-04 06:37:04.570 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (35 KB)
+2026-06-04 06:37:04.570 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'You think their legs start basically at their belly. Wrong.'
+2026-06-04 06:37:04.820 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (52 KB)
+2026-06-04 06:37:04.820 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'Under all those feathers? A full thigh bone and knee'
+2026-06-04 06:37:05.059 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (55 KB)
+2026-06-04 06:37:05.060 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'They're literally walking around with folded legs the whole …'
+2026-06-04 06:37:05.324 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (55 KB)
+2026-06-04 06:37:05.324 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'That's why they can dive so explosively and swim insanely'
+2026-06-04 06:37:05.583 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (56 KB)
+2026-06-04 06:37:05.583 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'If penguins have hidden knees, what other animal anatomy wou…'
+2026-06-04 06:37:05.870 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (90 KB)
+2026-06-04 06:37:05.872 | INFO     | src.voice_generator:177 — ElevenLabs: 368 chars, estimated cost $0.11040
+2026-06-04 06:37:07.133 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (22.5s, 352 KB)
+2026-06-04 06:37:07.133 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-04 06:37:07.258 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-04 06:37:08.100 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-04 06:37:13.423 | INFO     | src.caption_generator:57 — Transcription complete: 63 words, 22.5s audio, language=en
+2026-06-04 06:37:13.434 | SUCCESS  | src.caption_generator:166 — Captions saved: 21 chunks, 63 words, 22.0s total
+2026-06-04 06:37:13.434 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-04 06:37:14.097 | INFO     | src.video_builder:319 — Clip schedule: 6 segments, 22.5s total
+2026-06-04 06:37:14.098 | INFO     | src.video_builder:118 — ASS file written: captions.ass (63 dialogue lines)
+2026-06-04 06:37:14.098 | INFO     | src.video_builder:168 — Music: tremoxbeatz-kugelsicher-by-tremoxbeatz-302838.mp3
+2026-06-04 06:37:27.892 | SUCCESS  | src.video_builder:274 — final.mp4 → 2.6 MB
+2026-06-04 06:37:27.892 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-04 06:37:27.913 | INFO     | src.metadata_generator:269 — Metadata generation attempt 1/3
+2026-06-04 06:37:35.849 | INFO     | src.metadata_generator:293 — Haiku usage — in:1219 out:872 cost:$0.00139
+2026-06-04 06:37:35.850 | SUCCESS  | src.metadata_generator:338 — Metadata generated: title='Penguins Have Hidden Knees That Bend #shorts' (44 chars)
+2026-06-04 06:37:35.854 | INFO     | __main__:144 — --- Stage 8: uploader ---
+2026-06-04 06:37:35.957 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-06-04 06:37:37.257 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/g-8BQeEoycI
+2026-06-04 06:37:37.260 | INFO     | __main__:155 — Total estimated API cost for 2026-06-04: $0.1128
+2026-06-04 06:37:37.856 | WARNING  | __main__:163 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

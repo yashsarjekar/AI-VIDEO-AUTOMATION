@@ -1,0 +1,23 @@
+{
+  "hook": "Penguins are hiding knees under feathers",
+  "scenes": [
+    {
+      "line": "You think their legs start basically at their belly. Wrong.",
+      "visual_prompt": "A sleek penguin waddling across ice, viewed from the side in bright Antarctic sunlight, its body profile emphasized against white snow"
+    },
+    {
+      "line": "Under all those feathers? A full thigh bone and knee",
+      "visual_prompt": "A translucent anatomical overlay showing a penguin's skeleton in profile: visible femur, knee joint, and tibia glowing softly in blue against a dark background"
+    },
+    {
+      "line": "They're literally walking around with folded legs the whole time.",
+      "visual_prompt": "Close-up slow-motion of a penguin's side profile waddling, feathers ruffling to subtly suggest movement in the upper leg area beneath the surface"
+    },
+    {
+      "line": "That's why they can dive so explosively and swim insanely",
+      "visual_prompt": "A penguin launching off an ice edge into dark blue-green ocean water, body fully extended mid-dive, water droplets frozen in mid-air catching light"
+    }
+  ],
+  "cta": "If penguins have hidden knees, what other animal anatomy would shock you if you knew the truth?",
+  "uncertain_claims": false
+}
