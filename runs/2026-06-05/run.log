@@ -4,3 +4,99 @@
 2026-06-05 12:43:01.208 | INFO     | src.topic_generator:166 — Topic generation attempt 1/3
 2026-06-05 12:43:02.879 | INFO     | src.topic_generator:189 — Haiku usage — in:705 out:109 cost:$0.00031
 2026-06-05 12:43:02.880 | SUCCESS  | src.topic_generator:205 — Topic generated: 'Giraffe tongues are 20 inches long and black to avoid sun damage while reaching acacia leaves' [biology]
+2026-06-05 12:43:04.117 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-05 12:43:04.117 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-05 12:43:04.137 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Giraffe tongues are 20 inches long and black to avoid sun damage while reaching acacia leaves'
+2026-06-05 12:43:07.877 | INFO     | src.script_writer:232 — Haiku usage — in:913 out:354 cost:$0.00067
+2026-06-05 12:43:07.878 | WARNING  | src.script_writer:290 — Attempt 1 failed validation: 1 validation error for ScriptOutput
+hook
+  Value error, hook must be ≤7 words, got 8: 'Your tongue is 4 inches. Giraffes: 20 inches.' [type=value_error, input_value='Your tongue is 4 inches. Giraffes: 20 inches.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-06-05 12:43:07.878 | INFO     | src.script_writer:210 — Script generation attempt 2/3 for topic: 'Giraffe tongues are 20 inches long and black to avoid sun damage while reaching acacia leaves'
+2026-06-05 12:43:11.558 | INFO     | src.script_writer:232 — Haiku usage — in:913 out:329 cost:$0.00064
+2026-06-05 12:43:11.558 | SUCCESS  | src.script_writer:279 — Script generated: 4 scenes, hook='Your tongue is four inches. Giraffes win....'
+2026-06-05 12:43:11.558 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-05 12:43:11.559 | INFO     | src.visual_generator:240 — Generating image for scene 01/4
+2026-06-05 12:43:11.559 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-05 12:43:12.374 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-05 12:43:14.374 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 01
+2026-06-05 12:43:15.163 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-05 12:43:20.163 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 01
+2026-06-05 12:43:20.595 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-05 12:43:20.597 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 01, trying Pexels fallback.
+2026-06-05 12:43:20.597 | INFO     | src.visual_generator:150 — Pexels fallback for scene 01, query='Extreme close-up giraffe's impossibly'
+2026-06-05 12:43:21.637 | INFO     | src.visual_generator:182 — Pexels OK scene 01 (800×1200) via 'Extreme close-up giraffe's impossibly'
+2026-06-05 12:43:21.741 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (294 KB)
+2026-06-05 12:43:21.741 | INFO     | src.visual_generator:240 — Generating image for scene 02/4
+2026-06-05 12:43:21.742 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-05 12:43:22.218 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-05 12:43:24.218 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-05 12:43:24.660 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-05 12:43:29.660 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 02
+2026-06-05 12:43:30.684 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-05 12:43:30.686 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 02, trying Pexels fallback.
+2026-06-05 12:43:30.686 | INFO     | src.visual_generator:150 — Pexels fallback for scene 02, query='Split-screen ruler measuring against'
+2026-06-05 12:43:31.620 | INFO     | src.visual_generator:182 — Pexels OK scene 02 (800×1200) via 'Split-screen ruler measuring against'
+2026-06-05 12:43:31.716 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (99 KB)
+2026-06-05 12:43:31.716 | INFO     | src.visual_generator:240 — Generating image for scene 03/4
+2026-06-05 12:43:31.717 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-05 12:43:32.163 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-05 12:43:34.164 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-05 12:43:34.586 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-05 12:43:39.587 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 03
+2026-06-05 12:43:40.028 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-05 12:43:40.030 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 03, trying Pexels fallback.
+2026-06-05 12:43:40.030 | INFO     | src.visual_generator:150 — Pexels fallback for scene 03, query='Macro shot sun rays'
+2026-06-05 12:43:41.536 | INFO     | src.visual_generator:182 — Pexels OK scene 03 (800×1200) via 'Macro shot sun rays'
+2026-06-05 12:43:41.636 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (280 KB)
+2026-06-05 12:43:41.636 | INFO     | src.visual_generator:240 — Generating image for scene 04/4
+2026-06-05 12:43:41.636 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-05 12:43:42.086 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-05 12:43:44.087 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-05 12:43:44.530 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-05 12:43:49.530 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 04
+2026-06-05 12:43:50.292 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-05 12:43:50.294 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 04, trying Pexels fallback.
+2026-06-05 12:43:50.295 | INFO     | src.visual_generator:150 — Pexels fallback for scene 04, query='Wide savanna landscape acacia'
+2026-06-05 12:43:52.076 | INFO     | src.visual_generator:182 — Pexels OK scene 04 (800×1200) via 'Wide savanna landscape acacia'
+2026-06-05 12:43:52.181 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (347 KB)
+2026-06-05 12:43:52.182 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-05 12:43:52.202 | INFO     | src.voice_generator:167 — Generating 6 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-05 12:43:52.202 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'Your tongue is four inches. Giraffes win.'
+2026-06-05 12:43:52.937 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (38 KB)
+2026-06-05 12:43:52.937 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'A giraffe's tongue stretches twenty inches long.'
+2026-06-05 12:43:53.186 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (49 KB)
+2026-06-05 12:43:53.186 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'That's longer than a ruler. But why black?'
+2026-06-05 12:43:53.453 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (48 KB)
+2026-06-05 12:43:53.453 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'Sun exposure bleaches skin and causes damage.'
+2026-06-05 12:43:53.729 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (50 KB)
+2026-06-05 12:43:53.729 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'Their tongue evolved black pigment to survive reaching leave…'
+2026-06-05 12:43:53.989 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (55 KB)
+2026-06-05 12:43:53.989 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'Would you rather have a giraffe's tongue length or a human's…'
+2026-06-05 12:43:54.335 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (67 KB)
+2026-06-05 12:43:54.337 | INFO     | src.voice_generator:177 — ElevenLabs: 311 chars, estimated cost $0.09330
+2026-06-05 12:43:55.192 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (20.2s, 315 KB)
+2026-06-05 12:43:55.192 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-05 12:43:55.259 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-05 12:43:56.212 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-05 12:44:02.325 | INFO     | src.caption_generator:57 — Transcription complete: 51 words, 20.2s audio, language=en
+2026-06-05 12:44:02.336 | SUCCESS  | src.caption_generator:166 — Captions saved: 17 chunks, 51 words, 19.6s total
+2026-06-05 12:44:02.336 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-05 12:44:02.882 | INFO     | src.video_builder:376 — Clip schedule: 6 segments, 20.2s total
+2026-06-05 12:44:02.882 | INFO     | src.video_builder:119 — ASS file written: captions.ass (51 dialogue lines)
+2026-06-05 12:44:02.883 | INFO     | src.video_builder:169 — Music: soundgalleryby-halloween-fun-116552.mp3
+2026-06-05 12:44:17.469 | SUCCESS  | src.video_builder:275 — final.mp4 → 3.4 MB
+2026-06-05 12:44:17.534 | INFO     | src.video_builder:311 — Shorts check ✓ dimensions 1080x1920 (9:16)
+2026-06-05 12:44:17.534 | INFO     | src.video_builder:317 — Shorts check ✓ duration 20.2s (≤60s)
+2026-06-05 12:44:17.534 | INFO     | src.video_builder:323 — Shorts check ✓ codec h264
+2026-06-05 12:44:17.535 | INFO     | src.video_builder:328 — Shorts check ✓ pixel format yuv420p
+2026-06-05 12:44:17.535 | SUCCESS  | src.video_builder:333 — Video passes all YouTube Shorts eligibility checks.
+2026-06-05 12:44:17.535 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-05 12:44:17.556 | INFO     | src.metadata_generator:276 — Metadata generation attempt 1/3
+2026-06-05 12:44:24.978 | INFO     | src.metadata_generator:300 — Haiku usage — in:1234 out:990 cost:$0.00155
+2026-06-05 12:44:24.979 | SUCCESS  | src.metadata_generator:350 — Metadata generated: title='20-Inch Black Tongues: Why Giraffes Win #shorts' (47 chars)
+2026-06-05 12:44:24.982 | INFO     | __main__:144 — --- Stage 8: uploader ---
+2026-06-05 12:44:25.114 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-06-05 12:44:27.194 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/mIth6o_jHiE
+2026-06-05 12:44:27.197 | INFO     | __main__:155 — Total estimated API cost for 2026-06-05: $0.0965
+2026-06-05 12:44:27.197 | WARNING  | __main__:163 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

@@ -1,0 +1,362 @@
+{
+  "chunks": [
+    {
+      "words": [
+        {
+          "word": "Your",
+          "start": 0.0,
+          "end": 0.16
+        },
+        {
+          "word": "tongue",
+          "start": 0.16,
+          "end": 0.36
+        },
+        {
+          "word": "is",
+          "start": 0.36,
+          "end": 0.54
+        }
+      ],
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "words": [
+        {
+          "word": "four",
+          "start": 0.54,
+          "end": 0.72
+        },
+        {
+          "word": "inches,",
+          "start": 0.72,
+          "end": 1.1
+        },
+        {
+          "word": "giraffes",
+          "start": 1.46,
+          "end": 1.84
+        }
+      ],
+      "start": 0.54,
+      "end": 1.84
+    },
+    {
+      "words": [
+        {
+          "word": "win.",
+          "start": 1.84,
+          "end": 2.06
+        },
+        {
+          "word": "A",
+          "start": 2.6,
+          "end": 2.7
+        },
+        {
+          "word": "giraffe's",
+          "start": 2.7,
+          "end": 3.28
+        }
+      ],
+      "start": 1.84,
+      "end": 3.28
+    },
+    {
+      "words": [
+        {
+          "word": "tongue",
+          "start": 3.28,
+          "end": 3.54
+        },
+        {
+          "word": "stretches",
+          "start": 3.54,
+          "end": 4.02
+        },
+        {
+          "word": "20",
+          "start": 4.02,
+          "end": 4.6
+        }
+      ],
+      "start": 3.28,
+      "end": 4.6
+    },
+    {
+      "words": [
+        {
+          "word": "inches",
+          "start": 4.6,
+          "end": 4.92
+        },
+        {
+          "word": "long.",
+          "start": 4.92,
+          "end": 5.34
+        },
+        {
+          "word": "That's",
+          "start": 5.86,
+          "end": 6.12
+        }
+      ],
+      "start": 4.6,
+      "end": 6.12
+    },
+    {
+      "words": [
+        {
+          "word": "longer",
+          "start": 6.12,
+          "end": 6.32
+        },
+        {
+          "word": "than",
+          "start": 6.32,
+          "end": 6.64
+        },
+        {
+          "word": "a",
+          "start": 6.64,
+          "end": 6.78
+        }
+      ],
+      "start": 6.12,
+      "end": 6.78
+    },
+    {
+      "words": [
+        {
+          "word": "ruler,",
+          "start": 6.78,
+          "end": 7.06
+        },
+        {
+          "word": "but",
+          "start": 7.48,
+          "end": 7.74
+        },
+        {
+          "word": "why",
+          "start": 7.74,
+          "end": 7.98
+        }
+      ],
+      "start": 6.78,
+      "end": 7.98
+    },
+    {
+      "words": [
+        {
+          "word": "black?",
+          "start": 7.98,
+          "end": 8.4
+        },
+        {
+          "word": "Sun",
+          "start": 8.96,
+          "end": 9.14
+        },
+        {
+          "word": "exposure",
+          "start": 9.14,
+          "end": 9.62
+        }
+      ],
+      "start": 7.98,
+      "end": 9.62
+    },
+    {
+      "words": [
+        {
+          "word": "bleaches",
+          "start": 9.62,
+          "end": 10.18
+        },
+        {
+          "word": "skin",
+          "start": 10.18,
+          "end": 10.64
+        },
+        {
+          "word": "and",
+          "start": 10.64,
+          "end": 10.88
+        }
+      ],
+      "start": 9.62,
+      "end": 10.88
+    },
+    {
+      "words": [
+        {
+          "word": "causes",
+          "start": 10.88,
+          "end": 11.24
+        },
+        {
+          "word": "damage.",
+          "start": 11.24,
+          "end": 11.76
+        },
+        {
+          "word": "Their",
+          "start": 12.3,
+          "end": 12.44
+        }
+      ],
+      "start": 10.88,
+      "end": 12.44
+    },
+    {
+      "words": [
+        {
+          "word": "tongue",
+          "start": 12.44,
+          "end": 12.74
+        },
+        {
+          "word": "evolved",
+          "start": 12.74,
+          "end": 13.2
+        },
+        {
+          "word": "a",
+          "start": 13.2,
+          "end": 13.34
+        }
+      ],
+      "start": 12.44,
+      "end": 13.34
+    },
+    {
+      "words": [
+        {
+          "word": "black",
+          "start": 13.34,
+          "end": 13.56
+        },
+        {
+          "word": "pigment",
+          "start": 13.56,
+          "end": 13.94
+        },
+        {
+          "word": "to",
+          "start": 13.94,
+          "end": 14.18
+        }
+      ],
+      "start": 13.34,
+      "end": 14.18
+    },
+    {
+      "words": [
+        {
+          "word": "survive",
+          "start": 14.18,
+          "end": 14.52
+        },
+        {
+          "word": "reaching",
+          "start": 14.52,
+          "end": 14.9
+        },
+        {
+          "word": "leaves.",
+          "start": 14.9,
+          "end": 15.38
+        }
+      ],
+      "start": 14.18,
+      "end": 15.38
+    },
+    {
+      "words": [
+        {
+          "word": "Would",
+          "start": 15.96,
+          "end": 16.06
+        },
+        {
+          "word": "you",
+          "start": 16.06,
+          "end": 16.22
+        },
+        {
+          "word": "rather",
+          "start": 16.22,
+          "end": 16.46
+        }
+      ],
+      "start": 15.96,
+      "end": 16.46
+    },
+    {
+      "words": [
+        {
+          "word": "have",
+          "start": 16.46,
+          "end": 16.8
+        },
+        {
+          "word": "a",
+          "start": 16.8,
+          "end": 16.96
+        },
+        {
+          "word": "giraffe's",
+          "start": 16.96,
+          "end": 17.56
+        }
+      ],
+      "start": 16.46,
+      "end": 17.56
+    },
+    {
+      "words": [
+        {
+          "word": "tongue",
+          "start": 17.56,
+          "end": 17.8
+        },
+        {
+          "word": "length",
+          "start": 17.8,
+          "end": 18.12
+        },
+        {
+          "word": "or",
+          "start": 18.12,
+          "end": 18.46
+        }
+      ],
+      "start": 17.56,
+      "end": 18.46
+    },
+    {
+      "words": [
+        {
+          "word": "a",
+          "start": 18.46,
+          "end": 18.64
+        },
+        {
+          "word": "human's",
+          "start": 18.64,
+          "end": 19.12
+        },
+        {
+          "word": "flexibility?",
+          "start": 19.12,
+          "end": 19.6
+        }
+      ],
+      "start": 18.46,
+      "end": 19.6
+    }
+  ],
+  "total_duration": 19.6
+}

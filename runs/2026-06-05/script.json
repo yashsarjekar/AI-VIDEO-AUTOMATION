@@ -1,0 +1,23 @@
+{
+  "hook": "Your tongue is four inches. Giraffes win.",
+  "scenes": [
+    {
+      "line": "A giraffe's tongue stretches twenty inches long.",
+      "visual_prompt": "Extreme close-up of a giraffe's impossibly long jet-black tongue unfurling from its mouth, extending toward acacia tree leaves, shot against soft savanna golden hour light"
+    },
+    {
+      "line": "That's longer than a ruler. But why black?",
+      "visual_prompt": "Split-screen: a ruler measuring against a glossy jet-black tongue, then the same tongue silhouetted against bright harsh sunlight, showing contrast"
+    },
+    {
+      "line": "Sun exposure bleaches skin and causes damage.",
+      "visual_prompt": "Macro shot of sun rays intensifying on a faded pink fabric versus unchanged black fabric, showing UV damage comparison"
+    },
+    {
+      "line": "Their tongue evolved black pigment to survive reaching leaves.",
+      "visual_prompt": "Wide savanna landscape with an acacia tree, a giraffe's black tongue stretching impossibly high between golden branches and green leaves, intense afternoon sun casting sharp shadows"
+    }
+  ],
+  "cta": "Would you rather have a giraffe's tongue length or a human's flexibility?",
+  "uncertain_claims": false
+}
