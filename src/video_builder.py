@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import random
+import subprocess
 from datetime import datetime
 from pathlib import Path
 
@@ -277,6 +278,62 @@ def _build_ffmpeg_video(
 
 
 # ---------------------------------------------------------------------------
+# Shorts eligibility validation
+# ---------------------------------------------------------------------------
+
+def _validate_shorts_eligibility(output_path: Path, total_sec: float) -> None:
+    """Run ffprobe to confirm the output meets YouTube Shorts requirements."""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-select_streams", "v:0",
+            "-show_entries", "stream=width,height,codec_name,pix_fmt",
+            "-of", "default=noprint_wrappers=1",
+            str(output_path),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    info = dict(
+        line.split("=", 1)
+        for line in result.stdout.strip().splitlines()
+        if "=" in line
+    )
+
+    width = int(info.get("width", 0))
+    height = int(info.get("height", 0))
+    codec = info.get("codec_name", "unknown")
+    pix_fmt = info.get("pix_fmt", "unknown")
+
+    ok = True
+
+    if (width, height) == (W, H):
+        logger.info(f"Shorts check ✓ dimensions {width}x{height} (9:16)")
+    else:
+        logger.warning(f"Shorts check ✗ dimensions {width}x{height} — expected {W}x{H} (9:16)")
+        ok = False
+
+    if total_sec <= 60:
+        logger.info(f"Shorts check ✓ duration {total_sec:.1f}s (≤60s)")
+    else:
+        logger.warning(f"Shorts check ✗ duration {total_sec:.1f}s > 60s — will NOT appear in Shorts feed")
+        ok = False
+
+    if codec == "h264":
+        logger.info(f"Shorts check ✓ codec {codec}")
+    else:
+        logger.warning(f"Shorts check ✗ codec {codec} — H.264 recommended for Shorts")
+
+    if pix_fmt == "yuv420p":
+        logger.info(f"Shorts check ✓ pixel format {pix_fmt}")
+    else:
+        logger.warning(f"Shorts check ✗ pixel format {pix_fmt} — yuv420p required for broad compatibility")
+
+    if ok:
+        logger.success("Video passes all YouTube Shorts eligibility checks.")
+
+
+# ---------------------------------------------------------------------------
 # Main entry point
 # ---------------------------------------------------------------------------
 
@@ -327,5 +384,6 @@ def build_video(
 
     run_dir.mkdir(parents=True, exist_ok=True)
     _build_ffmpeg_video(clip_schedule, voice_full, music_path, ass_path, output_path)
+    _validate_shorts_eligibility(output_path, total_sec)
 
     return output_path

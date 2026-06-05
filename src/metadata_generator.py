@@ -84,9 +84,16 @@ follow it exactly.
 - 150–250 words total.
 - First two lines restate the hook (shown in search previews — make them count).
 - Two paragraphs expanding the fact with context, mechanism, and implications.
-- One creator-mention line (boosts discoverability via association): \
-"If you enjoy @Veritasium, @Kurzgesagt, @SciShow, @TodayIFoundOut, or @AsapSCIENCE, subscribe for a daily dose of mind-blowing facts!" \
-Pick the 5 most relevant handles for today's category from: \
+- Creator-mention block — write it EXACTLY in this format with each handle on its own line \
+(no commas, no "or", one handle per line):
+  If you enjoy channels like:
+  @Handle1
+  @Handle2
+  @Handle3
+  @Handle4
+  @Handle5
+  Subscribe for a daily dose of mind-blowing facts!
+  Pick the 5 most relevant handles for today's category from: \
 @Veritasium, @Kurzgesagt, @SciShow, @TodayIFoundOut, @AsapSCIENCE, @WhatIf, @RealLifeLore, @BrightSide, @factsverse, @interestingfacts.
 - One clear CTA asking a specific question.
 - End with a hashtag block — #shorts on the first line, then 7–9 more topic-relevant hashtags, each on its own line.
@@ -332,6 +339,11 @@ def generate_metadata(
                 else:
                     yt_tags.append("shorts")
                 raw["youtube"]["tags"] = yt_tags
+
+            # Hard guarantee: #shorts must be in description (required for Shorts feed)
+            desc = raw.get("youtube", {}).get("description", "")
+            if isinstance(desc, str) and "#shorts" not in desc.lower():
+                raw["youtube"]["description"] = desc.rstrip() + "\n#shorts"
 
             metadata = _parse_metadata(raw, run_date)
 
