@@ -4,3 +4,94 @@
 2026-06-06 13:50:08.396 | INFO     | src.topic_generator:166 — Topic generation attempt 1/3
 2026-06-06 13:50:09.965 | INFO     | src.topic_generator:189 — Haiku usage — in:782 out:111 cost:$0.00033
 2026-06-06 13:50:09.966 | SUCCESS  | src.topic_generator:205 — Topic generated: 'Turritopsis dohrnii, the jellyfish that can reverse its aging process and theoretically live forever' [biology]
+2026-06-06 13:50:11.148 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-06 13:50:11.148 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-06 13:50:11.169 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Turritopsis dohrnii, the jellyfish that can reverse its aging process and theoretically live forever'
+2026-06-06 13:50:16.029 | INFO     | src.script_writer:232 — Haiku usage — in:919 out:433 cost:$0.00077
+2026-06-06 13:50:16.029 | SUCCESS  | src.script_writer:279 — Script generated: 4 scenes, hook='This jellyfish swims backward through time...'
+2026-06-06 13:50:16.029 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-06 13:50:16.030 | INFO     | src.visual_generator:240 — Generating image for scene 01/4
+2026-06-06 13:50:16.030 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-06 13:50:16.466 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-06 13:50:18.466 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 01
+2026-06-06 13:50:18.847 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-06 13:50:23.847 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 01
+2026-06-06 13:50:24.234 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-06 13:50:24.235 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 01, trying Pexels fallback.
+2026-06-06 13:50:24.235 | INFO     | src.visual_generator:150 — Pexels fallback for scene 01, query='translucent jellyfish withered drooping'
+2026-06-06 13:50:24.663 | INFO     | src.visual_generator:182 — Pexels OK scene 01 (800×1200) via 'translucent jellyfish withered drooping'
+2026-06-06 13:50:24.772 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (208 KB)
+2026-06-06 13:50:24.772 | INFO     | src.visual_generator:240 — Generating image for scene 02/4
+2026-06-06 13:50:24.772 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-06 13:50:25.221 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-06 13:50:27.221 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-06 13:50:27.600 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-06 13:50:32.600 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 02
+2026-06-06 13:50:32.977 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-06 13:50:32.980 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 02, trying Pexels fallback.
+2026-06-06 13:50:32.980 | INFO     | src.visual_generator:150 — Pexels fallback for scene 02, query='jellyfish curling inward like'
+2026-06-06 13:50:33.778 | INFO     | src.visual_generator:182 — Pexels OK scene 02 (800×1200) via 'jellyfish curling inward like'
+2026-06-06 13:50:33.889 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (144 KB)
+2026-06-06 13:50:33.890 | INFO     | src.visual_generator:240 — Generating image for scene 03/4
+2026-06-06 13:50:33.890 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-06 13:50:34.267 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-06 13:50:36.267 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-06 13:50:36.652 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-06 13:50:41.652 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 03
+2026-06-06 13:50:42.032 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-06 13:50:42.035 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 03, trying Pexels fallback.
+2026-06-06 13:50:42.035 | INFO     | src.visual_generator:150 — Pexels fallback for scene 03, query='Time-lapse sequence tiny polyp'
+2026-06-06 13:50:44.778 | INFO     | src.visual_generator:182 — Pexels OK scene 03 (800×1200) via 'Time-lapse sequence tiny polyp'
+2026-06-06 13:50:44.882 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (394 KB)
+2026-06-06 13:50:44.882 | INFO     | src.visual_generator:240 — Generating image for scene 04/4
+2026-06-06 13:50:44.883 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-06 13:50:45.255 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-06 13:50:47.255 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-06 13:50:47.634 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-06 13:50:52.635 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 04
+2026-06-06 13:50:53.028 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-06 13:50:53.031 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 04, trying Pexels fallback.
+2026-06-06 13:50:53.031 | INFO     | src.visual_generator:150 — Pexels fallback for scene 04, query='endless cycle visualization concentric'
+2026-06-06 13:50:53.845 | INFO     | src.visual_generator:182 — Pexels OK scene 04 (800×1200) via 'endless cycle visualization concentric'
+2026-06-06 13:50:53.953 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (417 KB)
+2026-06-06 13:50:53.954 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-06 13:50:53.974 | INFO     | src.voice_generator:167 — Generating 6 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-06 13:50:53.974 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'This jellyfish swims backward through time'
+2026-06-06 13:50:55.575 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (38 KB)
+2026-06-06 13:50:55.576 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'When it gets old, its body literally rejuvenates itself.'
+2026-06-06 13:50:55.854 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (59 KB)
+2026-06-06 13:50:55.854 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'It collapses into a ball, sinks down, and becomes a'
+2026-06-06 13:50:56.128 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (59 KB)
+2026-06-06 13:50:56.128 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'Then it grows back up—a full jellyfish. Brand new.'
+2026-06-06 13:50:56.378 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (54 KB)
+2026-06-06 13:50:56.378 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'It can do this forever. Theoretically, it never has to'
+2026-06-06 13:50:56.638 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (61 KB)
+2026-06-06 13:50:56.638 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'If you could reverse your aging once, would you restart your…'
+2026-06-06 13:50:56.961 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (81 KB)
+2026-06-06 13:50:56.963 | INFO     | src.voice_generator:177 — ElevenLabs: 341 chars, estimated cost $0.10230
+2026-06-06 13:50:58.230 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (23.1s, 361 KB)
+2026-06-06 13:50:58.230 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-06 13:50:58.299 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-06 13:50:59.110 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-06 13:51:04.513 | INFO     | src.caption_generator:57 — Transcription complete: 62 words, 23.1s audio, language=en
+2026-06-06 13:51:04.524 | SUCCESS  | src.caption_generator:166 — Captions saved: 21 chunks, 62 words, 22.8s total
+2026-06-06 13:51:04.524 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-06 13:51:05.164 | INFO     | src.video_builder:376 — Clip schedule: 6 segments, 23.1s total
+2026-06-06 13:51:05.165 | INFO     | src.video_builder:119 — ASS file written: captions.ass (62 dialogue lines)
+2026-06-06 13:51:05.165 | INFO     | src.video_builder:169 — Music: soundgalleryby-halloween-fun-116552.mp3
+2026-06-06 13:51:20.769 | SUCCESS  | src.video_builder:275 — final.mp4 → 4.1 MB
+2026-06-06 13:51:20.836 | INFO     | src.video_builder:311 — Shorts check ✓ dimensions 1080x1920 (9:16)
+2026-06-06 13:51:20.836 | INFO     | src.video_builder:317 — Shorts check ✓ duration 23.1s (≤60s)
+2026-06-06 13:51:20.836 | INFO     | src.video_builder:323 — Shorts check ✓ codec h264
+2026-06-06 13:51:20.837 | INFO     | src.video_builder:328 — Shorts check ✓ pixel format yuv420p
+2026-06-06 13:51:20.837 | SUCCESS  | src.video_builder:333 — Video passes all YouTube Shorts eligibility checks.
+2026-06-06 13:51:20.837 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-06 13:51:20.859 | INFO     | src.metadata_generator:276 — Metadata generation attempt 1/3
+2026-06-06 13:51:28.275 | INFO     | src.metadata_generator:300 — Haiku usage — in:1251 out:918 cost:$0.00146
+2026-06-06 13:51:28.276 | SUCCESS  | src.metadata_generator:350 — Metadata generated: title='1 Jellyfish Reverses Aging Forever #shorts' (42 chars)
+2026-06-06 13:51:28.280 | INFO     | __main__:144 — --- Stage 8: uploader ---
+2026-06-06 13:51:28.462 | INFO     | src.uploader:118 — YouTube upload attempt 1/5
+2026-06-06 13:51:29.545 | INFO     | src.uploader:122 — YouTube upload progress: 98%
+2026-06-06 13:51:30.136 | SUCCESS  | src.uploader:138 — YouTube upload complete: https://www.youtube.com/shorts/IZ9eygPI5C4
+2026-06-06 13:51:30.139 | INFO     | __main__:155 — Total estimated API cost for 2026-06-06: $0.1049
+2026-06-06 13:51:30.901 | WARNING  | __main__:163 — IG token check failed (non-fatal): IG_ACCESS_TOKEN environment variable is not set.

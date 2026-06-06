@@ -1,0 +1,23 @@
+{
+  "hook": "This jellyfish swims backward through time",
+  "scenes": [
+    {
+      "line": "When it gets old, its body literally rejuvenates itself.",
+      "visual_prompt": "A translucent jellyfish with withered, drooping tentacles transforming into vibrant, fully extended ones. Soft bioluminescent glow pulses through its bell as it morphs, set against deep blue ocean water with particles swirling upward."
+    },
+    {
+      "line": "It collapses into a ball, sinks down, and becomes a",
+      "visual_prompt": "A jellyfish curling inward like a fist closing, descending through layered blue-green water. Below, it attaches to a rock surface, transforming into a tiny budding polyp with delicate tentacles sprouting from its base."
+    },
+    {
+      "line": "Then it grows back up—a full jellyfish. Brand new.",
+      "visual_prompt": "Time-lapse sequence: a tiny polyp budding and dividing into multiple jellyfish forms, each one inflating and unfurling transparent tentacles. They drift upward through illuminated water, glowing faintly, fully mature and pristine."
+    },
+    {
+      "line": "It can do this forever. Theoretically, it never has to",
+      "visual_prompt": "An endless cycle visualization: concentric circular arrows showing a jellyfish silhouette at different life stages—aging, collapsing, rejuvenating, maturing—repeating infinitely against a gradient cosmic background in deep blues and purples."
+    }
+  ],
+  "cta": "If you could reverse your aging once, would you restart your life or stay where you are?",
+  "uncertain_claims": false
+}
