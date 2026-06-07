@@ -1,0 +1,23 @@
+{
+  "hook": "Your brain would liquify at these forces.",
+  "scenes": [
+    {
+      "line": "A woodpecker's skull experiences twelve hundred Gs per peck—that's accelerating",
+      "visual_prompt": "Close-up cross-section of a woodpecker skull in profile, rendered as translucent anatomy diagram with impact lines radiating outward in blue and red. Spongy bone tissue highlighted in contrasting yellow-gold against darker dense bone."
+    },
+    {
+      "line": "But here's the trick: their bone isn't solid like ours—it's",
+      "visual_prompt": "Macro microscopic view of spongy cancellous bone structure magnified 200x, showing honeycomb-like pattern of interconnected chambers and cavities. Light filtering through gaps, emphasizing porosity and elasticity."
+    },
+    {
+      "line": "These air pockets compress on impact, spreading the force across",
+      "visual_prompt": "Animated side-by-side comparison: a solid sphere getting struck and denting inward, versus a foam-textured sphere compressing uniformly. Pressure waves flowing outward in both scenarios, contrasting sharp concentration versus distributed dissipation."
+    },
+    {
+      "line": "So they peck twenty times per second, completely unharmed—while your",
+      "visual_prompt": "Rapid-motion blur of a woodpecker's head striking tree bark at high speed, with soft-focus forest background. Bark splintering in crisp detail. Slight motion trail emphasizing repetitive velocity without showing the bird's face clearly."
+    }
+  ],
+  "cta": "If humans evolved this bone structure tomorrow, how much harder could our athletes hit?",
+  "uncertain_claims": false
+}
