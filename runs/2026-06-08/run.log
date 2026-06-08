@@ -4,3 +4,90 @@
 2026-06-08 19:15:51.972 | INFO     | src.topic_generator:166 — Topic generation attempt 1/3
 2026-06-08 19:15:53.991 | INFO     | src.topic_generator:189 — Haiku usage — in:849 out:121 cost:$0.00036
 2026-06-08 19:15:53.992 | SUCCESS  | src.topic_generator:205 — Topic generated: 'Mantis shrimp can see 16 color receptors while humans only see 3, perceiving an entirely alien color spectrum we can't imagine' [biology]
+2026-06-08 19:15:55.006 | SUCCESS  | __main__:82 — State committed and pushed.
+2026-06-08 19:15:55.007 | INFO     | __main__:114 — --- Stage 2: script_writer ---
+2026-06-08 19:15:55.026 | INFO     | src.script_writer:210 — Script generation attempt 1/3 for topic: 'Mantis shrimp can see 16 color receptors while humans only see 3, perceiving an entirely alien color spectrum we can't imagine'
+2026-06-08 19:15:59.051 | INFO     | src.script_writer:232 — Haiku usage — in:925 out:394 cost:$0.00072
+2026-06-08 19:15:59.052 | SUCCESS  | src.script_writer:279 — Script generated: 4 scenes, hook='There's a color you can't see....'
+2026-06-08 19:15:59.052 | INFO     | __main__:119 — --- Stage 3: visual_generator ---
+2026-06-08 19:15:59.052 | INFO     | src.visual_generator:240 — Generating image for scene 01/4
+2026-06-08 19:15:59.052 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 01
+2026-06-08 19:15:59.580 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-08 19:16:01.581 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 01
+2026-06-08 19:16:01.848 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-08 19:16:06.848 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 01
+2026-06-08 19:16:07.126 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 01
+2026-06-08 19:16:07.128 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 01, trying Pexels fallback.
+2026-06-08 19:16:07.128 | INFO     | src.visual_generator:150 — Pexels fallback for scene 01, query='human eye cross-section three'
+2026-06-08 19:16:07.625 | INFO     | src.visual_generator:182 — Pexels OK scene 01 (800×1200) via 'human eye cross-section three'
+2026-06-08 19:16:07.752 | SUCCESS  | src.visual_generator:257 — Scene 01 saved → scene_01.jpg (394 KB)
+2026-06-08 19:16:07.752 | INFO     | src.visual_generator:240 — Generating image for scene 02/4
+2026-06-08 19:16:07.753 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 02
+2026-06-08 19:16:08.054 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-08 19:16:10.055 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 02
+2026-06-08 19:16:10.325 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-08 19:16:15.325 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 02
+2026-06-08 19:16:15.610 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 02
+2026-06-08 19:16:15.613 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 02, trying Pexels fallback.
+2026-06-08 19:16:15.613 | INFO     | src.visual_generator:150 — Pexels fallback for scene 02, query='mantis shrimp vibrant shallow'
+2026-06-08 19:16:16.616 | INFO     | src.visual_generator:182 — Pexels OK scene 02 (800×1200) via 'mantis shrimp vibrant shallow'
+2026-06-08 19:16:16.732 | SUCCESS  | src.visual_generator:257 — Scene 02 saved → scene_02.jpg (165 KB)
+2026-06-08 19:16:16.732 | INFO     | src.visual_generator:240 — Generating image for scene 03/4
+2026-06-08 19:16:16.732 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 03
+2026-06-08 19:16:16.991 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-08 19:16:18.991 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 03
+2026-06-08 19:16:19.270 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-08 19:16:24.270 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 03
+2026-06-08 19:16:24.537 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 03
+2026-06-08 19:16:24.540 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 03, trying Pexels fallback.
+2026-06-08 19:16:24.540 | INFO     | src.visual_generator:150 — Pexels fallback for scene 03, query='split-screen left coral reef'
+2026-06-08 19:16:24.912 | INFO     | src.visual_generator:182 — Pexels OK scene 03 (800×1200) via 'split-screen left coral reef'
+2026-06-08 19:16:25.029 | SUCCESS  | src.visual_generator:257 — Scene 03 saved → scene_03.jpg (434 KB)
+2026-06-08 19:16:25.029 | INFO     | src.visual_generator:240 — Generating image for scene 04/4
+2026-06-08 19:16:25.029 | DEBUG    | src.visual_generator:80 — Pollinations attempt 1 for scene 04
+2026-06-08 19:16:25.307 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-08 19:16:27.307 | DEBUG    | src.visual_generator:80 — Pollinations attempt 2 for scene 04
+2026-06-08 19:16:27.596 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-08 19:16:32.596 | DEBUG    | src.visual_generator:80 — Pollinations attempt 3 for scene 04
+2026-06-08 19:16:32.891 | WARNING  | src.visual_generator:84 — Pollinations returned HTTP 402 for scene 04
+2026-06-08 19:16:32.894 | WARNING  | src.visual_generator:245 — Pollinations failed for scene 04, trying Pexels fallback.
+2026-06-08 19:16:32.894 | INFO     | src.visual_generator:150 — Pexels fallback for scene 04, query='mantis shrimp hunting slow'
+2026-06-08 19:16:33.186 | INFO     | src.visual_generator:182 — Pexels OK scene 04 (800×1200) via 'mantis shrimp hunting slow'
+2026-06-08 19:16:33.293 | SUCCESS  | src.visual_generator:257 — Scene 04 saved → scene_04.jpg (132 KB)
+2026-06-08 19:16:33.295 | INFO     | __main__:124 — --- Stage 4: voice_generator ---
+2026-06-08 19:16:33.314 | INFO     | src.voice_generator:167 — Generating 6 voice segments via ElevenLabs eleven_flash_v2_5
+2026-06-08 19:16:33.314 | INFO     | src.voice_generator:78 —   TTS → voice_00.mp3: 'There's a color you can't see.'
+2026-06-08 19:16:33.847 | DEBUG    | src.voice_generator:81 —   Saved voice_00.mp3 (28 KB)
+2026-06-08 19:16:33.847 | INFO     | src.voice_generator:78 —   TTS → voice_01.mp3: 'Your eyes have three color receptors: red, green, blue.'
+2026-06-08 19:16:34.100 | DEBUG    | src.voice_generator:81 —   Saved voice_01.mp3 (57 KB)
+2026-06-08 19:16:34.100 | INFO     | src.voice_generator:78 —   TTS → voice_02.mp3: 'A mantis shrimp? Sixteen different color receptors firing at…'
+2026-06-08 19:16:34.413 | DEBUG    | src.voice_generator:81 —   Saved voice_02.mp3 (70 KB)
+2026-06-08 19:16:34.413 | INFO     | src.voice_generator:78 —   TTS → voice_03.mp3: 'It sees ultraviolet, infrared, polarized light—colors withou…'
+2026-06-08 19:16:34.665 | DEBUG    | src.voice_generator:81 —   Saved voice_03.mp3 (73 KB)
+2026-06-08 19:16:34.665 | INFO     | src.voice_generator:78 —   TTS → voice_04.mp3: 'To that shrimp, your world is basically black and white.'
+2026-06-08 19:16:34.884 | DEBUG    | src.voice_generator:81 —   Saved voice_04.mp3 (46 KB)
+2026-06-08 19:16:34.884 | INFO     | src.voice_generator:78 —   TTS → voice_cta.mp3: 'If you could add one new sense humans don't have, would you …'
+2026-06-08 19:16:35.208 | DEBUG    | src.voice_generator:81 —   Saved voice_cta.mp3 (107 KB)
+2026-06-08 19:16:35.211 | INFO     | src.voice_generator:177 — ElevenLabs: 395 chars, estimated cost $0.11850
+2026-06-08 19:16:36.403 | SUCCESS  | src.voice_generator:102 — voice_full.mp3 → voice_full.mp3 (25.0s, 391 KB)
+2026-06-08 19:16:36.403 | INFO     | __main__:129 — --- Stage 5: caption_generator ---
+2026-06-08 19:16:36.472 | INFO     | src.caption_generator:30 — Loading faster-whisper model 'small.en' (int8)
+2026-06-08 19:16:37.271 | INFO     | src.caption_generator:33 — Transcribing voice_full.mp3 …
+2026-06-08 19:16:42.989 | INFO     | src.caption_generator:57 — Transcription complete: 64 words, 25.0s audio, language=en
+2026-06-08 19:16:43.002 | SUCCESS  | src.caption_generator:166 — Captions saved: 22 chunks, 64 words, 24.6s total
+2026-06-08 19:16:43.002 | INFO     | __main__:134 — --- Stage 6: video_builder ---
+2026-06-08 19:16:43.651 | INFO     | src.video_builder:376 — Clip schedule: 6 segments, 25.0s total
+2026-06-08 19:16:43.652 | INFO     | src.video_builder:119 — ASS file written: captions.ass (64 dialogue lines)
+2026-06-08 19:16:43.652 | INFO     | src.video_builder:169 — Music: the_mountain-technology-485572.mp3
+2026-06-08 19:16:58.934 | SUCCESS  | src.video_builder:275 — final.mp4 → 4.1 MB
+2026-06-08 19:16:59.018 | INFO     | src.video_builder:311 — Shorts check ✓ dimensions 1080x1920 (9:16)
+2026-06-08 19:16:59.018 | INFO     | src.video_builder:317 — Shorts check ✓ duration 25.0s (≤60s)
+2026-06-08 19:16:59.019 | INFO     | src.video_builder:323 — Shorts check ✓ codec h264
+2026-06-08 19:16:59.019 | INFO     | src.video_builder:328 — Shorts check ✓ pixel format yuv420p
+2026-06-08 19:16:59.019 | SUCCESS  | src.video_builder:333 — Video passes all YouTube Shorts eligibility checks.
+2026-06-08 19:16:59.019 | INFO     | __main__:139 — --- Stage 7: metadata_generator ---
+2026-06-08 19:16:59.040 | INFO     | src.metadata_generator:276 — Metadata generation attempt 1/3
+2026-06-08 19:17:06.843 | INFO     | src.metadata_generator:300 — Haiku usage — in:1246 out:934 cost:$0.00148
+2026-06-08 19:17:06.844 | SUCCESS  | src.metadata_generator:350 — Metadata generated: title='16 Colors You'll Never See #shorts' (34 chars)
+2026-06-08 19:17:06.848 | INFO     | __main__:150 — --- Stage 8: skipped (manual_upload_mode=true) ---
+2026-06-08 19:17:06.848 | INFO     | __main__:161 — Total estimated API cost for 2026-06-08: $0.1211

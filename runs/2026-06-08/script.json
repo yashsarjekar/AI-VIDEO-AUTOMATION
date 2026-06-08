@@ -1,0 +1,23 @@
+{
+  "hook": "There's a color you can't see.",
+  "scenes": [
+    {
+      "line": "Your eyes have three color receptors: red, green, blue.",
+      "visual_prompt": "A human eye in cross-section, three distinct cone cells glowing red, green, and blue against a dark anatomical background, clean and scientific."
+    },
+    {
+      "line": "A mantis shrimp? Sixteen different color receptors firing at once.",
+      "visual_prompt": "A mantis shrimp in vibrant shallow coral reef water, its segmented eyes rotating, surrounded by a kaleidoscopic aura of impossible iridescent hues and wavelengths."
+    },
+    {
+      "line": "It sees ultraviolet, infrared, polarized light—colors without names.",
+      "visual_prompt": "A split-screen: on the left, a coral reef in normal human colors; on the right, the same reef glowing with impossible neon purples, yellows, and shimmering wavelengths our brain can't render."
+    },
+    {
+      "line": "To that shrimp, your world is basically black and white.",
+      "visual_prompt": "A mantis shrimp hunting in slow motion through blurred, desaturated prey—the mantis's view sharp and hyper-saturated, the prey's camouflage invisible to human eyes but blazing neon to the shrimp."
+    }
+  ],
+  "cta": "If you could add one new sense humans don't have, would you pick mantis shrimp vision or something completely different?",
+  "uncertain_claims": false
+}

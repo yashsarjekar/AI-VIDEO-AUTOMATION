@@ -1,0 +1,457 @@
+{
+  "chunks": [
+    {
+      "words": [
+        {
+          "word": "There's",
+          "start": 0.0,
+          "end": 0.26
+        },
+        {
+          "word": "a",
+          "start": 0.26,
+          "end": 0.36
+        },
+        {
+          "word": "color",
+          "start": 0.36,
+          "end": 0.58
+        }
+      ],
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "words": [
+        {
+          "word": "you",
+          "start": 0.58,
+          "end": 0.84
+        },
+        {
+          "word": "can't",
+          "start": 0.84,
+          "end": 1.14
+        },
+        {
+          "word": "see.",
+          "start": 1.14,
+          "end": 1.44
+        }
+      ],
+      "start": 0.58,
+      "end": 1.44
+    },
+    {
+      "words": [
+        {
+          "word": "Your",
+          "start": 1.96,
+          "end": 2.08
+        },
+        {
+          "word": "eyes",
+          "start": 2.08,
+          "end": 2.28
+        },
+        {
+          "word": "have",
+          "start": 2.28,
+          "end": 2.52
+        }
+      ],
+      "start": 1.96,
+      "end": 2.52
+    },
+    {
+      "words": [
+        {
+          "word": "three",
+          "start": 2.52,
+          "end": 2.8
+        },
+        {
+          "word": "color",
+          "start": 2.8,
+          "end": 3.1
+        },
+        {
+          "word": "receptors,",
+          "start": 3.1,
+          "end": 3.66
+        }
+      ],
+      "start": 2.52,
+      "end": 3.66
+    },
+    {
+      "words": [
+        {
+          "word": "red,",
+          "start": 4.04,
+          "end": 4.22
+        },
+        {
+          "word": "green,",
+          "start": 4.38,
+          "end": 4.64
+        },
+        {
+          "word": "blue.",
+          "start": 4.84,
+          "end": 5.16
+        }
+      ],
+      "start": 4.04,
+      "end": 5.16
+    },
+    {
+      "words": [
+        {
+          "word": "A",
+          "start": 5.72,
+          "end": 5.84
+        },
+        {
+          "word": "mantis",
+          "start": 5.84,
+          "end": 6.2
+        },
+        {
+          "word": "shrimp?",
+          "start": 6.2,
+          "end": 6.58
+        }
+      ],
+      "start": 5.72,
+      "end": 6.58
+    },
+    {
+      "words": [
+        {
+          "word": "Sixteen",
+          "start": 7.22,
+          "end": 7.66
+        },
+        {
+          "word": "different",
+          "start": 7.66,
+          "end": 7.98
+        },
+        {
+          "word": "color",
+          "start": 7.98,
+          "end": 8.26
+        }
+      ],
+      "start": 7.22,
+      "end": 8.26
+    },
+    {
+      "words": [
+        {
+          "word": "receptors",
+          "start": 8.26,
+          "end": 8.82
+        },
+        {
+          "word": "firing",
+          "start": 8.82,
+          "end": 9.12
+        },
+        {
+          "word": "at",
+          "start": 9.12,
+          "end": 9.46
+        }
+      ],
+      "start": 8.26,
+      "end": 9.46
+    },
+    {
+      "words": [
+        {
+          "word": "once.",
+          "start": 9.46,
+          "end": 9.82
+        },
+        {
+          "word": "It",
+          "start": 10.3,
+          "end": 10.42
+        },
+        {
+          "word": "sees",
+          "start": 10.42,
+          "end": 10.7
+        }
+      ],
+      "start": 9.46,
+      "end": 10.7
+    },
+    {
+      "words": [
+        {
+          "word": "ultraviolet,",
+          "start": 10.7,
+          "end": 11.1
+        },
+        {
+          "word": "infrared,",
+          "start": 11.7,
+          "end": 12.06
+        },
+        {
+          "word": "polarized",
+          "start": 12.42,
+          "end": 12.74
+        }
+      ],
+      "start": 10.7,
+      "end": 12.74
+    },
+    {
+      "words": [
+        {
+          "word": "light,",
+          "start": 12.74,
+          "end": 13.3
+        },
+        {
+          "word": "colors",
+          "start": 13.54,
+          "end": 13.7
+        },
+        {
+          "word": "without",
+          "start": 13.7,
+          "end": 14.12
+        }
+      ],
+      "start": 12.74,
+      "end": 14.12
+    },
+    {
+      "words": [
+        {
+          "word": "names.",
+          "start": 14.12,
+          "end": 14.54
+        },
+        {
+          "word": "To",
+          "start": 15.14,
+          "end": 15.22
+        },
+        {
+          "word": "that",
+          "start": 15.22,
+          "end": 15.42
+        }
+      ],
+      "start": 14.12,
+      "end": 15.42
+    },
+    {
+      "words": [
+        {
+          "word": "shrimp,",
+          "start": 15.42,
+          "end": 15.76
+        },
+        {
+          "word": "your",
+          "start": 15.98,
+          "end": 16.12
+        },
+        {
+          "word": "world",
+          "start": 16.12,
+          "end": 16.38
+        }
+      ],
+      "start": 15.42,
+      "end": 16.38
+    },
+    {
+      "words": [
+        {
+          "word": "is",
+          "start": 16.38,
+          "end": 16.56
+        },
+        {
+          "word": "basically",
+          "start": 16.56,
+          "end": 16.94
+        },
+        {
+          "word": "black",
+          "start": 16.94,
+          "end": 17.26
+        }
+      ],
+      "start": 16.38,
+      "end": 17.26
+    },
+    {
+      "words": [
+        {
+          "word": "and",
+          "start": 17.26,
+          "end": 17.42
+        },
+        {
+          "word": "white.",
+          "start": 17.42,
+          "end": 17.68
+        },
+        {
+          "word": "If",
+          "start": 18.18,
+          "end": 18.32
+        }
+      ],
+      "start": 17.26,
+      "end": 18.32
+    },
+    {
+      "words": [
+        {
+          "word": "you",
+          "start": 18.32,
+          "end": 18.44
+        },
+        {
+          "word": "could",
+          "start": 18.44,
+          "end": 18.62
+        },
+        {
+          "word": "add",
+          "start": 18.62,
+          "end": 18.8
+        }
+      ],
+      "start": 18.32,
+      "end": 18.8
+    },
+    {
+      "words": [
+        {
+          "word": "one",
+          "start": 18.8,
+          "end": 19.12
+        },
+        {
+          "word": "new",
+          "start": 19.12,
+          "end": 19.4
+        },
+        {
+          "word": "sense",
+          "start": 19.4,
+          "end": 19.68
+        }
+      ],
+      "start": 18.8,
+      "end": 19.68
+    },
+    {
+      "words": [
+        {
+          "word": "humans",
+          "start": 19.68,
+          "end": 20.0
+        },
+        {
+          "word": "don't",
+          "start": 20.0,
+          "end": 20.48
+        },
+        {
+          "word": "have,",
+          "start": 20.48,
+          "end": 20.9
+        }
+      ],
+      "start": 19.68,
+      "end": 20.9
+    },
+    {
+      "words": [
+        {
+          "word": "would",
+          "start": 21.12,
+          "end": 21.22
+        },
+        {
+          "word": "you",
+          "start": 21.22,
+          "end": 21.42
+        },
+        {
+          "word": "pick",
+          "start": 21.42,
+          "end": 21.64
+        }
+      ],
+      "start": 21.12,
+      "end": 21.64
+    },
+    {
+      "words": [
+        {
+          "word": "mantis",
+          "start": 21.64,
+          "end": 22.22
+        },
+        {
+          "word": "shrimp",
+          "start": 22.22,
+          "end": 22.6
+        },
+        {
+          "word": "vision",
+          "start": 22.6,
+          "end": 22.94
+        }
+      ],
+      "start": 21.64,
+      "end": 22.94
+    },
+    {
+      "words": [
+        {
+          "word": "or",
+          "start": 22.94,
+          "end": 23.38
+        },
+        {
+          "word": "something",
+          "start": 23.38,
+          "end": 23.74
+        },
+        {
+          "word": "completely",
+          "start": 23.74,
+          "end": 24.18
+        }
+      ],
+      "start": 22.94,
+      "end": 24.18
+    },
+    {
+      "words": [
+        {
+          "word": "different?",
+          "start": 24.18,
+          "end": 24.62
+        }
+      ],
+      "start": 24.18,
+      "end": 24.62
+    }
+  ],
+  "total_duration": 24.62
+}
