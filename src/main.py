@@ -14,7 +14,7 @@ from loguru import logger
 from .caption_generator import generate_captions
 from .db import get_total_cost_for_date, init_db
 from .metadata_generator import generate_metadata
-from .notifications import notify_cost_alert, notify_failure, notify_success
+from .notifications import notify_cost_alert, notify_failure, notify_success, notify_video_ready
 from .script_writer import generate_script
 from .topic_generator import generate_topic
 from .uploader import refresh_ig_token_if_needed, upload_all
@@ -139,10 +139,16 @@ def main() -> None:
         logger.info("--- Stage 7: metadata_generator ---")
         metadata = generate_metadata(run_date, topic, script)
 
-        # Stage 8 — Upload
-        current_stage = "uploader"
-        logger.info("--- Stage 8: uploader ---")
-        result = upload_all(run_date, metadata)
+        manual_mode: bool = config.get("manual_upload_mode", False)
+
+        if not manual_mode:
+            # Stage 8 — Upload
+            current_stage = "uploader"
+            logger.info("--- Stage 8: uploader ---")
+            result = upload_all(run_date, metadata)
+        else:
+            logger.info("--- Stage 8: skipped (manual_upload_mode=true) ---")
+            result = None
 
     except Exception:
         tb = traceback.format_exc()
@@ -156,22 +162,26 @@ def main() -> None:
     if total_cost > cost_threshold:
         notify_cost_alert(run_date, total_cost, cost_threshold)
 
-    # IG token rotation (best-effort, non-fatal)
-    try:
-        refresh_ig_token_if_needed()
-    except Exception as exc:
-        logger.warning(f"IG token check failed (non-fatal): {exc}")
-
     # Persist state
     _commit_state(run_date)
 
-    # Success notification
-    notify_success(
-        run_date=run_date,
-        yt_url=result.youtube.url if result.youtube else None,
-        ig_permalink=result.instagram.permalink if result.instagram else None,
-        total_cost=total_cost,
-    )
+    if manual_mode:
+        # Send video + metadata to Telegram for manual upload
+        video_path = _REPO_ROOT / "runs" / run_date / "final.mp4"
+        notify_video_ready(run_date, metadata, video_path, total_cost)
+    else:
+        # IG token rotation (best-effort, non-fatal)
+        try:
+            refresh_ig_token_if_needed()
+        except Exception as exc:
+            logger.warning(f"IG token check failed (non-fatal): {exc}")
+
+        notify_success(
+            run_date=run_date,
+            yt_url=result.youtube.url if result.youtube else None,
+            ig_permalink=result.instagram.permalink if result.instagram else None,
+            total_cost=total_cost,
+        )
 
     logger.info(f"=== Daily run complete: {run_date} ===")
 

@@ -14,9 +14,11 @@ llm:
   model: "claude-haiku-4-5"
   max_retries: 3
 
+manual_upload_mode: true   # true = skip auto-upload, send video+metadata to Telegram
+
 upload:
   youtube:
-    enabled: true
+    enabled: false
     privacy: "public"
     category_id: 27
   instagram:
